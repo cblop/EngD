@@ -1,0 +1,58 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{amsfonts}
+
+\usepackage{subfigure}
+\usepackage[hmargin=3cm,vmargin=2cm]{geometry}
+
+\title{NII Internship report 1}
+\author{Matt Thompson}
+
+\begin{document}
+
+\section{Ontology matching}
+So far, I have looked for artist matches between these ontologies:
+
+\begin{enumerate}
+	\item LODAC
+	\item DBPedia
+	\item Japanese Wikipedia Ontology (Keio university)
+\end{enumerate}
+
+Using simple string matching, I was able to map this number of artists between each:
+
+\begin{itemize}
+	\item LODAC $\rightarrow$ Japanese DBPedia: 130 matches
+	\item LODAC $\rightarrow$ English DBPedia: 279 matches
+	\item LODAC $\rightarrow$ Keio Ontology: 790 matches
+\end{itemize}
+
+\emph{However}, even though the Keio Ontology is based on Japanese Wikipedia and has 11685 artists, I could only find 722 matches with Japanese DBPedia (870 for English DBPedia). There must be a way to find more.
+
+\section{How useful is the Keio taxonomy?}
+The Keio ontology does not break the artists up well. Most of the artists are within just three categories. This means browsing by category based on this hierarchy is hard.
+
+Also, it is focused too much on Japanese artists. I would like to make a hierarchy that makes all classifications of artists browsable, so that the links between them can be shown.
+
+\section{Automatically creating a taxonomy of artists}
+I am trying to use {\bf hierarchical clustering} (complete linkage clustering).
+
+\paragraph{} This looks at all of the links between subjects to determine the strongest:
+
+\paragraph{} \(
+	\max \left\{ d(a,b) : a \in A, b \in B \right\}
+\)
+
+ \paragraph{} $d(a,b)$ (distance between each category) is determined by:
+
+\paragraph{} For each pair of categories:
+\begin{itemize}
+	\item Does an artist belong to both categories? (strong link)
+	\item If two artists are in category A, does one belong to category B? (weak link)
+	\item Do both categories appear in Japanese DBPedia's WikiLink field for any artists (strong link)
+\end{itemize}
+
+
+
+\end{document}

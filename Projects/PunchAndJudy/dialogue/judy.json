@@ -1,0 +1,24 @@
+{
+  questions: [
+    {
+      minHealth: 3,
+      maxHealth: 10,
+      lines: ["When are you going to clean the house? It's a mess.",
+              "And who is this 'Polly' girl I've been hearing about?",
+              "When are you going to grow up, Punch?"],
+      files: [null,
+              null,
+              null]
+    },
+    {
+      minHealth: 0,
+      maxHealth: 2,
+      lines: ["Why are you hitting me?",
+              "Stop it!",
+              "I'll call the police!"],
+      files: [null,
+              null,
+              null]
+    }
+ ]
+}

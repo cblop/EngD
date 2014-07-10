@@ -1,0 +1,7 @@
+# Technical proposal
+
+Our technical solution delivers a simple, stable system that is easy to maintain and use. It consists of a large touch screen connected to a small computer running Windows or Linux. On this device is a simple CMS (Content Management System), which can be used to update the content that is displayed on the touch screen.
+
+As an extremely simple way of updating the CMS, we propose a system where all of the content files (images, text, etc) that are displayed on the touch screen are stored on an SD card that is inserted into the computer. This way, the computer does not need to be connected to a network to update it - the SD card can be taken out, inserted into another computer and updated with new images and files there. Upon its reinsertion into the computer, the touchscreen interface will be updated with the new content.
+
+The user interface will be made using HTML5 and Javascript, running on a standalone application (not a web browser). This enables us to use all the features of the touchscreen (such as multi-touch) as well as having access to the underlying operating system. In addition, this will make migration of the system to the Web very straightforward and provides all of the accessibility options that the HTML5 standards provide.

@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{clojure}
+The clojure programming language.
+\newblock \url{http://clojure.org}.
+
+\bibitem{d3}
+Data driven documents (d3), a javascript visualisation library.
+\newblock \url{http://d3js.org}.
+
+\bibitem{hiccup}
+Hiccup html generation library for clojure.
+\newblock \url{https://github.com/weavejester/hiccup}.
+
+\bibitem{keio}
+Keio wikipedia ontoloy.
+\newblock \url{http://www.wikipediaontology.org}.
+
+\bibitem{matz}
+Matsu, a sparql dsl for clojure.
+\newblock \url{https://github.com/boutros/matsu}.
+
+\bibitem{heymann2006collaborative}
+Paul Heymann and Hector Garcia-Molina.
+\newblock Collaborative creation of communal hierarchical taxonomies in social
+  tagging systems.
+\newblock 2006.
+
+\end{thebibliography}

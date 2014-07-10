@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Creating an art browser}{3}
+\contentsline {subsection}{\numberline {2.1}Querying the LODAC database}{3}
+\contentsline {section}{\numberline {3}Visualising the links between artists}{3}
+\contentsline {subsection}{\numberline {3.1}Getting the data}{3}
+\contentsline {subsection}{\numberline {3.2}Making a force-directed graph}{4}
+\contentsline {section}{\numberline {4}Automatic taxonomy generation}{6}
+\contentsline {subsection}{\numberline {4.1}Gathering more data}{6}
+\contentsline {subsection}{\numberline {4.2}Heymann taxonomy generation algorithm}{6}
+\contentsline {subsection}{\numberline {4.3}Hierarchical clustering}{6}
+\contentsline {section}{\numberline {5}Art browser app}{10}
+\contentsline {subsection}{\numberline {5.1}Motivation}{10}
+\contentsline {subsection}{\numberline {5.2}Technology used}{10}
+\contentsline {section}{\numberline {6}Conclusions and future work}{10}
+\contentsline {subsection}{\numberline {6.1}Facet-based browsing}{10}

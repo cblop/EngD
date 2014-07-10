@@ -1,0 +1,99 @@
+\documentclass{llncs}
+\usepackage{times}
+\usepackage{paralist}
+\usepackage[caption=false]{subfig}
+\usepackage{url}
+\usepackage{graphicx}
+
+\begin{document}
+\section{Introduction} % Motivation
+% Give a general introduction to the domain/area/topic and indication of its importance/impact in Semantic Web research or other domains.
+
+The focus of my research is to use narratology principles to find new and exciting ways to procedurally generate stories from data.
+
+Stories are typically linear and non-interactive. Even in computer games and online media, the events of a story are laid out in a way that only allows the user to experience the narrative in a pre-determined, linear way.
+
+However, the stories embedded within data are often non-linear and complex, involving many different characters and simultaneously occurring interactions and events. By combining narratology research with Artificial Intelligence techniques, my aim is to find better ways to present these types of narrative.
+
+The technology behind this research is taken from the ideas behind Semantic Web research. By building a story ontology and feeding data into it, Artificial Intelligence technologies such as reasoners can be used to procedurally generate stories. 
+
+\section{State of the Art}
+% Describe existing work in the area, work focusing on the same/similar problems or that might be useful to realising your PhD.  
+
+% Music and Event ontology projects (Raimond)
+% Explain why game ontology project doesn't fit the bill
+% Marie-Laure Ryan: from narrative games
+% Work done by Chen at Expressive Intelligence Studio (EIS) at University of California, Santa Cruz
+% 2 - 3 pages
+% Facade, Galatea
+
+Arguably the most work on non-linear narratives in games has been published by Marie-Laure Ryan. Much of her work discusses the new types of narrative that virtual reality has the potential to create, describing Star Trek's `Holodeck' as the `Holy grail of new media' \cite{Ryan2009}. A world where infinite choices, possibilities and interactions are possible enables totally new types of narrative. She contrasts this with examples of interactive narrative that currently exist, such as Hypertext Fiction, where a user's choices need to be restricted in order to respect narrative logic.
+
+She asserts that there is necessarily a dichotomy between narrativity and interactivity in interactive narratives. In a narrative game, a story is supposed to enhance the gameplay. However, in a playable story, gameplay is meant to produce a story. Therefore there are two different types of games: free-play games where the player creates their own stories (paidia), and strictly controlled rule-based games (ludus). Within ludus, there are abstract games (football, chess, tennis) and narrativised games (any computer game where a player plays through a story).
+
+Marie-Laure Ryan stated in her 2009 paper \cite{Ryan2009} that the only working example of an interactive drame is the game Fa\c{c}ade, by Mateas and Stern \cite{Mateas}. Fa\c{c}ade is a game where the player can interact with the characters by typing in natural-language sentences, as well as by clicking on in-game items. The setting of the game is the apartment of a recently married couple. By talking to them, the player is able to reveal different parts of a backstory. However, the flow of the narrative of the game and the characters' actions all depend entirely on what the player says and does.
+
+The authors describe Fa\c{c}ade as a middle-ground between structured narrative (ludus) and simulation (paidia), combining the strengths and weaknesses of each approach. Taking from McKee's theory of dramatic action \cite{mckee1997story}, Mateas and Stern divide their narrative into \emph{beats\/}, the smallest possible unit of narrative. These beats can be combined into many different combinations of narratives.
+
+Other examples of truly interactive narratives exist in the world of Interactive Fiction (text adventures). One instance would be Emily Short's Galatea \cite{shortgalatea}, where the player takes the role of a visitor in a museum who encounters a talking Greek statue. The aim is to get the statue to tell her back story, which is almost always completely different, based on the actions of the user.
+
+The thesis of my research is to use Semantic Web technology to construct these kinds of interactive narratives. In order to do this, a good first move would be to construct an ontology for 
+narrative.
+
+The closest thing to this in the literature is Raimond et al's Music Ontology \cite{Raimond2007}. Their ontology is `a formal framework for dealing with music-related information on the Semantic Web (including \emph{editorial}, \emph{cultural}, and \emph{acoustic} information)'.
+
+This music ontology builds up the authors' previous work in creating an event ontology \cite{Raimond2012}, describing events that could occur either in music, or in general. They describe events as consisting of:
+
+\begin{itemize}
+\item factors (such as instruments)
+\item products (the sound produced)
+\item agents (the performer)
+\end{itemize}
+
+These events can be linked to a place through the \texttt{event:place} relation.
+
+While the event ontology can be used to describe musical events in recordings or live performances, the event as a whole is described using the FRBR (Functional Requirements for Bibliographic Records) ontology. The FRBR ontology has the following concepts:
+
+\begin{itemize}
+\item work (abstract or distinct artistic creation)
+\item manifestation (the physical embodiment of a musical performance, such as a record)
+\item item (a single instance of a manifestaion, like a particular CD)
+\end{itemize}
+
+The Friend of a Friend (FOAF) ontology is also used to describe artists, composers and performers.
+
+The music ontology also consists of Compositions (a creation of a MusicalWork) and Arrangements (an arrangement of a MusicalWork). In the event ontology, a MusicalWork can be a factor, an Arranger can be an agent and a Score can be a product, for example.
+
+A Performance denotes a particular performance, having factors such as a MusicalWork and a Score. Factors could be a number of musical instruments or equipment. Musicians, sound engineers, conductors and listeners would be agents. 
+
+MusicBrainz \cite{swartz2002musicbrainz} is another music ontology. However, it is more concerned with the metadata of recordings than the actual events that describe a piece of music or performance. To create an ontology for narrative, especially game narrative, events, objects (or factors) and actors will likely need to be used.
+
+Similarly, Zagal and Bruckman have created an ontology for games with the Game Ontology Project \cite{Zagal2007}. Like MusicBrainz, its aim is to establish a common format for the categorisation of existing computer games, rather than to describe the narrative events that occur within them.
+
+\section{Problem Statement and Contributions}
+% Based on motivation and state of the art, formulate the problem you intend to solve, and how you intend to contribute to Semantic Web research. This section should include a clear formulation of one (or very few) research hypothesis (what you will validate through your methodology, approach and evaluation) and the research questions that need to be answered. Late Stage PhD submissions should focus on contributions to such a hypothesis.
+
+The problem is this: that there are very few examples of games or art that present a truly interactive narrative to the player. Games such as Fa\c{c}ade \cite{Mateas} and Galatea \cite{shortgalatea} come close, but they are both very limited in scope. Using the technology behind the Semantic Web, I believe it would be possible to create better interactive narrative experiences by constructing a narrative ontology which can then be populated with content. Once populated, reasoners would be able to infer the course of a narrative given a player's actions.
+
+
+\section{Research Methodology and Approach}
+% Describe the research methodology you will apply in your research, including the different steps from the formulation of your research questions to answering them. Also describe the approach you are taking (or you intend to take for Early Stage PhD submissions) to instantiate the research methodology, hence contributing to solve the problem described in Section 3 and confirm or reject your hypothesis. Discuss how this approach is innovative and novel, and how it is (might be) implemented.
+
+The first step is to discover the suitability of using Semantic Web technology for creating interactive narratives. This will be done by first building an ontology for narrative.
+
+\subsection{An ontology for narrative}
+Incorporating ideas from Raimond et al's Event
+
+\section{Preliminary Results}
+% In a full conference paper, the approach would be fully described (in section 4) and fully evaluated (in section 6). Being at an intermediate stage, you should report here about the results achieved up to now in applying your approach that might not yet be sufficient for a full evaluation. 
+
+\section{Evaluation Plan}
+% Describe your evaluation plan, which is the way you intend to validate your hypothesis, your results, and the value of your approach. For Early Stage PhD submissions, this might be only partially defined, and details might be ommited. For Late Stage PhD submissions, you might have partial evaluation results.
+
+\section{Conclusion}
+% Describe how your results will or might impact research or the world at large.
+
+
+\bibliographystyle{splncs}
+\bibliography{symposium}
+\end{document}

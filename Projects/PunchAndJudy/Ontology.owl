@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cblop/ontologies/2014/5/punchandjudy"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/cblop/ontologies/2014/5/punchandjudy">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AskAudience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joey_Introduces_Show"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protagonist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punch_Babysits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punch_Guards_Sausages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punch_Meets_Devil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punch_Meets_Policeman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punch_and_Judy_Argue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Singing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Victim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crocodile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Devil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Judy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Policeman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Punch"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AskAudience"/>
+        <Class IRI="#Skit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fight"/>
+        <Class IRI="#Skit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joey_Introduces_Show"/>
+        <Class IRI="#Scene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MC"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protagonist"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch_Babysits"/>
+        <Class IRI="#Scene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch_Guards_Sausages"/>
+        <Class IRI="#Scene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch_Meets_Devil"/>
+        <Class IRI="#Scene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch_Meets_Policeman"/>
+        <Class IRI="#Scene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punch_and_Judy_Argue"/>
+        <Class IRI="#Scene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Singing"/>
+        <Class IRI="#Skit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skit"/>
+        <Class IRI="#Scene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Victim"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Protagonist"/>
+        <Class IRI="#Victim"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Punch_Babysits"/>
+        <NamedIndividual IRI="#Baby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#Baby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Guards_Sausages"/>
+        <NamedIndividual IRI="#Crocodile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#Crocodile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Meets_Devil"/>
+        <NamedIndividual IRI="#Devil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#Devil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Joey_Introduces_Show"/>
+        <NamedIndividual IRI="#Joey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MC"/>
+        <NamedIndividual IRI="#Joey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Guards_Sausages"/>
+        <NamedIndividual IRI="#Joey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Babysits"/>
+        <NamedIndividual IRI="#Judy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_and_Judy_Argue"/>
+        <NamedIndividual IRI="#Judy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#Judy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Meets_Policeman"/>
+        <NamedIndividual IRI="#Policeman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#Policeman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Protagonist"/>
+        <NamedIndividual IRI="#Punch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Babysits"/>
+        <NamedIndividual IRI="#Punch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Guards_Sausages"/>
+        <NamedIndividual IRI="#Punch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Meets_Devil"/>
+        <NamedIndividual IRI="#Punch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_Meets_Policeman"/>
+        <NamedIndividual IRI="#Punch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Punch_and_Judy_Argue"/>
+        <NamedIndividual IRI="#Punch"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
