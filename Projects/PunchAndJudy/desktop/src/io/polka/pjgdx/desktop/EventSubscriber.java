@@ -107,22 +107,6 @@ public class EventSubscriber extends SensorClient {
 		subscribe(nodeName);
 		System.out.println("Subscribed to " + nodeName);
 		
-		/*
-		new Thread() {
-			public void run() {
-				while(true) {
-					try {
-						Thread.sleep(3000);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-					System.out.println("Sub");
-					
-				}
-			}
-		}.start();
-		*/
 		
 	}
 

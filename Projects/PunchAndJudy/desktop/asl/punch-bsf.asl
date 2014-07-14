@@ -7,6 +7,10 @@
 /* Initial goals */
 //!anger(0).
 !say_hi.
+!moveTo(stageLeft).
+
++!moveTo(X) : true
+	<- move(X).
 
 
 /* Plans */
