@@ -1,8 +1,9 @@
 package io.polka.pjgdx.desktop;
 
+import io.polka.pjgdx.PuppetShow;
+
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import io.polka.pjgdx.PuppetShow;
 
 public class DesktopLauncher {
 	public PuppetShow pshow;

@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="src" path="/pj-gdx-core"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry exported="true" kind="src" path="/pj-gdx-core"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/com/badlogicgames/gdx/gdx-backend-lwjgl/1.2.0/gdx-backend-lwjgl-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-platform/1.2.0/e1acebd7766db2a7c3330ff653c7eff206e7b10f/gdx-platform-1.2.0-natives-desktop.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/com/badlogicgames/gdx/gdx/1.2.0/gdx-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-linux.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-osx.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-windows.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/com/badlogicgames/jlayer/jlayer/1.0.1-gdx/jlayer-1.0.1-gdx.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar"/>
 	<classpathentry kind="src" path="assets"/>
+	<classpathentry kind="lib" path="/javaFramework/lib/smack/smack-3.4.1-0cec571.jar"/>
 	<classpathentry kind="lib" path="libs/jason.jar"/>
-	<classpathentry kind="src" path="asl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/javaFramework"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

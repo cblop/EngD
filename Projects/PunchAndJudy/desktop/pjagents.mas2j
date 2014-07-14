@@ -1,6 +1,6 @@
 MAS pjagents {
 infrastructure: Centralised
-environment: io.polka.pjgdx.desktop.Env
+environment: edu.bath.pjgdx.desktop.Env
 agents:
 punch;
 judy;

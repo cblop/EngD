@@ -59,7 +59,7 @@
 	.print("Punch hits ", X).
 	//do_hitting(judy).
 
-+anger(X) <- .print("Punch's anger level is ", X).
++anger(X) <- .print("Punch anger level is ", X).
 
 +!question(X)
 	<- 

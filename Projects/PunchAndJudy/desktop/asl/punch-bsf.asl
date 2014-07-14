@@ -2,17 +2,19 @@
 
 /* Initial beliefs and rules */
 
-//pos(stageLeft).
-//anger(0).
-//sceneStart.
 ~speaking.
 
 /* Initial goals */
-//!hit(judy).
 //!anger(0).
+!say_hi.
 
 
 /* Plans */
+
++!say_hi : true
+	<- say(happy);
+		.wait(2000);
+		!say_hi.
 
 -annoyance(Y)
 	<- //?mood(X);
@@ -59,7 +61,7 @@
 	.print("Punch hits ", X).
 	//do_hitting(judy).
 
-+anger(X) <- .print("Punch's anger level is ", X).
++anger(X) <- .print("Punch anger level is ", X).
 
 +!question(X)
 	<- 

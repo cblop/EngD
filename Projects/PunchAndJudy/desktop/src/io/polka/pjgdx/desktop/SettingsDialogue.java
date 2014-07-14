@@ -205,7 +205,7 @@ public class SettingsDialogue extends JFrame implements ActionListener, ChangeLi
 				writer = new PrintWriter("pjagents.mas2j", "UTF-8");
                 writer.println("MAS pjagents {");
                 writer.println("infrastructure: Centralised");
-                writer.println("environment: io.polka.pjgdx.desktop.Env");
+                writer.println("environment: edu.bath.pjgdx.desktop.Env");
                 writer.println("agents:");
                 if (settingsMap.get("punch") == 1) {
                 	writer.println("punch;");
