@@ -61,7 +61,8 @@ public class Puppet {
 	}
 	
 	public void sayLine(String mood) {
-		lines.get(mood).get(0).trigger();
+		int rnd = (int) (Math.random() * lines.get(mood).size());
+		lines.get(mood).get(rnd).trigger();
 		
 	}
 	
