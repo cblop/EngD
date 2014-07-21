@@ -2,13 +2,17 @@
 
 /* Initial beliefs and rules */
 
-//pos(stageRight).
 health(5).
-//worry(0).
-//sceneStart.
-//speed(10).
-//speed goes down with health. So why not just have health?
+energy(5).
 ~speaking.
+
+emotions([[sad, depressed, afraid], [tired, pessimistic, scared], [peaceful, compassionate, empathetic]]).
+
+emotion(pessimistic).
+
+valence(1).
+arousal(1).
+dominance(0).
 
 /* Initial goals */
 // Taunt Punch. Must first greet him and ask questions.
@@ -22,27 +26,9 @@ health(5).
 
 /* Plans */
 
-+sceneStart
-	<- ?startPos(X);
-	   ?startHealth(Y);
-	   move(X);
-	   +pos(X);
-	   +health(Y);
-	   !question(punch);
-	   -sceneStart.
-	 
-
-+pos(P) : true
-	<- .print("Judy is at ", P);
-		move(P).
-
-
 +!question(punch) : health(X) & X <= 0
 	<- !die.
 	
-
-+sceneEnd : true
-	<- move(offstageRight).
 	
 +!die
 	<- .print("Judy is dead.");
@@ -50,16 +36,6 @@ health(5).
 	die("judy").
 	//.send(narrative, achieve, endScene).
 
-/*
-+!makeConfess(X)
-	<- !question(X).
-
-*/
-
-/*
-+!question(punch)
-	<- .print("Judy -> Punch question").
-*/
 
 +!speak(X) : speaking
 	<- .wait(100);
