@@ -141,7 +141,7 @@ public class PuppetShow extends ApplicationAdapter {
 		Puppet judy = new Puppet("judy", OFFSTAGERIGHT.x, OFFSTAGERIGHT.y, judyAnims, judyDialogue);
 		puppets.add(punch);
 		puppets.add(judy);
-		judy.face("left");
+		judy.setDirection("left");
 		
 		/*
 		MoveEvent moveJudy = new MoveEvent(judy, 2, STAGELEFT);

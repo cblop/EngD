@@ -5,46 +5,70 @@
 // remember:
 // sulky == annoyed, angry == furious, alert == vigilant == excited, vicious == malicious
 
-rightOf(_, offstageLeft).
+leftOf(offstageLeft, offstageLeft).
+leftOf(offstageLeft, stageLeft).
+
+rightOf(stageLeft, offstageLeft).
+leftOf(stageLeft, stageCentre).
+
 rightOf(stageCentre, stageLeft).
+leftOf(stageCentre, stageRight).
+
 rightOf(stageRight, stageCentre).
-rightOf(offstageRight, _).
+leftOf(stageRight, offstageRight).
+
+rightOf(offstageRight, stageRight).
+rightOf(offstageRight, offstageRight).
+
+feeling(0, -1, annoyed).
+feeling(0, 0, alert).
+feeling(0, 1, vigilant).
+feeling(-1, -1, sulky).
+feeling(-1, 0, angry).
+feeling(-1, 1, furious).
+feeling(1, -1, vicious).
+feeling(1, 0, malicious).
+feeling(1, 1, excited).
 
 direction("RIGHT").
 energy(5).
 
-~interruption.
+interruption.
 
 valence(0).
 arousal(0).
 dominance(1).
 
 /* Initial goals */
-!say_hi.
-!getEmotion.
-!dominate.
+!changeMood.
 !moveTo(stageLeft).
+!say_hi.
+!dominate.
 
 
 /* Plans */
 
 // change: different moods
 +!boast : true
-	<- say(happy).
+	<- .print("Punch is boasting");
+	   say(happy).
 
 +!dominate : ~interruption
-	<- !boast;
+	<- .wait(2000);
+	    !boast;
 	   .wait(2000);
 	   // goal achieved?
 	   !dominate.
 
 +!dominate : interruption
 	<- .wait(2000);
-	   !silenceOther.
+	   !silenceOther;
+	   !dominate.
 	
 +!silenceOther : emotion(sulky) | emotion(annoyed)
-	<- move(turn); // want to do this with a probability
-	   say(sulky).
+	<- !changeDirection; // want to do this with a probability
+	   //say(sulky).
+	   say(angry).
 
 +!silenceOther : emotion(angry) | emotion(furious)
 	<- !chase; // chase
@@ -52,11 +76,13 @@ dominance(1).
 
 +!silenceOther : emotion(alert) | emotion(vigilant) | emotion(excited)
 	<- !pace; // probability
-	   say(excited).
+	   //say(excited).
+	   say(happy).
 
 +!silenceOther : emotion(vicious) | emotion(malicious)
 	<- !pace;
-	   say(vicious).
+	   //say(vicious).
+	   say(angry).
 	   
 +!pace : true
 	<- !changeDirection; // randomly
@@ -69,12 +95,12 @@ dominance(1).
 	<- !hitOther.
 	
 +!changeDirection : direction(X) & X == "RIGHT"
-	<- move(turn);
+	<- anim(turn);
 	   -direction("RIGHT");
 	   +direction("LEFT").
 
 +!changeDirection : direction(X) & X == "LEFT"
-	<- move(turn);
+	<- anim(turn);
 	   -direction("LEFT");
 	   +direction("RIGHT").
 	
@@ -87,13 +113,18 @@ dominance(1).
 	<- !changeDirection;
 	   !moveForward.
 
-+!moveForward : direction(X) == "RIGHT"
-	<- ?rightOf(pos(Y), Z);
-	   move(Z).
++!moveForward : direction(X) & X == "LEFT"
+	<-  ?pos(Y);
+		?leftOf(Z, Y);
+	   .print(Z);
+	   !moveTo(Z).
 
-+!moveForward : direction(X) == "LEFT"
-	<- ?rightOf(Z, pos(Y));
-	   move(Z).
++!moveForward : direction(X) & X == "RIGHT"
+	<- ?pos(Y);
+	   ?rightOf(Z, Y);
+	   .print(Z);
+	   !moveTo(Z).
+	   
 
 // check the other isn't dead
 +!hitOther : true
@@ -103,13 +134,39 @@ dominance(1).
 	<- +pos(X);
 	   move(X).
 
++!moveTo(X) : pos(Y)
+	<- -pos(Y);
+	   +pos(X);
+	   move(X).
+	   
++!changeMood : valence(X) & arousal(Y) & emotion(W)
+	<- ?feeling(X, Y, Z);
+	   -emotion(W);
+	   .print("Punch is feeling ", Z);
+	   +emotion(Z);
+	   !setSpeed.
+
++!changeMood : valence(X) & arousal(Y)
+	<- ?feeling(X, Y, Z);
+	   +emotion(Z);
+	   !setSpeed.
+	   
++!setSpeed : emotion(sulky) | emotion(annoyed) 
+	<- speed(slow).
+
++!setSpeed : emotion(alert) | emotion(vigilant) | emotion(excited)
+	<- speed(medium).
+
++!setSpeed : emotion(angry) | emotion(furious) | emotion(vicious) | emotion(malicious)
+	<- speed(fast).
 
 +valence(X) : true
-	<- !getEmotion.
+	<- !changeMood.
 
 +arousal(X) : true
-	<- !getEmotion.
+	<- !changeMood.
 
+/*
 +!getEmotion : valence(X) & X == -1 & arousal(Y) & Y == -1
 	<- +emotion(sulky);
 	   setSpeed(slow).
@@ -146,12 +203,12 @@ dominance(1).
 +!getEmotion : valence(X) & X == 1 & arousal(Y) & Y == 0
 	<- +emotion(malicious);
 	   setSpeed(fast).
+	   */
 
 
 +!say_hi : true
-	<- say(happy);
-		.wait(2000);
-		!say_hi.
+	<- say(greeting);
+	   .wait(3000).
 
 +!speak(X) : speaking
 	<- .wait(100);

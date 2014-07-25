@@ -75,6 +75,10 @@ public class EventSubscriber extends SensorClient {
                     if (functor.m_object.toString().equals("place")) {
                             launcher.pshow.addEvent("move", agname.m_object.toString(), 1, termList.getFirst());
                     }
+
+                    if (functor.m_object.toString().equals("anim")) {
+                            launcher.pshow.addEvent("anim", agname.m_object.toString(), 1, termList.getFirst());
+                    }
                     
                     if (functor.m_object.toString().equals("move")) {
                             //System.out.println(values.get(0).toString());

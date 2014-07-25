@@ -10,7 +10,13 @@ public class AnimEvent extends Event {
 	
 	@Override
 	protected void trigger() {
-		actor.setCurrentAnim(anim);
+		if (anim.equals("turn")) {
+			actor.turn();
+			
+		}
+		else {
+                actor.setCurrentAnim(anim);
+		}
 	}
 
 }

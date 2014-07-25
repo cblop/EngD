@@ -15,6 +15,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -110,20 +111,45 @@ public class BsfAgent extends AgArch {
 			
 			
 			// m_sc.addHandler("NODE_NORM", new ReadingHandler() {
-			m_sc.addHandler("perceptnode", new ReadingHandler() {
+			m_sc.addHandler("new", new ReadingHandler() {
 				public void handleIncomingReading(String node, String rdf) {
 					try {
 						JsonReading jr = new JsonReading();
 						jr.fromJSON(rdf);
-						Value val = jr.findValue("EVENT");
-						if (val != null) {
-							/*
-							System.out.println(val.m_object);		
-							String lit = "obl(at("+ jr.findValue("posX").m_object+","+jr.findValue("posY").m_object +"),"+ jr.findValue("deadline").m_object + ",violation)";
-							m_percept = lit;
-							*/
-							//System.out.println(val);
-							//m_percept = val.m_object.toString();
+						
+						Value agname = jr.findValue("AGENT");
+						Value functor = jr.findValue("FUNCTOR"); 
+						Value terms = jr.findValue("TERMS"); 
+						
+						// How do I do this safely?
+						@SuppressWarnings("unchecked")
+						LinkedList<String> termList = (LinkedList<String>) terms.m_object;
+						
+						
+						if (functor != null)
+						{
+							String temp = functor.m_object.toString();
+							//System.out.println("Functor: " + temp);
+						}
+
+						if (terms != null)
+						{
+							//System.out.println("Terms: ");
+							for (String str : termList) {
+								//System.out.println(str);
+							}
+						}
+
+						if (agname != null)
+						{
+							String temp = agname.m_object.toString();
+							//System.out.println("From: " + temp);
+						}
+
+						if (functor.m_object.toString().equals("say")) {
+							//System.out.println(values.get(0).toString());
+                            // Something needs to be published that an agent is speaking
+							m_percept = "interruption.";
 						}
 						
 						

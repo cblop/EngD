@@ -14,6 +14,7 @@ public class Puppet {
 	private HashMap<String, Animation> anims;
 	private HashMap<String, List<Dialogue>> lines;
 	private String currentAnim = "right";
+	private String direction = "right";
 	private float speed = 10.0f;
 	//private SpriteBatch batch;
 	private int frame = 0;
@@ -50,15 +51,6 @@ public class Puppet {
 		}
 	}
 	
-	public void face(String direction) {
-		if (direction == "left") {
-			currentAnim = "left";
-		}
-		else if (direction == "right") {
-			currentAnim = "right";
-		}
-		
-	}
 	
 	public void sayLine(String mood) {
 		int rnd = (int) (Math.random() * lines.get(mood).size());
@@ -72,6 +64,22 @@ public class Puppet {
 	
 	public void setCurrentAnim(String animName) {
 		currentAnim = animName;
+	}
+	
+	
+	public void turn() {
+		System.out.println(name + ": turning");
+		if (direction.equals("right")) {
+			setDirection("left");
+		}
+		else {
+			setDirection("right");
+		}
+	}
+	
+	public void setDirection(String dir) {
+		direction = dir;
+		currentAnim = dir;
 	}
 	
 	public String getName() {
