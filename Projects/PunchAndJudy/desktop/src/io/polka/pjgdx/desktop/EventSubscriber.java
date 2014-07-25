@@ -55,21 +55,21 @@ public class EventSubscriber extends SensorClient {
 					if (functor != null)
 					{
 						String temp = functor.m_object.toString();
-						System.out.println("Functor: " + temp);
+						//System.out.println("Functor: " + temp);
 					}
 
 					if (terms != null)
 					{
-						System.out.println("Terms: ");
+						//System.out.println("Terms: ");
 						for (String str : termList) {
-							System.out.println(str);
+							//System.out.println(str);
 						}
 					}
 
 					if (agname != null)
 					{
 						String temp = agname.m_object.toString();
-						System.out.println("From: " + temp);
+						//System.out.println("From: " + temp);
 					}
 
                     if (functor.m_object.toString().equals("place")) {

@@ -177,12 +177,12 @@ public class PuppetShow extends ApplicationAdapter {
 	
 	public void addEvent(String type, String act, float del, String arg) {
 		Puppet actor = lookupActor(act);
-		System.out.println("addEvent called");
+		//System.out.println("addEvent called");
 
 		if (actor != null) {
-                System.out.println("Inner loop reached");
+                //System.out.println("Inner loop reached");
                 if (type == "move") {
-                	System.out.println("Move event processed");
+                	//System.out.println("Move event processed");
                 	Vector2 targ = lookupPos(arg);
                 	if (targ != null) {
                         MoveEvent mvEv = new MoveEvent(actor, del, targ);
@@ -191,13 +191,13 @@ public class PuppetShow extends ApplicationAdapter {
                         
                 }
                 else if (type == "speak") {
-                	System.out.println("Speak event processed");
+                	//System.out.println("Speak event processed");
                 	SpeakEvent spkEv = new SpeakEvent(actor, del, arg);
                 	ehandler.addEvent(spkEv);
                         
                 }
                 else if (type == "anim") {
-                	System.out.println("Anim event processed");
+                	//System.out.println("Anim event processed");
                 	AnimEvent anEv = new AnimEvent(actor, del, arg);
                 	ehandler.addEvent(anEv);
                 }

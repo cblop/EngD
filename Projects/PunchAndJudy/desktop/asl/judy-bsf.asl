@@ -26,6 +26,40 @@ dominance(0).
 
 /* Plans */
 
++valence(X) : true
+	<- !getEmotion.
+
++arousal(X) : true
+	<- !getEmotion.
+
++!getEmotion : valence(X) & X == -1 & arousal(Y) & Y == -1
+	<- +emotion(bored).
+
++!getEmotion : valence(X) & X == 0 & arousal(Y) & Y == -1
+	<- +emotion(tired).
+
++!getEmotion : valence(X) & X == -1 & arousal(Y) & Y == 0
+	<- +emotion(depressed).
+
++!getEmotion : valence(X) & X == -1 & arousal(Y) & Y == 1
+	<- +emotion(afraid).
+
++!getEmotion : valence(X) & X == 0 & arousal(Y) & Y == 0
+	<- +emotion(pessimistic).
+
++!getEmotion : valence(X) & X == 0 & arousal(Y) & Y == 1
+	<- +emotion(scared).
+
++!getEmotion : valence(X) & X == 1 & arousal(Y) & Y == 1
+	<- +emotion(empathetic).
+	
++!getEmotion : valence(X) & X == 1 & arousal(Y) & Y == -1
+	<- +emotion(peaceful).
+
++!getEmotion : valence(X) & X == 1 & arousal(Y) & Y == 0
+	<- +emotion(compassionate).
+
+
 +!question(punch) : health(X) & X <= 0
 	<- !die.
 	

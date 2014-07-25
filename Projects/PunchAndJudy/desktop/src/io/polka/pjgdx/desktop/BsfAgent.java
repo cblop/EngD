@@ -122,7 +122,7 @@ public class BsfAgent extends AgArch {
 							String lit = "obl(at("+ jr.findValue("posX").m_object+","+jr.findValue("posY").m_object +"),"+ jr.findValue("deadline").m_object + ",violation)";
 							m_percept = lit;
 							*/
-							System.out.println(val);
+							//System.out.println(val);
 							//m_percept = val.m_object.toString();
 						}
 						
@@ -172,11 +172,11 @@ public class BsfAgent extends AgArch {
     // this method get the agent actions
     @Override
     public void act(ActionExec action, List<ActionExec> feedback) {
-    	getTS().getLogger().info("Agent " + getAgName() + " is doing: " + action.getActionTerm());
+    	//getTS().getLogger().info("Agent " + getAgName() + " is doing: " + action.getActionTerm());
         String act = action.getActionTerm().toString();
 
         if (act.isEmpty() == false)	{
-			System.out.println(this.getAgName() + ": " + "action string: " + act);
+			//System.out.println(this.getAgName() + ": " + "action string: " + act);
 			m_percept = null;
 
 			try {
