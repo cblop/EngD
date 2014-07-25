@@ -147,11 +147,19 @@ public class BsfAgent extends AgArch {
 						}
 
 						if (functor.m_object.toString().equals("say")) {
-							//System.out.println(values.get(0).toString());
+							//System.out.println(termList.getFirst());
                             // Something needs to be published that an agent is speaking
-							m_percept = "interruption.";
+							
+							// looks like we'll need a percept buffer
+							//m_percept = "interruption.";
 						}
-						
+						if (functor.m_object.toString().equals("move")) {
+							//System.out.println(termList.getFirst());
+                            // Something needs to be published that an agent is speaking
+							if (!agname.m_object.toString().equals(m_name)) {
+                                m_percept = "otherPos(" + termList.getFirst() + ").";
+							}
+						}
 						
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -160,9 +168,9 @@ public class BsfAgent extends AgArch {
 			});
 			
 			// SensorClient for percepts
-			m_sc.subscribe("perceptnode");
+			m_sc.subscribe("new");
 		} catch (XMPPException xe) {
-			System.out.println("failed to subscribe: " + "perceptnode");
+			System.out.println("failed to subscribe: " + "new");
 		}
 	}
 

@@ -20,6 +20,7 @@ leftOf(stageRight, offstageRight).
 rightOf(offstageRight, stageRight).
 rightOf(offstageRight, offstageRight).
 
+
 feeling(0, -1, annoyed).
 feeling(0, 0, alert).
 feeling(0, 1, vigilant).
@@ -49,6 +50,10 @@ dominance(1).
 /* Plans */
 
 // change: different moods
+
++otherPos(X) : true
+	<- .print("Punch thinks Judy is at ", X).
+
 +!boast : true
 	<- .print("Punch is boasting");
 	   say(happy).
@@ -57,12 +62,14 @@ dominance(1).
 	<- .wait(2000);
 	    !boast;
 	   .wait(2000);
+	   !increaseValence;
 	   // goal achieved?
 	   !dominate.
 
 +!dominate : interruption
 	<- .wait(2000);
 	   !silenceOther;
+	   !decreaseValence;
 	   !dominate.
 	
 +!silenceOther : emotion(sulky) | emotion(annoyed)
@@ -84,15 +91,53 @@ dominance(1).
 	   //say(vicious).
 	   say(angry).
 	   
++!increaseValence : valence(X) & X < 1
+	<- -valence(X);
+		+valence(X + 1).
+
++!increaseValence : valence(X) & X >= 1
+	<- pass.
+
++!decreaseValence : valence(X) & X > -1
+	<- ?valence(X);
+		-valence(X);
+		+valence(X - 1).
+
++!decreaseValence : valence(X) & X <= -1
+	<- pass.
+
++!increaseArousal : arousal(X) & X < 1
+	<- ?arousal(X);
+		-arousal(X);
+		+arousal(X + 1).
+
++!decreaseArousal : arousal(X) & X > -1
+	<- ?arousal(X);
+		-arousal(X);
+		+arousal(X - 1).
+
++!increaseArousal : arousal(X) & X >= 1
+	<- pass.
+
++!decreaseArousal : arousal(X) & X <= -1
+	<- pass.
+	   
 +!pace : true
 	<- !changeDirection; // randomly
-	   !moveForward. // randomly
+	   !moveForward; // randomly
+	   !increaseArousal. // randomly
 	   
-+!chase : pos(X) & otherPos(Y) & not X == Y
-	<- !moveTowardsOther.
++!chase : pos(X) & otherPos(Y) & not (X == Y)
+	<- !increaseArousal;
+		!moveTowardsOther.
 
 +!chase : pos(X) & otherPos(Y) & X == Y
-	<- !hitOther.
+	<- !increaseArousal;
+		!hitOther.
+		
++!chase : true
+	<- !increaseArousal;
+	   !moveTowardsOther.
 	
 +!changeDirection : direction(X) & X == "RIGHT"
 	<- anim(turn);
@@ -105,13 +150,20 @@ dominance(1).
 	   +direction("RIGHT").
 	
 // need to compare positions to determine whether to turn
-+!moveTowardsOther : rightOf(pos(X), otherPos(Y)) & direction(Z) & Z == "RIGHT"
++!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(X, Y) & direction(Z) & Z == "RIGHT"
 	<- !changeDirection;
 	   !moveForward.
 	
-+!moveTowardsOther : rightOf(otherPos(Y), pos(X)) & direction(Z) & Z == "LEFT"
++!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(Y, X) & direction(Z) & Z == "LEFT"
 	<- !changeDirection;
 	   !moveForward.
+
++!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(X, Y) & direction(Z) & Z == "RIGHT"
+	<- !moveForward.
+
++!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(Y, X) & direction(Z) & Z == "LEFT"
+	<- !moveForward.
+	   
 
 +!moveForward : direction(X) & X == "LEFT"
 	<-  ?pos(Y);
@@ -159,6 +211,9 @@ dominance(1).
 
 +!setSpeed : emotion(angry) | emotion(furious) | emotion(vicious) | emotion(malicious)
 	<- speed(fast).
+	
++!setSpeed : true
+	<- pass.
 
 +valence(X) : true
 	<- !changeMood.
