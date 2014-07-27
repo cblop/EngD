@@ -82,6 +82,18 @@ public class Puppet {
 		currentAnim = dir;
 	}
 	
+	public void setSpeed(String spd) {
+		if (spd.equals("fast")) {
+			speed = 30f;
+		}
+		else if (spd.equals("medium")) {
+			speed = 20f;
+		}
+		else if (spd.equals("slow")) {
+			speed = 10f;
+		}
+	}
+	
 	public String getName() {
 		return name;
 	}
