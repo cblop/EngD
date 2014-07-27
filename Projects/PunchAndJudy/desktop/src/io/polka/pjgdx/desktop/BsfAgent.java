@@ -157,7 +157,7 @@ public class BsfAgent extends AgArch {
 							//System.out.println(termList.getFirst());
                             // Something needs to be published that an agent is speaking
 							if (!agname.m_object.toString().equals(m_name)) {
-                                m_percept = "otherPos(" + termList.getFirst() + ").";
+                                m_percept = "otherMoved(" + termList.getFirst() + ").";
 							}
 						}
 						

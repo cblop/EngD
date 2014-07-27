@@ -5,6 +5,9 @@
 // remember:
 // sulky == annoyed, angry == furious, alert == vigilant == excited, vicious == malicious
 
+direction("RIGHT").
+
+/* 
 leftOf(offstageLeft, offstageLeft).
 leftOf(offstageLeft, stageLeft).
 
@@ -19,7 +22,29 @@ leftOf(stageRight, offstageRight).
 
 rightOf(offstageRight, stageRight).
 rightOf(offstageRight, offstageRight).
+*/
 
+locations(offstageLeft, stageLeft, stageCentre, stageRight, offstageRight).
+
+neighbours(X, Y) :- locations(X, Y, _, _, _) | locations(_, X, Y, _, _)
+	| locations(_, _, X, Y, _) | locations(_, _, _, X, Y).
+	
+immLeft(X, Y) :- neighbours(X, Y).
+immRight(X, Y) :- neighbours(Y, X).
+
+leftOf(X, Y) :- immLeft(X, Y) |
+				locations(X, _, _, _, _, _) | locations(_, X, _, Y, _) |
+				locations(_, _, _, _, _, Y).
+				
+at(X, Y) :- X == Y.
+
+rightOf(X, Y) :- leftOf(Y, X).
+
+rightOfOther :- pos(X) & otherPos(Y) & rightOf(X, Y).
+leftOfOther :- pos(X) & otherPos(Y) & leftOf(X, Y).
+
+otherBehind :- rightOfOther & direction("RIGHT").
+otherBehind :- leftOfOther & direction("LEFT").
 
 feeling(0, -1, annoyed).
 feeling(0, 0, alert).
@@ -31,10 +56,12 @@ feeling(1, -1, vicious).
 feeling(1, 0, malicious).
 feeling(1, 1, excited).
 
-direction("RIGHT").
 energy(5).
 
 interruption.
+
+pos(offStageLeft).
+otherPos(offStageRight).
 
 valence(0).
 arousal(0).
@@ -52,7 +79,20 @@ dominance(1).
 // change: different moods
 
 +otherPos(X) : true
-	<- .print("Punch thinks Judy is at ", X).
+	<- .print("Punch thinks Judy is at ", X);
+	   ?leftOf(Y, Z);
+	   .print("Alignment: ", Y, ", ", Z).
+	   
++otherMoved(X) : true
+	<- ?otherPos(Y);
+	   -otherPos(Y);
+	   +otherPos(X).
+
++rightOfOther : true
+	<- .print("Right of other").
+
++leftOfOther : true
+	<- .print("Left of other").
 
 +!boast : true
 	<- .print("Punch is boasting");
@@ -135,9 +175,6 @@ dominance(1).
 	<- !increaseArousal;
 		!hitOther.
 		
-+!chase : true
-	<- !increaseArousal;
-	   !moveTowardsOther.
 	
 +!changeDirection : direction(X) & X == "RIGHT"
 	<- anim(turn);
@@ -150,31 +187,33 @@ dominance(1).
 	   +direction("RIGHT").
 	
 // need to compare positions to determine whether to turn
-+!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(X, Y) & direction(Z) & Z == "RIGHT"
-	<- !changeDirection;
++!moveTowardsOther : otherBehind
+	<- .print("behind");
+	   !changeDirection;
 	   !moveForward.
 	
-+!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(Y, X) & direction(Z) & Z == "LEFT"
-	<- !changeDirection;
-	   !moveForward.
-
-+!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(X, Y) & direction(Z) & Z == "RIGHT"
-	<- !moveForward.
-
-+!moveTowardsOther : pos(X) & otherPos(Y) & rightOf(Y, X) & direction(Z) & Z == "LEFT"
-	<- !moveForward.
++!moveTowardsOther : not otherBehind
+	<- .print("not behind");
+	!moveForward.
 	   
+	   
++!moveForward : direction("LEFT") & pos(offstageLeft)
+	<- !changeDirection.
 
-+!moveForward : direction(X) & X == "LEFT"
++!moveForward : direction("RIGHT") & pos(offstageRight)
+	<- !changeDirection.
+
++!moveForward : direction("LEFT")
 	<-  ?pos(Y);
-		?leftOf(Z, Y);
+		?immLeft(Z, Y);
 	   .print(Z);
 	   !moveTo(Z).
 
-+!moveForward : direction(X) & X == "RIGHT"
++!moveForward : direction("RIGHT")
 	<- ?pos(Y);
-	   ?rightOf(Z, Y);
-	   .print(Z);
+	   ?immRight(Z, Y);
+	   .print("Now: ", Y);
+	   .print("Right: ", Z);
 	   !moveTo(Z).
 	   
 
@@ -182,9 +221,6 @@ dominance(1).
 +!hitOther : true
 	<- hit.
 
-+!moveTo(X) : true
-	<- +pos(X);
-	   move(X).
 
 +!moveTo(X) : pos(Y)
 	<- -pos(Y);
