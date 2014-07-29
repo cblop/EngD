@@ -17,28 +17,35 @@ leftOfOther :- pos(X) & otherPos(Y) & leftOf(X, Y).
 otherBehind :- rightOfOther & direction(D) & D == right.
 otherBehind :- leftOfOther & direction(D) & D == left.
 
+
++otherSpeaking(S) : true
+	<- +speaking;
+	   ?name(X).
+	   //.print(X, ": Speaking percept added").
+
+-otherSpeaking(_) : true
+	<- -speaking;
+	   ?name(X).
+	   //.print(X, ": Speaking percept removed").
+	   
+
+
 +otherMoved(X) : true
-	<- -+otherPos(X).
+	<-  -speaking;
+		-+otherPos(X).
 
 +!moveTo(X) : pos(Y)
 	<- -+pos(X);
 	   move(X).
 
 +!moveForward : direction(left) & pos(stageLeft)
-	<- !changeDirection;
-		?name(Y);
-		.print(Y);
-		.print("Sit A").
+	<- !changeDirection.
 
 +!moveForward : direction(right) & pos(stageRight)
-	<- ?name(Y);
-		.print(Y);
-	     !changeDirection;
-		.print("Sit B").
+	<- ?name(Y).
 
 +!moveForward : direction(left) & pos(X) & not (X == stageLeft)
 	<-  ?immLeft(Y, X);
-	   .print(Y);
 	   !moveTo(Y).
 
 +!moveForward : direction(right) & pos(X) & not (X == stageRight)
@@ -54,10 +61,8 @@ otherBehind :- leftOfOther & direction(D) & D == left.
 	   -+direction(right).
 	
 +!moveTowardsOther : otherBehind
-	<- .print("behind");
-	   !changeDirection;
+	<- !changeDirection;
 	   !moveForward.
 	
 +!moveTowardsOther : not otherBehind
-	<- .print("not behind");
-	!moveForward.
+	<- !moveForward.

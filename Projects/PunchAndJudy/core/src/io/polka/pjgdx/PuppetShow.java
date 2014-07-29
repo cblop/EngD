@@ -166,7 +166,6 @@ public class PuppetShow extends ApplicationAdapter {
 	}
 	
 	private Vector2 lookupPos(String posname) {
-		System.out.println(posname);
 		if (posname.equals("offstageLeft")) return OFFSTAGELEFT;
 		if (posname.equals("stageLeft")) return STAGELEFT;
 		if (posname.equals("stageCentre")) return STAGECENTRE;

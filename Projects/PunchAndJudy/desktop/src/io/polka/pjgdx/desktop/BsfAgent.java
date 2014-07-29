@@ -41,7 +41,7 @@ public class BsfAgent extends AgArch {
 	private String m_aslpath;
 
 	// Percept buffer
-	//private ArrayList<Literal> m_percept;
+	private ArrayList<Literal> m_plist;
 	public String m_percept;
 	
 	// sensorclients
@@ -66,6 +66,7 @@ public class BsfAgent extends AgArch {
 		String path = Paths.get("").toAbsolutePath().toString();
 		m_aslpath = path + "\\asl\\" + aslfile;
 		m_name = jid;
+		m_plist = new ArrayList<Literal>();
         try {
 			m_sc = new SensorClient(server, jid, password);
             //m_pub = new EventPublisher(m_sc.getConnection(), "user4", "testuser4", nodeName);
@@ -149,6 +150,25 @@ public class BsfAgent extends AgArch {
 						if (functor.m_object.toString().equals("say")) {
 							//System.out.println(termList.getFirst());
                             // Something needs to be published that an agent is speaking
+							if (!agname.m_object.toString().equals(m_name)) {
+                                final Literal speaking = Literal.parseLiteral("otherSpeaking(" + termList.getFirst() + ").");
+                                if (!m_plist.contains(speaking) & speaking != null) {
+                                        m_plist.add(speaking);
+                                }
+                                m_percept = "otherSpeaking(" + termList.getFirst() + ").";
+                                new Thread() {
+                                	public void run() {
+                                		try {
+											Thread.sleep(2000);
+											m_plist.remove(speaking);
+											//m_plist.clear();
+										} catch (InterruptedException e) {
+											// TODO Auto-generated catch block
+											e.printStackTrace();
+										}
+                                	}
+                                }.start();
+							}
 							
 							// looks like we'll need a percept buffer
 							//m_percept = "interruption.";
@@ -158,6 +178,15 @@ public class BsfAgent extends AgArch {
                             // Something needs to be published that an agent is speaking
 							if (!agname.m_object.toString().equals(m_name)) {
                                 m_percept = "otherMoved(" + termList.getFirst() + ").";
+                                m_plist.add(Literal.parseLiteral("otherMoved(" + termList.getFirst() + ")."));
+							}
+						}
+						if (functor.m_object.toString().equals("anim")) {
+							//System.out.println(termList.getFirst());
+                            // Something needs to be published that an agent is speaking
+							if (!agname.m_object.toString().equals(m_name)) {
+                                m_percept = "otherAction(" + termList.getFirst() + ").";
+                                m_plist.add(Literal.parseLiteral("otherAction(" + termList.getFirst() + ")."));
 							}
 						}
 						
@@ -197,9 +226,16 @@ public class BsfAgent extends AgArch {
     @Override
     public List<Literal> perceive() {
         List<Literal> l = new ArrayList<Literal>();
-        if (m_percept != null) {
-	    	l.add(Literal.parseLiteral(m_percept));
+        if (m_plist != null) {
+	    	//l.add(Literal.parseLiteral(m_percept));
+        	for (Literal lit : m_plist) {
+        		l.add(lit);
+        	}
         }
+        //System.out.println("Number of percepts: " + l.size());
+        //if (l.size() > 0) {
+                //System.out.println("Percept: " + l.get(0).toString());
+        //}
         return l;
     }
 

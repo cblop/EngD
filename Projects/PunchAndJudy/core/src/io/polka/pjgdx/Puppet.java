@@ -63,12 +63,15 @@ public class Puppet {
 	}
 	
 	public void setCurrentAnim(String animName) {
-		currentAnim = animName;
+		for (String anm : anims.keySet()) {
+			if (anm.equals(animName)) {
+                currentAnim = animName;
+			}
+		}
 	}
 	
 	
 	public void turn() {
-		System.out.println(name + ": turning");
 		if (direction.equals("right")) {
 			setDirection("left");
 		}

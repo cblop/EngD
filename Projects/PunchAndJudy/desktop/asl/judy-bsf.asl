@@ -30,10 +30,9 @@ waitTime(fast, 1000).
 
 health(5).
 energy(5).
-~speaking.
 
-valence(0).
-arousal(0).
+valence(1).
+arousal(1).
 dominance(-1).
 
 feeling(0, -1, tired, slow).
@@ -46,6 +45,7 @@ feeling(1, -1, peaceful, medium).
 feeling(1, 0, compassionate, medium).
 feeling(1, 1, empathetic, medium).
 
+speech(greeting, greeting).
 speech(X, happy) :- X == peaceful | X == compassionate | X == empathetic.
 speech(X, worried) :- X == tired | X == pessimistic | X == depressed | X == sad.
 speech(X, distressed) :- X == scared | X == afraid.
@@ -65,11 +65,13 @@ otherPos(offStageLeft).
 
 
 // check emotion here
-+otherPos(X) : pos(Y) & neighbour(X, Y) 
-	<- !evade.
 
-+otherPos(X) : pos(Y) & at(X, Y) 
++otherPos(X) : true
 	<- !evade.
+	
++otherAction(X) : X == hit
+	<- .print("Judy is getting hit").
+
 
 /*
 +!evade : pos(X) & otherPos(Y) & at(X, Y)
@@ -78,10 +80,19 @@ otherPos(offStageLeft).
 	   !increaseArousal(R). // randomly
 */
 
-+!evade : true
++!evade : pos(X) & otherPos(Y) & neighbour(X, Y)
 	<- !moveForward; // randomly
 	   .random(R);
+	   !decreaseValence(R);
 	   !increaseArousal(R). // randomly
+
++!evade : pos(X) & otherPos(Y) & at(X, Y)
+	<- !moveForward; // randomly
+	   .random(R);
+	   !decreaseValence(R). // randomly
+	   
++!evade : pos(X) & otherPos(Y) & not neighbour(X, Y)
+	<- pass.
 	
 
 +!question(punch) : health(X) & X <= 0
@@ -96,16 +107,17 @@ otherPos(offStageLeft).
 
 
 +!speak(X) : speaking
-	<- .wait(100);
+	<- .wait(300);
+		//.print("Punch is speaking");
 		!speak(X).
 
-+!speak(X) : ~speaking
++!speak(X) : not speaking
 	<- ?speech(X, Y);
 		say(Y).
 	
 +!question(punch) : health(X) & X > 0
-	<- .print("Judy asks Punch a question.");
-	.send(punch, achieve, question(judy));
+	<- .send(punch, achieve, question(judy));
+	!evade;
 	?emotion(E);
 	!speak(E);
 	?speed(S);

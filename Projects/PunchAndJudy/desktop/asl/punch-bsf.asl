@@ -70,11 +70,8 @@ dominance(1).
 // change: different moods
 
 +otherPos(X) : true
-	<- .print("Punch thinks Judy is at ", X);
-	   ?leftOf(Y, Z);
-	   .print("Alignment: ", Y, ", ", Z).
+	<- ?leftOf(Y, Z).
 	   
-
 
 +!boast : true
 	<- .print("Punch is boasting");
@@ -96,7 +93,6 @@ dominance(1).
 	<- ?speed(X);
 		anim(X);
 		?waitTime(X, Y);
-		.print("Wait time: ", Y);
 	   .wait(Y);
 	   !silenceOther;
 	   .random(R);
@@ -106,23 +102,23 @@ dominance(1).
 +!silenceOther : emotion(sulky) | emotion(annoyed)
 	<- !changeDirection; // want to do this with a probability
 	   //say(sulky).
-	   say(annoyed).
+	   !speak(annoyed).
 
 +!silenceOther : emotion(angry) | emotion(furious)
 	<- !chase; // chase
-	   say(angry).
+	   !speak(angry).
 
 +!silenceOther : emotion(alert) | emotion(vigilant) | emotion(excited)
 	<- .random(R);
 	   !pace(R); // probability
 	   //say(excited).
-	   say(happy).
+	   !speak(happy).
 
 +!silenceOther : emotion(vicious) | emotion(malicious)
 	<- .random(R);
 	   !pace(R);
 	   //say(vicious).
-	   say(angry).
+	   !speak(angry).
 	   
 	   
 +!pace(R) : R >= 0.5
@@ -143,20 +139,24 @@ dominance(1).
 		!increaseArousal(R);
 		!hitOther.
 
++!chase : pos(X) & otherPos(Y) & neighbour(X, Y)
+	<- !hitOther.
+
 // check the other isn't dead
 +!hitOther : true
-	<- hit.
+	<- anim(hit).
 
 +!say_hi : true
-	<- say(greeting);
+	<- !speak(greeting);
 		?speed(X);
 		?waitTime(X, Y);
 	   .wait(Y).
 
 +!speak(X) : speaking
-	<- .wait(100);
+	<- .wait(300);
+		//.print("Judy is speaking");
 		!speak(X).
 
-+!speak(X) : ~speaking
++!speak(X) : not speaking
 	<- say(X).
 	

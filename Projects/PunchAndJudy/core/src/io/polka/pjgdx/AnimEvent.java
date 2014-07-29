@@ -16,15 +16,12 @@ public class AnimEvent extends Event {
 		}
 		else if (anim.equals("fast")) {
 			actor.setSpeed("fast");
-			System.out.println("FAST");
 		}
 		else if (anim.equals("medium")) {
 			actor.setSpeed("medium");
-			System.out.println("MEDIUM");
 		}
 		else if (anim.equals("slow")) {
 			actor.setSpeed("slow");
-			System.out.println("SLOW");
 		}
 		else {
                 actor.setCurrentAnim(anim);
