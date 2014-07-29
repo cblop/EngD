@@ -13,7 +13,7 @@ public class Puppet {
 	private Vector2 target = new Vector2();
 	private HashMap<String, Animation> anims;
 	private HashMap<String, List<Dialogue>> lines;
-	private String currentAnim = "right";
+	private String currentAnim = "rest";
 	private String direction = "right";
 	private float speed = 10.0f;
 	//private SpriteBatch batch;
@@ -80,9 +80,13 @@ public class Puppet {
 		}
 	}
 	
+	public String getDirection() {
+		return direction;
+	}
+	
 	public void setDirection(String dir) {
 		direction = dir;
-		currentAnim = dir;
+		//currentAnim = dir;
 	}
 	
 	public void setSpeed(String spd) {

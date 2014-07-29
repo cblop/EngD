@@ -126,6 +126,8 @@ public class BsfAgent extends AgArch {
 						@SuppressWarnings("unchecked")
 						LinkedList<String> termList = (LinkedList<String>) terms.m_object;
 						
+						m_plist.clear();
+						
 						
 						if (functor != null)
 						{
@@ -151,11 +153,13 @@ public class BsfAgent extends AgArch {
 							//System.out.println(termList.getFirst());
                             // Something needs to be published that an agent is speaking
 							if (!agname.m_object.toString().equals(m_name)) {
+                                m_percept = "otherSpeaking(" + termList.getFirst() + ").";
+
+                                /*
                                 final Literal speaking = Literal.parseLiteral("otherSpeaking(" + termList.getFirst() + ").");
                                 if (!m_plist.contains(speaking) & speaking != null) {
                                         m_plist.add(speaking);
                                 }
-                                m_percept = "otherSpeaking(" + termList.getFirst() + ").";
                                 new Thread() {
                                 	public void run() {
                                 		try {
@@ -168,6 +172,7 @@ public class BsfAgent extends AgArch {
 										}
                                 	}
                                 }.start();
+                                */
 							}
 							
 							// looks like we'll need a percept buffer
@@ -178,7 +183,26 @@ public class BsfAgent extends AgArch {
                             // Something needs to be published that an agent is speaking
 							if (!agname.m_object.toString().equals(m_name)) {
                                 m_percept = "otherMoved(" + termList.getFirst() + ").";
-                                m_plist.add(Literal.parseLiteral("otherMoved(" + termList.getFirst() + ")."));
+                                
+                                /*
+                                final Literal moved = Literal.parseLiteral("otherMoved(" + termList.getFirst() + ").");
+                                m_plist.add(moved);
+                                if (!m_plist.contains(moved) & moved != null) {
+                                        m_plist.add(moved);
+                                }
+                                new Thread() {
+                                	public void run() {
+                                		try {
+											Thread.sleep(300);
+											m_plist.remove(moved);
+											//m_plist.clear();
+										} catch (InterruptedException e) {
+											// TODO Auto-generated catch block
+											e.printStackTrace();
+										}
+                                	}
+                                }.start();
+                                */
 							}
 						}
 						if (functor.m_object.toString().equals("anim")) {
@@ -226,11 +250,14 @@ public class BsfAgent extends AgArch {
     @Override
     public List<Literal> perceive() {
         List<Literal> l = new ArrayList<Literal>();
-        if (m_plist != null) {
-	    	//l.add(Literal.parseLiteral(m_percept));
+        if (m_percept != null) {
+        //if (m_plist != null) {
+	    	l.add(Literal.parseLiteral(m_percept));
+        	/*
         	for (Literal lit : m_plist) {
         		l.add(lit);
         	}
+        	*/
         }
         //System.out.println("Number of percepts: " + l.size());
         //if (l.size() > 0) {

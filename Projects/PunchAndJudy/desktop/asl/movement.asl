@@ -18,6 +18,7 @@ otherBehind :- rightOfOther & direction(D) & D == right.
 otherBehind :- leftOfOther & direction(D) & D == left.
 
 
+/*
 +otherSpeaking(S) : true
 	<- +speaking;
 	   ?name(X).
@@ -27,12 +28,13 @@ otherBehind :- leftOfOther & direction(D) & D == left.
 	<- -speaking;
 	   ?name(X).
 	   //.print(X, ": Speaking percept removed").
+	   * 
+	   */
 	   
 
 
-+otherMoved(X) : true
-	<-  -speaking;
-		-+otherPos(X).
++otherMoved(X) : _
+	<- -+otherPos(X).
 
 +!moveTo(X) : pos(Y)
 	<- -+pos(X);
@@ -42,7 +44,7 @@ otherBehind :- leftOfOther & direction(D) & D == left.
 	<- !changeDirection.
 
 +!moveForward : direction(right) & pos(stageRight)
-	<- ?name(Y).
+	<- !changeDirection.
 
 +!moveForward : direction(left) & pos(X) & not (X == stageLeft)
 	<-  ?immLeft(Y, X);
@@ -52,11 +54,11 @@ otherBehind :- leftOfOther & direction(D) & D == left.
 	<- ?immRight(Y, X);
 	   !moveTo(Y).
 	   
-+!changeDirection : direction(X) & X == right
++!changeDirection : direction(right)
 	<- anim(turn);
 	   -+direction(left).
 
-+!changeDirection : direction(X) & X == left
++!changeDirection : direction(left)
 	<- anim(turn);
 	   -+direction(right).
 	

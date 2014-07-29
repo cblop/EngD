@@ -12,7 +12,6 @@ public class AnimEvent extends Event {
 	protected void trigger() {
 		if (anim.equals("turn")) {
 			actor.turn();
-			
 		}
 		else if (anim.equals("fast")) {
 			actor.setSpeed("fast");

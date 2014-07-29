@@ -32,31 +32,33 @@ public class PuppetShow extends ApplicationAdapter {
 	private SpriteBatch batch; 
 	private static EventHandler ehandler;
 	private List<Puppet> puppets = new ArrayList<Puppet>();
+	private float stateTime;
 	
 	
 	public HashMap<String, Animation> processSprites(String name) {
         HashMap<String, Animation> anims = new HashMap<String, Animation>();
 		if (name == "punch") {
                 Texture punchTexture = new Texture(Gdx.files.internal("pics/Punch.png"));
-                TextureRegion[] split = new TextureRegion(punchTexture).split(512, 512)[0];
-                TextureRegion[] mirror = new TextureRegion(punchTexture).split(512, 512)[0];
-                for (TextureRegion region : mirror)
-                        region.flip(true, false);
-                Animation punchRight = new Animation(0.1f, split[0]);
-                Animation punchLeft = new Animation(0.1f, mirror[0]);
-                anims.put("right", punchRight);
-                anims.put("left", punchLeft);
+                TextureRegion[][] split = new TextureRegion(punchTexture).split(512, 512);
+                TextureRegion[] restFrames = new TextureRegion[1];
+                restFrames[0] = split[0][0];
+                
+                TextureRegion[] hitFrames = new TextureRegion[2];
+                hitFrames[0] = split[1][0];
+                hitFrames[1] = split[1][1];
+
+                Animation punchRest = new Animation(0.1f, restFrames);
+                Animation punchHit = new Animation(0.1f, hitFrames);
+                anims.put("rest", punchRest);
+                anims.put("hit", punchHit);
 		}
 		else if (name == "judy") {
                 Texture judyTexture = new Texture(Gdx.files.internal("pics/Judy.png"));
-                TextureRegion[] split = new TextureRegion(judyTexture).split(512, 512)[0];
-                TextureRegion[] mirror = new TextureRegion(judyTexture).split(512, 512)[0];
-                for (TextureRegion region : mirror)
-                        region.flip(true, false);
-                Animation judyRight = new Animation(0.1f, split[0]);
-                Animation judyLeft = new Animation(0.1f, mirror[0]);
-                anims.put("right", judyRight);
-                anims.put("left", judyLeft);
+                TextureRegion[][] split = new TextureRegion(judyTexture).split(512, 512);
+                Animation judyRest = new Animation(0.1f, split[0][0]);
+                Animation judyDead = new Animation(0.1f, split[1][0]);
+                anims.put("rest", judyRest);
+                anims.put("dead", judyDead);
 		}
 		
 		return anims;
@@ -139,8 +141,8 @@ public class PuppetShow extends ApplicationAdapter {
 		}
 		Puppet punch = new Puppet("punch", OFFSTAGELEFT.x, OFFSTAGELEFT.y, punchAnims, punchDialogue);
 		Puppet judy = new Puppet("judy", OFFSTAGERIGHT.x, OFFSTAGERIGHT.y, judyAnims, judyDialogue);
-		puppets.add(punch);
 		puppets.add(judy);
+		puppets.add(punch);
 		judy.setDirection("left");
 		
 		/*
@@ -212,9 +214,15 @@ public class PuppetShow extends ApplicationAdapter {
 		batch.draw(stageUnder, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		Texture punchTexture = new Texture(Gdx.files.internal("pics/Punch.png"));
 		TextureRegion[] split = new TextureRegion(punchTexture).split(512, 512)[0];
+		stateTime += Gdx.graphics.getDeltaTime();
 		for (Puppet puppet : puppets) {
 			puppet.update();
-			batch.draw(puppet.getCurrentAnim().getKeyFrame(0), puppet.getPos().x, puppet.getPos().y);
+			if (puppet.getDirection() == "left") {
+                batch.draw(puppet.getCurrentAnim().getKeyFrame(stateTime, true), puppet.getPos().x + 512, puppet.getPos().y, -512f, 512f);
+			}
+			else {
+                batch.draw(puppet.getCurrentAnim().getKeyFrame(stateTime, true), puppet.getPos().x, puppet.getPos().y);
+			}
 		}
 		batch.draw(stageTop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		batch.end();

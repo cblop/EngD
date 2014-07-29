@@ -70,7 +70,8 @@ otherPos(offStageLeft).
 	<- !evade.
 	
 +otherAction(X) : X == hit
-	<- .print("Judy is getting hit").
+	<- .print("Judy is getting hit");
+		!takeDamage.
 
 
 /*
@@ -93,6 +94,9 @@ otherPos(offStageLeft).
 	   
 +!evade : pos(X) & otherPos(Y) & not neighbour(X, Y)
 	<- pass.
+
++!evade : pos(X) & otherPos(Y) & not at(X, Y)
+	<- pass.
 	
 
 +!question(punch) : health(X) & X <= 0
@@ -102,7 +106,9 @@ otherPos(offStageLeft).
 +!die
 	<- .print("Judy is dead.");
 	+dead;
-	die("judy").
+	anim(dead);
+	.wait(2000);
+	!moveTo(offstageRight).
 	//.send(narrative, achieve, endScene).
 
 
@@ -133,10 +139,10 @@ otherPos(offStageLeft).
 	!speak(greeting).
 	
 
-+!take_damage : health(X) & X <= 0
++!takeDamage : health(X) & X <= 0
 	<- !die.
 
-+!take_damage
++!takeDamage : health(X) & X > 0
 	<- ?health(X);
 	.print("Judy's health is ", X, ".");
 	.send(punch, tell, ouch(judy));

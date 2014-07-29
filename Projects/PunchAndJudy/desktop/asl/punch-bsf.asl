@@ -69,27 +69,31 @@ dominance(1).
 
 // change: different moods
 
+/*
 +otherPos(X) : true
 	<- ?leftOf(Y, Z).
+*/
 	   
 
 +!boast : true
 	<- .print("Punch is boasting");
 	   say(happy).
 
-+!dominate : ~interruption
++!dominate : otherPos(offstageRight)
 	<- ?speed(X);
 		anim(X);
+		anim(rest);
 		?waitTime(X, Y);
 		.wait(Y);
 	    !boast;
 	   .wait(Y);
 	   .random(R);
 	   !increaseValence(R);
-	   // goal achieved?
-	   !dominate.
+	   .print("Punch has achieved his goal");
+	   .wait(2000);
+	   !moveTo(offstageLeft).
 
-+!dominate : interruption
++!dominate : not otherPos(offstageRight)
 	<- ?speed(X);
 		anim(X);
 		?waitTime(X, Y);
@@ -131,6 +135,7 @@ dominance(1).
 	   
 +!chase : pos(X) & otherPos(Y) & not (X == Y)
 	<- .random(R);
+		anim(rest);
 		!increaseArousal(R);
 		!moveTowardsOther.
 
