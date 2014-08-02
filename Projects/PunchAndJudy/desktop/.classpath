@@ -22,5 +22,7 @@
 	<classpathentry kind="lib" path="/javaFramework/lib/smack/smack-3.4.1-0cec571.jar"/>
 	<classpathentry kind="lib" path="libs/jason.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/javaFramework"/>
+	<classpathentry kind="lib" path="libs/mongo-2.10.1.jar"/>
+	<classpathentry kind="lib" path="/javaFramework/lib/json/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -9,6 +9,7 @@ public class RunShow {
 	private static DesktopLauncher launcher;
 	private static BsfAgent punchAgent;
 	private static BsfAgent judyAgent;
+	private static boolean debug = true;
 
 	public static void main(String[] args) throws XMPPException, JasonException {
 		launcher = new DesktopLauncher();
@@ -32,7 +33,7 @@ public class RunShow {
         EventSubscriber esub;
 		//esub = new EventSubscriber("localhost", "punch", "punchuser", launcher);
 		//esub = new EventSubscriber("localhost", "judy", "judyuser", launcher);
-		esub = new EventSubscriber("localhost", "anim", "animuser", launcher);
+		esub = new EventSubscriber("localhost", "anim", "animuser", launcher, true);
 		Connection conn = esub.getConnection();
 		
 		punchAgent = new BsfAgent("localhost", "punch", "punchuser", "punch-bsf.asl", eventNode);

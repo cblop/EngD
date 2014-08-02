@@ -1,17 +1,11 @@
 package io.polka.pjgdx.desktop;
 
 import java.io.Serializable;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
 import org.jivesoftware.smack.XMPPException;
-
-
-
-
-
-
-
 
 //import edu.bath.sensorframework.DataReading;
 //import edu.bath.sensorframework.DataReading.Value;
@@ -23,9 +17,25 @@ import edu.bath.sensorframework.client.SensorClient;
 // Why not just use SensorClient? Because I might have to add custom stuff
 public class EventSubscriber extends SensorClient {
 	private DesktopLauncher launcher;
-	public EventSubscriber(String server, String jid, String password, DesktopLauncher launch) throws XMPPException {
+	private boolean debug;
+	private EventLogger logger;
+	public EventSubscriber(String server, String jid, String password, DesktopLauncher launch, boolean dbg) throws XMPPException {
 		super(server, jid, password);
 		launcher = launch;
+		debug = dbg;
+		
+		if (debug) {
+			startLogger();
+		}
+	}
+	
+	private void startLogger() {
+		try {
+			logger = new EventLogger();
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public void subscribeTo(String nodeName) throws XMPPException 
@@ -37,61 +47,64 @@ public class EventSubscriber extends SensorClient {
 		addHandler(nodeName, new ReadingHandler() {
 			public void handleIncomingReading (String node, String rdf) {
 				//System.out.println("Handling reading...");
+
+        System.out.println(rdf);
+
 				try {
 					JsonReading jr = new JsonReading();
 					jr.fromJSON(rdf);
+					
+					if (debug) {
+						logger.logJson(rdf);
+					}
 					
 					//System.out.println(rdf);
 					
 					Value agname = jr.findValue("AGENT");
 					Value functor = jr.findValue("FUNCTOR"); 
-					Value terms = jr.findValue("TERMS"); 
-					
-					// How do I do this safely?
-					@SuppressWarnings("unchecked")
-					LinkedList<String> termList = (LinkedList<String>) terms.m_object;
+					Value value = jr.findValue("VALUE"); 
 					
 					
-					if (functor != null)
-					{
-						String temp = functor.m_object.toString();
-						//System.out.println("Functor: " + temp);
+					if (functor != null && value != null && agname != null) {
+                            // How do I do this safely?
+					        //@SuppressWarnings("unchecked")
+					        //LinkedList<String> termList = (LinkedList<String>) terms.m_object;
+					
+                            String ftemp = functor.m_object.toString();
+                            System.out.println("Functor: " + ftemp);
+                                
+
+                            /*
+                            System.out.println("Terms: ");
+                            for (String str : termList) {
+                                    System.out.println(str);
+                            }
+                            */
+                            String vtemp = value.m_object.toString();
+                            System.out.println("Value: " + vtemp);
+
+                            String atemp = agname.m_object.toString();
+                            System.out.println("From: " + atemp);
+
+                            if (functor.m_object.toString().equals("place")) {
+                                    launcher.pshow.addEvent("move", agname.m_object.toString(), 0, value.m_object.toString());
+                            }
+
+                            if (functor.m_object.toString().equals("anim")) {
+                                    launcher.pshow.addEvent("anim", agname.m_object.toString(), 0, value.m_object.toString());
+                            }
+                            
+                            if (functor.m_object.toString().equals("move")) {
+                                    //System.out.println(values.get(0).toString());
+                                    launcher.pshow.addEvent("move", agname.m_object.toString(), 0, value.m_object.toString());
+                            }
+
+                            if (functor.m_object.toString().equals("say")) {
+                                    //System.out.println(values.get(0).toString());
+                                    launcher.pshow.addEvent("speak", agname.m_object.toString(), 0, value.m_object.toString());
+                                    // Something needs to be published that an agent is speaking
+                            }
 					}
-
-					if (terms != null)
-					{
-						//System.out.println("Terms: ");
-						/*
-						for (String str : termList) {
-							System.out.println(str);
-						}
-						*/
-					}
-
-					if (agname != null)
-					{
-						String temp = agname.m_object.toString();
-						//System.out.println("From: " + temp);
-					}
-
-                    if (functor.m_object.toString().equals("place")) {
-                            launcher.pshow.addEvent("move", agname.m_object.toString(), 0, termList.getFirst());
-                    }
-
-                    if (functor.m_object.toString().equals("anim")) {
-                            launcher.pshow.addEvent("anim", agname.m_object.toString(), 0, termList.getFirst());
-                    }
-                    
-                    if (functor.m_object.toString().equals("move")) {
-                            //System.out.println(values.get(0).toString());
-                            launcher.pshow.addEvent("move", agname.m_object.toString(), 0, termList.getFirst());
-                    }
-
-                    if (functor.m_object.toString().equals("say")) {
-                            //System.out.println(values.get(0).toString());
-                            launcher.pshow.addEvent("speak", agname.m_object.toString(), 0, termList.getFirst());
-                            // Something needs to be published that an agent is speaking
-                    }
                     
 					
 					/*

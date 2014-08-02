@@ -7,6 +7,7 @@ import jason.asSemantics.Agent;
 import jason.asSemantics.Circumstance;
 import jason.asSemantics.TransitionSystem;
 import jason.asSyntax.Literal;
+import jason.asSyntax.Term;
 import jason.infra.centralised.RunCentralisedMAS;
 import jason.runtime.Settings;
 
@@ -120,99 +121,82 @@ public class BsfAgent extends AgArch {
 						
 						Value agname = jr.findValue("AGENT");
 						Value functor = jr.findValue("FUNCTOR"); 
-						Value terms = jr.findValue("TERMS"); 
+						Value value = jr.findValue("VALUE"); 
 						
 						// How do I do this safely?
-						@SuppressWarnings("unchecked")
-						LinkedList<String> termList = (LinkedList<String>) terms.m_object;
+						//@SuppressWarnings("unchecked")
+						//LinkedList<String> termList = (LinkedList<String>) terms.m_object;
 						
 						m_plist.clear();
 						
-						
-						if (functor != null)
-						{
-							String temp = functor.m_object.toString();
-							//System.out.println("Functor: " + temp);
-						}
+						if (agname != null && functor != null && value != null) {
+              if (functor.m_object.toString().equals("say")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "otherSpeaking(" + value.m_object.toString() + ").";
 
-						if (terms != null)
-						{
-							//System.out.println("Terms: ");
-							for (String str : termList) {
-								//System.out.println(str);
-							}
-						}
-
-						if (agname != null)
-						{
-							String temp = agname.m_object.toString();
-							//System.out.println("From: " + temp);
-						}
-
-						if (functor.m_object.toString().equals("say")) {
-							//System.out.println(termList.getFirst());
-                            // Something needs to be published that an agent is speaking
-							if (!agname.m_object.toString().equals(m_name)) {
-                                m_percept = "otherSpeaking(" + termList.getFirst() + ").";
-
-                                /*
-                                final Literal speaking = Literal.parseLiteral("otherSpeaking(" + termList.getFirst() + ").");
-                                if (!m_plist.contains(speaking) & speaking != null) {
-                                        m_plist.add(speaking);
-                                }
-                                new Thread() {
-                                	public void run() {
-                                		try {
-											Thread.sleep(2000);
-											m_plist.remove(speaking);
-											//m_plist.clear();
-										} catch (InterruptedException e) {
-											// TODO Auto-generated catch block
-											e.printStackTrace();
-										}
-                                	}
-                                }.start();
-                                */
-							}
+                                  /*
+                                  final Literal speaking = Literal.parseLiteral("otherSpeaking(" + termList.getFirst() + ").");
+                                  if (!m_plist.contains(speaking) & speaking != null) {
+                                          m_plist.add(speaking);
+                                  }
+                                  new Thread() {
+                                    public void run() {
+                                      try {
+                        Thread.sleep(2000);
+                        m_plist.remove(speaking);
+                        //m_plist.clear();
+                      } catch (InterruptedException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                      }
+                                    }
+                                  }.start();
+                                  */
+                }
+                
+                // looks like we'll need a percept buffer
+                //m_percept = "interruption.";
+              }
+              if (functor.m_object.toString().equals("move")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "otherMoved(" + value.m_object.toString() + ").";
+                                  
+                                  /*
+                                  final Literal moved = Literal.parseLiteral("otherMoved(" + termList.getFirst() + ").");
+                                  m_plist.add(moved);
+                                  if (!m_plist.contains(moved) & moved != null) {
+                                          m_plist.add(moved);
+                                  }
+                                  new Thread() {
+                                    public void run() {
+                                      try {
+                        Thread.sleep(300);
+                        m_plist.remove(moved);
+                        //m_plist.clear();
+                      } catch (InterruptedException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                      }
+                                    }
+                                  }.start();
+                                  */
+                }
+              }
+              if (functor.m_object.toString().equals("anim")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "otherAction(" + value.m_object.toString() + ").";
+                                  m_plist.add(Literal.parseLiteral("otherAction(" + value.m_object.toString() + ")."));
+                }
+              }
 							
-							// looks like we'll need a percept buffer
-							//m_percept = "interruption.";
 						}
-						if (functor.m_object.toString().equals("move")) {
-							//System.out.println(termList.getFirst());
-                            // Something needs to be published that an agent is speaking
-							if (!agname.m_object.toString().equals(m_name)) {
-                                m_percept = "otherMoved(" + termList.getFirst() + ").";
-                                
-                                /*
-                                final Literal moved = Literal.parseLiteral("otherMoved(" + termList.getFirst() + ").");
-                                m_plist.add(moved);
-                                if (!m_plist.contains(moved) & moved != null) {
-                                        m_plist.add(moved);
-                                }
-                                new Thread() {
-                                	public void run() {
-                                		try {
-											Thread.sleep(300);
-											m_plist.remove(moved);
-											//m_plist.clear();
-										} catch (InterruptedException e) {
-											// TODO Auto-generated catch block
-											e.printStackTrace();
-										}
-                                	}
-                                }.start();
-                                */
-							}
-						}
-						if (functor.m_object.toString().equals("anim")) {
-							//System.out.println(termList.getFirst());
-                            // Something needs to be published that an agent is speaking
-							if (!agname.m_object.toString().equals(m_name)) {
-                                m_percept = "otherAction(" + termList.getFirst() + ").";
-                                m_plist.add(Literal.parseLiteral("otherAction(" + termList.getFirst() + ")."));
-							}
-						}
+
 						
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -271,13 +255,21 @@ public class BsfAgent extends AgArch {
     public void act(ActionExec action, List<ActionExec> feedback) {
     	//getTS().getLogger().info("Agent " + getAgName() + " is doing: " + action.getActionTerm());
         String act = action.getActionTerm().toString();
+        List<Term> terms = action.getActionTerm().getTerms();
+        String val = null;
+        if (terms.size() > 0) {
+        	val = terms.get(0).toString();
+        }
+        //String val = null;
 
         if (act.isEmpty() == false)	{
 			//System.out.println(this.getAgName() + ": " + "action string: " + act);
 			m_percept = null;
 
 			try {
-				m_pub.publishEvent(getAgName(), action.getActionTerm().getFunctor(), action.getActionTerm().getTerms());
+				if (val != null && val != "") {
+                        m_pub.publishEvent(getAgName(), action.getActionTerm().getFunctor(), val);
+				}
 			} catch (UnsupportedEncodingException e) {
 				System.out.println("Failed to publish action: " + act);
 			}
