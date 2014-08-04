@@ -1,6 +1,7 @@
 +!changeMood : valence(X) & arousal(Y)
 	<- ?feeling(X, Y, Z, T);
 	   -+speed(T);
+     emotion(Z);
 	   -+emotion(Z).
 	   
 

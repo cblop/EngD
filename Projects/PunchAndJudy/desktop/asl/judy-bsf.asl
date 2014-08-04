@@ -1,11 +1,13 @@
 // Judy agent
 { include("movement.asl") }  
 { include("emotions.asl") }  
+{ include("dialogue.asl") }  
 
 /* Initial beliefs and rules */
 
 name(judy).
 direction(left).
+skit(free).
 
 /*
 locations(offstageLeft, stageLeft, stageCentre, stageRight, offstageRight).

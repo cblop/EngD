@@ -119,7 +119,7 @@ public static void replayEvents(DBCollection coll) throws Exception {
       i++;
 
 			long future = stamp.getTime() - start;
-			System.out.println("Schedule: " + future / 1000f);
+			//System.out.println("Schedule: " + future / 1000f);
 			tim.scheduleTask(eventTask, future / 1000f);
 		
 		}

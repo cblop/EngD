@@ -48,7 +48,7 @@ public class EventSubscriber extends SensorClient {
 			public void handleIncomingReading (String node, String rdf) {
 				//System.out.println("Handling reading...");
 
-        System.out.println(rdf);
+        //System.out.println(rdf);
 
 				try {
 					JsonReading jr = new JsonReading();
@@ -71,7 +71,7 @@ public class EventSubscriber extends SensorClient {
 					        //LinkedList<String> termList = (LinkedList<String>) terms.m_object;
 					
                             String ftemp = functor.m_object.toString();
-                            System.out.println("Functor: " + ftemp);
+                            //System.out.println("Functor: " + ftemp);
                                 
 
                             /*
@@ -81,10 +81,10 @@ public class EventSubscriber extends SensorClient {
                             }
                             */
                             String vtemp = value.m_object.toString();
-                            System.out.println("Value: " + vtemp);
+                            //System.out.println("Value: " + vtemp);
 
                             String atemp = agname.m_object.toString();
-                            System.out.println("From: " + atemp);
+                            //System.out.println("From: " + atemp);
 
                             if (functor.m_object.toString().equals("place")) {
                                     launcher.pshow.addEvent("move", agname.m_object.toString(), 0, value.m_object.toString());
@@ -92,6 +92,10 @@ public class EventSubscriber extends SensorClient {
 
                             if (functor.m_object.toString().equals("anim")) {
                                     launcher.pshow.addEvent("anim", agname.m_object.toString(), 0, value.m_object.toString());
+                            }
+
+                            if (functor.m_object.toString().equals("emotion")) {
+                                    launcher.pshow.addEvent("emotion", agname.m_object.toString(), 0, value.m_object.toString());
                             }
                             
                             if (functor.m_object.toString().equals("move")) {

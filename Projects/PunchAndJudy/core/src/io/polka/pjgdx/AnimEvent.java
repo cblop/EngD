@@ -23,7 +23,7 @@ public class AnimEvent extends Event {
 			actor.setSpeed("slow");
 		}
 		else {
-                actor.setCurrentAnim(anim);
+      actor.setCurrentAnim(anim);
 		}
 	}
 

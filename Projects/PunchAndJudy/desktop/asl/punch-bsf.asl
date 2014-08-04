@@ -2,6 +2,7 @@
 
 { include("movement.asl") }  
 { include("emotions.asl") }  
+{ include("dialogue.asl") }  
 
 /* Initial beliefs and rules */
 
@@ -10,6 +11,7 @@
 
 name(punch).
 direction(right).
+skit(free).
 
 
 /*
@@ -26,6 +28,7 @@ leftOf(X, Y) :- immLeft(X, Y) |
 				locations(_, _, _, _, _, Y).
 */
 
+skit(chase) :- feeling(furious | angry) & other(judy).
 
 feeling(0, -1, annoyed, slow).
 feeling(0, 0, alert, slow).

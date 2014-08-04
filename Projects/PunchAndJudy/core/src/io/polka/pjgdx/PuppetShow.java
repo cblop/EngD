@@ -202,6 +202,11 @@ public class PuppetShow extends ApplicationAdapter {
                 	AnimEvent anEv = new AnimEvent(actor, del, arg);
                 	ehandler.addEvent(anEv);
                 }
+                else if (type == "emotion") {
+                	//System.out.println("Anim event processed");
+                	StateEvent stEv = new StateEvent(actor, del, arg);
+                	ehandler.addEvent(stEv);
+                }
 		}
 		
 	}
@@ -223,6 +228,8 @@ public class PuppetShow extends ApplicationAdapter {
 			else {
                 batch.draw(puppet.getCurrentAnim().getKeyFrame(stateTime, true), puppet.getPos().x, puppet.getPos().y);
 			}
+			puppet.drawSubs(batch);
+			puppet.drawEmotion(batch);
 		}
 		batch.draw(stageTop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		batch.end();

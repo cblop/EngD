@@ -46,7 +46,7 @@ public class EventPublisher extends Sensor {
 		// doesn't seem to work currently
 		JsonReading js = new JsonReading();
 		js.fromJSON(json);
-		System.out.println("JSON obj:" + js.getJsonObject().toString());
+		//System.out.println("JSON obj:" + js.getJsonObject().toString());
 		publish(js);
 	}
 
