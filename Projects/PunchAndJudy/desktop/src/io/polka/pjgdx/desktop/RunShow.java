@@ -16,6 +16,7 @@ public class RunShow {
 	private static DesktopLauncher launcher;
 	private static BsfAgent punchAgent;
 	private static BsfAgent judyAgent;
+	private static BsfAgent policeAgent;
 	private static boolean debug = true;
 	private static String eventNode;
     private static Queue<String> sceneQueue; 
@@ -49,6 +50,7 @@ public class RunShow {
 		
 		punchAgent = new BsfAgent("localhost", "punch", "punchuser", "punch-bsf.asl", eventNode);
 		judyAgent = new BsfAgent("localhost", "judy", "judyuser", "judy-bsf.asl", eventNode);
+		policeAgent = new BsfAgent("localhost", "police", "policeuser", "police.asl", eventNode);
 		
 		// This has to come after for some reason
 		// Seems like it's bad for subscribers to create nodes?
@@ -66,11 +68,16 @@ public class RunShow {
                 judyAgent.run();
 			}
 		}.start();
+		new Thread() {
+			public void run() {
+                policeAgent.run();
+			}
+		}.start();
 		
 		sceneQueue = new LinkedList<String>();
 		
 		// don't forget! FIFO!
-		sceneQueue.add("judy");
+		sceneQueue.add("police");
 		sceneQueue.add("judy");
 		
 		nextScene();

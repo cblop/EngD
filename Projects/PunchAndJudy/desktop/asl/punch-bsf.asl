@@ -98,6 +98,13 @@ dominance(1).
 	   !moveTo(stageLeft);
 	   !say_hi;
 	   !dominate.
+
+// change this, obviously
++currentScene(police) : _
+	<- !resetScene;
+	   !moveTo(stageLeft);
+	   !say_hi;
+	   !dominate.
 	   
 -currentScene(_) : _
 	<- !moveTo(offstageLeft);

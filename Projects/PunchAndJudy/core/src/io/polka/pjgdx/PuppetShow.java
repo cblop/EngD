@@ -15,6 +15,7 @@ import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
@@ -27,13 +28,12 @@ public class PuppetShow extends ApplicationAdapter {
 	public static final Vector2 STAGELEFT = new Vector2(-75, -50);
 	public static final Vector2 STAGECENTRE = new Vector2(75, -50);
 	public static final Vector2 STAGERIGHT = new Vector2(200, -50);
-	public static final Vector2 OFFSTAGERIGHT = new Vector2(400, -50);
+	public static final Vector2 OFFSTAGERIGHT = new Vector2(500, -50);
 	//private SpriteBatch batch = new SpriteBatch(5460);
 	private SpriteBatch batch; 
 	private static EventHandler ehandler;
 	private List<Puppet> puppets = new ArrayList<Puppet>();
 	private float stateTime;
-	
 	
 	public HashMap<String, Animation> processSprites(String name) {
         HashMap<String, Animation> anims = new HashMap<String, Animation>();
@@ -48,7 +48,7 @@ public class PuppetShow extends ApplicationAdapter {
                 hitFrames[1] = split[1][1];
 
                 Animation punchRest = new Animation(0.1f, restFrames);
-                Animation punchHit = new Animation(0.1f, hitFrames);
+                Animation punchHit = new Animation(0.2f, hitFrames);
                 anims.put("rest", punchRest);
                 anims.put("hit", punchHit);
 		}
@@ -59,6 +59,37 @@ public class PuppetShow extends ApplicationAdapter {
                 Animation judyDead = new Animation(0.1f, split[1][0]);
                 anims.put("rest", judyRest);
                 anims.put("dead", judyDead);
+		}
+		else if (name == "police") {
+                Texture policeTexture = new Texture(Gdx.files.internal("pics/Police.png"));
+                TextureRegion[][] split = new TextureRegion(policeTexture).split(512, 512);
+                TextureRegion[] restFrames = new TextureRegion[1];
+                restFrames[0] = split[0][0];
+                
+                TextureRegion[] hitFrames = new TextureRegion[3];
+                hitFrames[0] = split[1][0];
+                hitFrames[1] = split[1][1];
+                hitFrames[2] = split[1][2];
+
+                TextureRegion[] frontFrames = new TextureRegion[1];
+                frontFrames[0] = split[2][0];
+
+                TextureRegion[] pointFrames = new TextureRegion[1];
+                pointFrames[0] = split[3][0];
+
+                TextureRegion[] deadFrames = new TextureRegion[1];
+                deadFrames[0] = split[4][0];
+
+                Animation policeRest = new Animation(0.1f, restFrames);
+                Animation policeHit = new Animation(0.2f, hitFrames);
+                Animation policeFront = new Animation(0.1f, frontFrames);
+                Animation policePoint = new Animation(0.1f, pointFrames);
+                Animation policeDead = new Animation(0.1f, deadFrames);
+                anims.put("rest", policeRest);
+                anims.put("hit", policeHit);
+                anims.put("front", policeFront);
+                anims.put("point", policePoint);
+                anims.put("dead", policeDead);
 		}
 		
 		return anims;
@@ -108,6 +139,9 @@ public class PuppetShow extends ApplicationAdapter {
 		else if (name == "judy") {
 			filename = "sounds/judy/judy.csv";
 		}
+		else if (name == "police") {
+			filename = "sounds/police/police.csv";
+		}
 		lines = readDialogueFile(filename);
 		return lines;
 		
@@ -121,11 +155,13 @@ public class PuppetShow extends ApplicationAdapter {
         stageUnder = new Texture(Gdx.files.internal("pics/Stage2.png"));
         HashMap<String, Animation> punchAnims = processSprites("punch");
         HashMap<String, Animation> judyAnims = processSprites("judy");
+        HashMap<String, Animation> policeAnims = processSprites("police");
         ehandler = new EventHandler();
         
         // nooo, don't do this
         HashMap<String, List<Dialogue>> punchDialogue = null;
         HashMap<String, List<Dialogue>> judyDialogue = null;
+        HashMap<String, List<Dialogue>> policeDialogue = null;
         
         try {
 			punchDialogue = processDialogue("punch");
@@ -139,11 +175,20 @@ public class PuppetShow extends ApplicationAdapter {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        try {
+			policeDialogue = processDialogue("police");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		Puppet punch = new Puppet("punch", OFFSTAGELEFT.x, OFFSTAGELEFT.y, punchAnims, punchDialogue);
 		Puppet judy = new Puppet("judy", OFFSTAGERIGHT.x, OFFSTAGERIGHT.y, judyAnims, judyDialogue);
+		Puppet police = new Puppet("police", OFFSTAGERIGHT.x, OFFSTAGERIGHT.y, policeAnims, policeDialogue);
 		puppets.add(judy);
 		puppets.add(punch);
+		puppets.add(police);
 		judy.setDirection("left");
+		police.setDirection("left");
 		
 		/*
 		MoveEvent moveJudy = new MoveEvent(judy, 2, STAGELEFT);
@@ -217,8 +262,6 @@ public class PuppetShow extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		batch.begin();
 		batch.draw(stageUnder, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-		Texture punchTexture = new Texture(Gdx.files.internal("pics/Punch.png"));
-		TextureRegion[] split = new TextureRegion(punchTexture).split(512, 512)[0];
 		stateTime += Gdx.graphics.getDeltaTime();
 		for (Puppet puppet : puppets) {
 			puppet.update();
@@ -228,10 +271,12 @@ public class PuppetShow extends ApplicationAdapter {
 			else {
                 batch.draw(puppet.getCurrentAnim().getKeyFrame(stateTime, true), puppet.getPos().x, puppet.getPos().y);
 			}
+		}
+		batch.draw(stageTop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+		for (Puppet puppet : puppets) {
 			puppet.drawSubs(batch);
 			puppet.drawEmotion(batch);
 		}
-		batch.draw(stageTop, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		batch.end();
 	}
 }
