@@ -57,13 +57,41 @@ otherPos(offStageLeft).
 
 /* Initial goals */
 // Taunt Punch. Must first greet him and ask questions.
-!changeMood.
-!moveTo(stageRight).
-!greet(punch).
-!question(punch).
 //!makeConfess(punch).
 
 /* Plans */
++scene(X) : _
+	<- -+currentScene(X).
+
++!resetScene : direction(left)
+	<- -+valence(1);
+	   -+arousal(1);
+	   -+dominance(-1);
+	   -+health(5);
+	   -+skit(free);
+	   anim(rest);
+	   !changeMood.
+
++!resetScene : direction(right)
+	<- -+valence(1);
+	   -+arousal(1);
+	   -+dominance(-1);
+	   -+health(5);
+	   -+skit(free);
+	   !changeDirection;
+	   anim(rest);
+	   !changeMood.
+
++currentScene(judy) : _
+	<- !resetScene;
+        !moveTo(stageRight);
+        !greet(punch);
+        !question(punch).
+
+-currentScene(_) : _
+	<- !moveTo(offstageRight);
+		.wait(2000);
+		!resetScene.
 
 
 // check emotion here
@@ -110,7 +138,7 @@ otherPos(offStageLeft).
 	+dead;
 	anim(dead);
 	.wait(2000);
-	!moveTo(offstageRight).
+	-currentScene(_).
 	//.send(narrative, achieve, endScene).
 
 

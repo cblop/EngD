@@ -94,6 +94,10 @@ public class EventSubscriber extends SensorClient {
                                     launcher.pshow.addEvent("anim", agname.m_object.toString(), 0, value.m_object.toString());
                             }
 
+                            if (functor.m_object.toString().equals("nextScene")) {
+                            	RunShow.nextScene();
+                            }
+
                             if (functor.m_object.toString().equals("emotion")) {
                                     launcher.pshow.addEvent("emotion", agname.m_object.toString(), 0, value.m_object.toString());
                             }

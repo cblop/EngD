@@ -62,11 +62,7 @@ dominance(1).
 
 
 /* Initial goals */
-!changeMood.
-!moveTo(stageLeft).
-!say_hi.
-!dominate.
-
+// none, they are scene dependant
 
 /* Plans */
 
@@ -76,7 +72,37 @@ dominance(1).
 +otherPos(X) : true
 	<- ?leftOf(Y, Z).
 */
+
++scene(X) : _
+	<- -+currentScene(X).
+	
++!resetScene : direction(right)
+	<- -+valence(0);
+	   -+arousal(0);
+	   -+dominance(1);
+	   -+skit(free);
+	   anim(rest);
+	   !changeMood.
+
++!resetScene : direction(left)
+	<- -+valence(0);
+	   -+arousal(0);
+	   -+dominance(1);
+	   -+skit(free);
+	   !changeDirection;
+	   anim(rest);
+	   !changeMood.
+
++currentScene(judy) : _
+	<- !resetScene;
+	   !moveTo(stageLeft);
+	   !say_hi;
+	   !dominate.
 	   
+-currentScene(_) : _
+	<- !moveTo(offstageLeft);
+		.wait(2000);
+		nextScene(next).
 
 +!boast : true
 	<- .print("Punch is boasting");
@@ -94,7 +120,7 @@ dominance(1).
 	   !increaseValence(R);
 	   .print("Punch has achieved his goal");
 	   .wait(2000);
-	   !moveTo(offstageLeft).
+	   -currentScene(_).
 
 +!dominate : not otherPos(offstageRight)
 	<- ?speed(X);

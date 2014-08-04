@@ -194,6 +194,14 @@ public class BsfAgent extends AgArch {
                                   m_plist.add(Literal.parseLiteral("otherAction(" + value.m_object.toString() + ")."));
                 }
               }
+              if (functor.m_object.toString().equals("scene")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "scene(" + value.m_object.toString() + ").";
+                                  m_plist.add(Literal.parseLiteral("scene(" + value.m_object.toString() + ")."));
+                }
+              }
 							
 						}
 
