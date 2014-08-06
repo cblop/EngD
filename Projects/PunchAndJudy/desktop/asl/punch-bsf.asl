@@ -100,7 +100,23 @@ dominance(1).
 	   !dominate.
 
 +currentScene(police) : _
-	<- !resetScene.
+	<- !resetScene;
+		-+skit(hide).
+
++skit(hide) : _
+	<- !hide.
+		
++otherPos(_) : skit(hide)
+	<- !hide.
+
++!hide : otherPos(stageLeft)
+	<- !moveTo(offstageRight).
+
++!hide : otherPos(stageRight)
+	<- !moveTo(offstageLeft).
+
++!hide : otherPos(stageCentre)
+	<- !moveTo(stageCentre).
 	   
 -currentScene(_) : _
 	<- !moveTo(offstageLeft);

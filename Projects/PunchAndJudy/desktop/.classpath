@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="assets"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="src" path="/pj-gdx-core"/>
+	<classpathentry kind="lib" path="/javaFramework/lib/json/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/javaFramework/lib/smack/smack-3.4.1-0cec571.jar"/>
+	<classpathentry kind="lib" path="libs/mongo-2.10.1.jar"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
-	<classpathentry kind="src" path="assets"/>
+	<classpathentry kind="lib" path="libs/jason.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/javaFramework"/>
-<<<<<<< HEAD
-	<classpathentry kind="lib" path="/javaFramework/lib/smack/smack-3.4.1-0cec571.jar"/>
-=======
-	<classpathentry kind="lib" path="libs/mongo-2.10.1.jar"/>
-	<classpathentry kind="lib" path="/javaFramework/lib/json/json-simple-1.1.1.jar"/>
->>>>>>> 149bbad1d0c5ba72e7add34ee2f99378e2c41952
 	<classpathentry kind="output" path="bin"/>
 </classpath>
