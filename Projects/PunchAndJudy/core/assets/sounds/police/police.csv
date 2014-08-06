@@ -1,0 +1,24 @@
+:greeting
+Allo allo allo!;police/police-hello
+:happy
+Lovely weather!;police/police-happy1
+Time for a lovely cup of tea!;police/police-happy2
+It's tough being a policeman.;police/police-happy3
+I'm here to stop some crime.;police/police-happy4
+Have you seen anyone suspicious?;police/police-happy5
+:annoyed
+How dare you?!;police/police-annoyed1
+I am an officer of the law!;police/police-annoyed2
+Show some respect!;police/police-annoyed3
+Quiet, you!;police/police-annoyed4
+Pipe down!;police/police-annoyed5
+:angry
+You are under arrest!;police/police-angry1
+You cannot resist the law.;police/police-angry2
+Time to pay for your crimes.;police/police-angry3
+Right. I'm taking you to prison.;police/police-angry4
+Take that!;police/police-angry5
+:search
+Where's Mr. Punch?;police/police-hello
+Where is he?;police/police-hello
+Have you seen him?;police/police-hello

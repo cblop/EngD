@@ -2,6 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="con" path="org.springsource.ide.eclipse.gradle.classpathcontainer"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/com/badlogicgames/gdx/gdx/1.2.0/gdx-1.2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pj-gdx-desktop"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

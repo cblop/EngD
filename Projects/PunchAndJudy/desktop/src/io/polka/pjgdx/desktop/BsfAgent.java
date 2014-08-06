@@ -7,6 +7,7 @@ import jason.asSemantics.Agent;
 import jason.asSemantics.Circumstance;
 import jason.asSemantics.TransitionSystem;
 import jason.asSyntax.Literal;
+import jason.asSyntax.Term;
 import jason.infra.centralised.RunCentralisedMAS;
 import jason.runtime.Settings;
 
@@ -15,6 +16,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -40,7 +42,7 @@ public class BsfAgent extends AgArch {
 	private String m_aslpath;
 
 	// Percept buffer
-	//private ArrayList<Literal> m_percept;
+	private ArrayList<Literal> m_plist;
 	public String m_percept;
 	
 	// sensorclients
@@ -65,6 +67,7 @@ public class BsfAgent extends AgArch {
 		String path = Paths.get("").toAbsolutePath().toString();
 		m_aslpath = path + "\\asl\\" + aslfile;
 		m_name = jid;
+		m_plist = new ArrayList<Literal>();
         try {
 			m_sc = new SensorClient(server, jid, password);
             //m_pub = new EventPublisher(m_sc.getConnection(), "user4", "testuser4", nodeName);
@@ -110,22 +113,107 @@ public class BsfAgent extends AgArch {
 			
 			
 			// m_sc.addHandler("NODE_NORM", new ReadingHandler() {
-			m_sc.addHandler("perceptnode", new ReadingHandler() {
+			m_sc.addHandler("new", new ReadingHandler() {
 				public void handleIncomingReading(String node, String rdf) {
 					try {
 						JsonReading jr = new JsonReading();
 						jr.fromJSON(rdf);
-						Value val = jr.findValue("EVENT");
-						if (val != null) {
-							/*
-							System.out.println(val.m_object);		
-							String lit = "obl(at("+ jr.findValue("posX").m_object+","+jr.findValue("posY").m_object +"),"+ jr.findValue("deadline").m_object + ",violation)";
-							m_percept = lit;
-							*/
-							System.out.println(val);
-							//m_percept = val.m_object.toString();
-						}
 						
+						Value agname = jr.findValue("AGENT");
+						Value functor = jr.findValue("FUNCTOR"); 
+						Value value = jr.findValue("VALUE"); 
+						
+						// How do I do this safely?
+						//@SuppressWarnings("unchecked")
+						//LinkedList<String> termList = (LinkedList<String>) terms.m_object;
+						
+						m_plist.clear();
+						
+						if (agname != null && functor != null && value != null) {
+              if (functor.m_object.toString().equals("say")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "otherSpeaking(" + value.m_object.toString() + ").";
+
+                                  /*
+                                  final Literal speaking = Literal.parseLiteral("otherSpeaking(" + termList.getFirst() + ").");
+                                  if (!m_plist.contains(speaking) & speaking != null) {
+                                          m_plist.add(speaking);
+                                  }
+                                  new Thread() {
+                                    public void run() {
+                                      try {
+                        Thread.sleep(2000);
+                        m_plist.remove(speaking);
+                        //m_plist.clear();
+                      } catch (InterruptedException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                      }
+                                    }
+                                  }.start();
+                                  */
+                }
+                
+                // looks like we'll need a percept buffer
+                //m_percept = "interruption.";
+              }
+              if (functor.m_object.toString().equals("move")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "otherMoved(" + value.m_object.toString() + ").";
+                                  
+                                  /*
+                                  final Literal moved = Literal.parseLiteral("otherMoved(" + termList.getFirst() + ").");
+                                  m_plist.add(moved);
+                                  if (!m_plist.contains(moved) & moved != null) {
+                                          m_plist.add(moved);
+                                  }
+                                  new Thread() {
+                                    public void run() {
+                                      try {
+                        Thread.sleep(300);
+                        m_plist.remove(moved);
+                        //m_plist.clear();
+                      } catch (InterruptedException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                      }
+                                    }
+                                  }.start();
+                                  */
+                }
+              }
+              if (functor.m_object.toString().equals("anim")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "otherAction(" + value.m_object.toString() + ").";
+                                  m_plist.add(Literal.parseLiteral("otherAction(" + value.m_object.toString() + ")."));
+                }
+              }
+              if (functor.m_object.toString().equals("scene")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "scene(" + value.m_object.toString() + ").";
+                                  m_plist.add(Literal.parseLiteral("scene(" + value.m_object.toString() + ")."));
+                }
+              }
+
+              if (functor.m_object.toString().equals("input")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "input(" + value.m_object.toString() + ").";
+                                  m_plist.add(Literal.parseLiteral("input(" + value.m_object.toString() + ")."));
+                }
+              }
+							
+						}
+
 						
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -134,9 +222,9 @@ public class BsfAgent extends AgArch {
 			});
 			
 			// SensorClient for percepts
-			m_sc.subscribe("perceptnode");
+			m_sc.subscribe("new");
 		} catch (XMPPException xe) {
-			System.out.println("failed to subscribe: " + "perceptnode");
+			System.out.println("failed to subscribe: " + "new");
 		}
 	}
 
@@ -164,23 +252,41 @@ public class BsfAgent extends AgArch {
     public List<Literal> perceive() {
         List<Literal> l = new ArrayList<Literal>();
         if (m_percept != null) {
+        //if (m_plist != null) {
 	    	l.add(Literal.parseLiteral(m_percept));
+        	/*
+        	for (Literal lit : m_plist) {
+        		l.add(lit);
+        	}
+        	*/
         }
+        //System.out.println("Number of percepts: " + l.size());
+        //if (l.size() > 0) {
+                //System.out.println("Percept: " + l.get(0).toString());
+        //}
         return l;
     }
 
     // this method get the agent actions
     @Override
     public void act(ActionExec action, List<ActionExec> feedback) {
-    	getTS().getLogger().info("Agent " + getAgName() + " is doing: " + action.getActionTerm());
+    	//getTS().getLogger().info("Agent " + getAgName() + " is doing: " + action.getActionTerm());
         String act = action.getActionTerm().toString();
+        List<Term> terms = action.getActionTerm().getTerms();
+        String val = null;
+        if (terms.size() > 0) {
+        	val = terms.get(0).toString();
+        }
+        //String val = null;
 
         if (act.isEmpty() == false)	{
-			System.out.println(this.getAgName() + ": " + "action string: " + act);
+			//System.out.println(this.getAgName() + ": " + "action string: " + act);
 			m_percept = null;
 
 			try {
-				m_pub.publishEvent(getAgName(), action.getActionTerm().getFunctor(), action.getActionTerm().getTerms());
+				if (val != null && val != "") {
+                        m_pub.publishEvent(getAgName(), action.getActionTerm().getFunctor(), val);
+				}
 			} catch (UnsupportedEncodingException e) {
 				System.out.println("Failed to publish action: " + act);
 			}
@@ -202,14 +308,17 @@ public class BsfAgent extends AgArch {
     }
 
     // a very simple implementation of sleep
+    /*
     @Override
     public void sleep() {
         try {
         	Thread.sleep(2000);
+        	System.out.println("Waiting");
         } catch (InterruptedException e) {
         	// no-op
         }
     }
+    */
     
     // Not used methods
     // This simple agent does not need messages/control/...

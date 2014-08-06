@@ -14,7 +14,7 @@ Timer tim;
 		Task eventTask = new Task(){
 		    @Override
 		    public void run() {
-		    	System.out.println("event triggered!");
+		    	//System.out.println("event triggered!");
 		    	ev.trigger();
 		    }
 		};

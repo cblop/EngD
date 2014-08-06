@@ -10,7 +10,21 @@ public class AnimEvent extends Event {
 	
 	@Override
 	protected void trigger() {
-		actor.setCurrentAnim(anim);
+		if (anim.equals("turn")) {
+			actor.turn();
+		}
+		else if (anim.equals("fast")) {
+			actor.setSpeed("fast");
+		}
+		else if (anim.equals("medium")) {
+			actor.setSpeed("medium");
+		}
+		else if (anim.equals("slow")) {
+			actor.setSpeed("slow");
+		}
+		else {
+      actor.setCurrentAnim(anim);
+		}
 	}
 
 }
