@@ -1,5 +1,7 @@
 package io.polka.pjgdx;
 
+import io.polka.pjgdx.desktop.RunShow;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -11,6 +13,7 @@ import java.util.Queue;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
@@ -19,6 +22,7 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
+
 
 public class PuppetShow extends ApplicationAdapter {
 	//SpriteBatch batch;
@@ -34,6 +38,7 @@ public class PuppetShow extends ApplicationAdapter {
 	private static EventHandler ehandler;
 	private List<Puppet> puppets = new ArrayList<Puppet>();
 	private float stateTime;
+	private BitmapFont font;
 	
 	public HashMap<String, Animation> processSprites(String name) {
         HashMap<String, Animation> anims = new HashMap<String, Animation>();
@@ -151,6 +156,7 @@ public class PuppetShow extends ApplicationAdapter {
 	public void create () {
 		//batch = new SpriteBatch(5460);
 		batch = new SpriteBatch();
+		font = new BitmapFont();
         stageTop = new Texture(Gdx.files.internal("pics/Stage-top.png"));
         stageUnder = new Texture(Gdx.files.internal("pics/Stage2.png"));
         HashMap<String, Animation> punchAnims = processSprites("punch");
@@ -260,6 +266,8 @@ public class PuppetShow extends ApplicationAdapter {
 	public void render () {
 		Gdx.gl.glClearColor(1, 0, 0, 1);
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+		
+		
 		batch.begin();
 		batch.draw(stageUnder, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		stateTime += Gdx.graphics.getDeltaTime();
@@ -277,6 +285,13 @@ public class PuppetShow extends ApplicationAdapter {
 			puppet.drawSubs(batch);
 			puppet.drawEmotion(batch);
 		}
+
+		if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
+			RunShow.publishInput("keyboard");
+			font.setColor(1f, 0f, 0f, 1f);
+			font.draw(batch, "AUDIENCE MAKES NOISE", (Gdx.graphics.getWidth() / 2) - 100, Gdx.graphics.getHeight() / 2);
+		}
+
 		batch.end();
 	}
 }

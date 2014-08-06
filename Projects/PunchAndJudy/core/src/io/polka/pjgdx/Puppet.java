@@ -81,7 +81,7 @@ public class Puppet {
 	public void drawEmotion(SpriteBatch batch) {
         if (emotion != null) {
                 font.setColor(1f, 1f, 0f, 1f);
-                font.draw(batch, emotion, getPos().x + 200, getPos().y + 200);
+                font.draw(batch, emotion, getPos().x + 250, getPos().y + 200);
         }
 		
 	}

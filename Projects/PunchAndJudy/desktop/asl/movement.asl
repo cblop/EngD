@@ -7,6 +7,11 @@ neighbour(X, Y) :- immLeft(X, Y) | immRight(X, Y).
 
 leftOf(X, Y) :- immLeft (X, Y) | locations(X, _, Y).
 rightOf(X, Y) :- immRight (X, Y) | locations(Y, _, X).
+
+opposite(X) :- pos(stageLeft) & locations(_, _, X).
+opposite(X) :- pos(stageRight) & locations(X, _, _).
+opposite(X) :- pos(stageCentre) & direction(right) & locations(_, _, X).
+opposite(X) :- pos(stageCentre) & direction(left) & locations(X, _, _).
 				
 at(X, Y) :- X == Y.
 
@@ -16,6 +21,9 @@ leftOfOther :- pos(X) & otherPos(Y) & leftOf(X, Y).
 
 otherBehind :- rightOfOther & direction(D) & D == right.
 otherBehind :- leftOfOther & direction(D) & D == left.
+
+canSeeOther :- pos(X) & otherPos(Y) & rightOf(X, Y) & direction(left).
+canSeeOther :- pos(X) & otherPos(Y) & leftOf(X, Y) & direction(right).
 
 
 /*
@@ -37,7 +45,8 @@ otherBehind :- leftOfOther & direction(D) & D == left.
 	<- -+otherPos(X).
 
 +!moveTo(X) : pos(Y)
-	<- -+pos(X);
+	<- anim(rest);
+		-+pos(X);
 	   move(X).
 
 +!moveForward : direction(left) & pos(stageLeft)

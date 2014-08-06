@@ -84,6 +84,16 @@ public class RunShow {
 		
 	}
 	
+	public static void publishInput(String type) {
+        try {
+                pubber.publishEvent("director", "input", type);
+        } catch (UnsupportedEncodingException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+        }
+		
+	}
+	
 	public static void nextScene() throws XMPPException {
 		if (sceneQueue.isEmpty()) {
 			// end the show

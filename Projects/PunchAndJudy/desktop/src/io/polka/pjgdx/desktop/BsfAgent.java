@@ -202,6 +202,15 @@ public class BsfAgent extends AgArch {
                                   m_plist.add(Literal.parseLiteral("scene(" + value.m_object.toString() + ")."));
                 }
               }
+
+              if (functor.m_object.toString().equals("input")) {
+                //System.out.println(termList.getFirst());
+                              // Something needs to be published that an agent is speaking
+                if (!agname.m_object.toString().equals(m_name)) {
+                                  m_percept = "input(" + value.m_object.toString() + ").";
+                                  m_plist.add(Literal.parseLiteral("input(" + value.m_object.toString() + ")."));
+                }
+              }
 							
 						}
 
@@ -299,14 +308,17 @@ public class BsfAgent extends AgArch {
     }
 
     // a very simple implementation of sleep
+    /*
     @Override
     public void sleep() {
         try {
-        	Thread.sleep(100);
+        	Thread.sleep(2000);
+        	System.out.println("Waiting");
         } catch (InterruptedException e) {
         	// no-op
         }
     }
+    */
     
     // Not used methods
     // This simple agent does not need messages/control/...

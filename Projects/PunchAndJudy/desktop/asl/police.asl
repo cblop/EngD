@@ -48,6 +48,7 @@ feeling(1, 0, malicious, fast).
 feeling(1, 1, excited, medium).
 
 speech(greeting, greeting).
+speech(search, search).
 speech(X, happy) :- X == alert | X == vigilant | X == excited.
 speech(X, annoyed) :- X == sulky | X == annoyed.
 speech(X, angry) :- X == angry | X == furious | X == vicious | X == malicious.
@@ -84,9 +85,67 @@ otherPos(offStageLeft).
 
 +currentScene(police) : _
 	<- !resetScene;
-        !moveTo(stageRight);
-        !greet(punch);
-        !question(punch).
+        !moveTo(stageCentre);
+        .wait(2000);
+        -+currentSkit(search).
+
+// could generalise this to X
+// check the emotion
++currentSkit(search) : _
+	<- !lookForPunch.
+		
+-!g[.print("Fail plan triggered")].
+
++currentSkit(search) : audienceYes
+	<-  anim(front);
+		!speak(search);
+		.wait(2000);
+		-audienceYes;
+		!lookForPunch.
+		
++!noiseDetected : _
+	<- _.
+
+		
++input(_) : _
+	<- -+audienceYes;
+		.print("AUDIENCE SAYS YES").
+		
++!lookForPunch : canSeeOther
+	<- _.
+		
++!lookForPunch : not canSeeOther
+	<-  anim(front);
+		!speak(search);
+		.wait("+audienceYes", 5000);
+		anim(rest);
+		!speak(search);
+		.wait(2000);
+		?opposite(X);
+		!moveTo(X);
+		.wait(2000);
+		!changeDirection;
+		.wait(3000);
+		.random(R);
+		.random(S);
+		!decreaseValence(R);
+		!increaseArousal(S);
+		!lookForPunch.
+
+-!lookForPunch : not emotion(sulky)
+	<- .random(R);
+		.random(S);
+		!decreaseValence(0.1);
+		!decreaseArousal(0.1);
+		anim(rest);
+		.wait(2000);
+		!changeDirection;
+		.wait(2000);
+		!lookForPunch.
+		
+-!lookForPunch : emotion(sulky)
+	<- !moveTo(offstageRight).
+
 
 -currentScene(_) : _
 	<- !moveTo(offstageRight);

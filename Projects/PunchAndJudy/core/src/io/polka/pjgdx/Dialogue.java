@@ -16,7 +16,9 @@ public class Dialogue {
 	
 	public void trigger () {
 		audio.play(1.0f);
+		
 	}
+
 	
 
 	public String getSubtitle() {

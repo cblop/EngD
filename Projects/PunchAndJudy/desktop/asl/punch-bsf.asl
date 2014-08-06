@@ -99,12 +99,8 @@ dominance(1).
 	   !say_hi;
 	   !dominate.
 
-// change this, obviously
 +currentScene(police) : _
-	<- !resetScene;
-	   !moveTo(stageLeft);
-	   !say_hi;
-	   !dominate.
+	<- !resetScene.
 	   
 -currentScene(_) : _
 	<- !moveTo(offstageLeft);

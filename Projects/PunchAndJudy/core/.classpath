@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="output" path="bin"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
-	<classpathentry kind="lib" path="/home/cblop/.m2/repository/com/badlogicgames/gdx/gdx/1.2.0/gdx-1.2.0.jar" exported="true"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/home/cblop/.m2/repository/com/badlogicgames/gdx/gdx/1.2.0/gdx-1.2.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pj-gdx-desktop"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
