@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PunchAndJudy.iml" filepath="$PROJECT_DIR$/PunchAndJudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/pj-gdx-core.iml" filepath="$PROJECT_DIR$/core/pj-gdx-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desktop/pj-gdx-desktop.iml" filepath="$PROJECT_DIR$/desktop/pj-gdx-desktop.iml" />
+    </modules>
+  </component>
+</project>
+

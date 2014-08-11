@@ -1,6 +1,5 @@
 # Siggraph 2014 schedule
 
-
 ## Sunday 10 August
 
 10:45 - 12:15
