@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/contract-net-protocol
+END
+pr.asl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/contract-net-protocol/pr.asl
+END
+c.asl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/contract-net-protocol/c.asl
+END
+ContractNetProtocol.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/contract-net-protocol/ContractNetProtocol.mas2j
+END
+pn.asl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/contract-net-protocol/pn.asl
+END
+p.asl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/contract-net-protocol/p.asl
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/tell-rule
+END
+tell-rule.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/tell-rule/tell-rule.mas2j
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/tell-rule/logging.properties
+END
+receiver.asl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/tell-rule/receiver.asl
+END
+sender.asl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/tell-rule/sender.asl
+END

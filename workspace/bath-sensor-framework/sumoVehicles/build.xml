@@ -1,0 +1,182 @@
+<project name="sumoVehicles" default="run-gui-m25" basedir=".">
+    <description>
+        sumo Vehicle build file v1
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="run-gui-m25"  location="run-gui-m25"/>
+  <property name="run-m25"  location="run-m25"/>
+  <property name="run-gui-bath"  location="run-gui-bath"/>
+  <property name="run-bath"  location="run-bath"/>
+  <property name="dist"  location="dist"/>
+  
+  <path id="project.class.path">
+      <fileset erroronmissingdir="false" dir="${lib}/../../javaFramework/dist">
+        <include name="**/*.jar" />
+    </fileset>
+    <fileset dir="${lib}/../../javaFramework/lib/smack">
+        <include name="**/*.jar" />
+    </fileset>
+    <fileset dir="${lib}/../../javaFramework/lib/jena">
+        <include name="**/*.jar" />
+    </fileset>
+    <fileset dir="lib">
+        <include name="**/*.jar" />
+    </fileset>
+  </path>
+  
+     <condition property="is_windows">
+        <os family="windows"/>
+    </condition>
+	<condition property="is_unix">
+        <os family="unix"/>
+    </condition>
+  
+  <property name="dep_cp" value="${toString:project.class.path}" />
+
+  <target name="init">
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+		
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" includeantruntime="false">
+	<classpath refid="project.class.path"/>
+    </javac>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+    <!-- Create the distribution directory and copy jar files before we define our self contained classpath -->
+    <mkdir dir="${dist}"/>
+    <copy todir="${dist}" flatten="true">
+	<path>
+		<pathelement path="${dep_cp}"/>
+	</path>
+    </copy>
+      
+    <!-- Now can set up the paths for these jar files -->  
+    <path id="dist-classpath">
+	<fileset dir="${dist}">
+		<include name="**/*.jar" />
+	</fileset>
+    </path>
+    <property name="dist_cp" value="${toString:dist-classpath}" />
+    <manifestclasspath property="lib.list" jarfile="sumoVehicles.jar">
+	<classpath refid="dist-classpath" />
+    </manifestclasspath>
+      
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar jarfile="${dist}/sumoVehicles.jar" basedir="${build}">
+	<manifest>
+		<attribute name="Class-Path" value=". ${lib.list}"/>
+        </manifest>
+    </jar>
+  </target>
+  
+    <target name="runWinGUIM25" depends="dist" if="is_windows">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=.\sumobin\win\sumo-gui.exe"/>
+		<arg value="m25"/>
+	</java>
+    </target>  
+	
+	<target name="runUnixGUIM25" depends="dist" if="is_unix">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=./sumobin/ubuntu/sumo-gui"/>
+		<arg value="m25"/>
+	</java>
+    </target> 
+
+	<target name="runUnixGUIM25VSL" depends="dist" if="is_unix">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=./sumobin/ubuntu/sumo-gui"/>
+		<arg value="m25-vsl"/>
+	</java>
+    </target> 
+
+	<target name="runUnixGUIM25Crash" depends="dist" if="is_unix">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=./sumobin/ubuntu/sumo-gui"/>
+		<arg value="m25-crash"/>
+	</java>
+    </target> 
+
+    <target name="runWinM25" depends="dist" if="is_windows">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=.\sumobin\win\sumo.exe"/>
+		<arg value="m25"/>
+	</java>
+    </target>  
+	
+	<target name="runUnixM25" depends="dist" if="is_unix">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=./sumobin/ubuntu/sumo"/>
+		<arg value="m25"/>
+	</java>
+    </target>  	
+	
+	<target name="runWinGUIBath" depends="dist" if="is_windows">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=.\sumobin\win\sumo-gui.exe"/>
+		<arg value="bath"/>
+	</java>
+    </target>  
+	
+	<target name="runUnixGUIBath" depends="dist" if="is_unix">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=./sumobin/ubuntu/sumo-gui"/>
+		<arg value="bath"/>
+	</java>
+    </target> 
+
+    <target name="runWinBath" depends="dist" if="is_windows">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=.\sumobin\win\sumo.exe"/>
+		<arg value="bath"/>
+	</java>
+    </target>  
+	
+	<target name="runUnixBath" depends="dist" if="is_unix">
+	<java fork="true" classpath="${dist_cp}" classname="edu.bath.sumoVehicles.sumoXMPPSim" > 
+		<jvmarg value="-Dit.polito.appeal.traci.sumo_exe=./sumobin/ubuntu/sumo"/>
+		<arg value="bath"/>
+	</java>
+    </target>  
+	
+
+    <target name="run-gui-m25" depends="dist, runWinGUIM25, runUnixGUIM25" description="Run SUMO with GUI and M25 scenario">
+		<!-- messy maybe, works I hope, basically call two targets on the hope that one or the other would work -->
+    </target> 
+
+    <target name="run-gui-m25-vsl" depends="dist, runWinGUIM25, runUnixGUIM25VSL" description="Run SUMO with GUI and M25 VSL scenario">
+		<!-- messy maybe, works I hope, basically call two targets on the hope that one or the other would work -->
+    </target> 
+
+    <target name="run-gui-m25-crash" depends="dist, runWinGUIM25, runUnixGUIM25Crash" description="Run SUMO with GUI and M25 crash scenario">
+		<!-- messy maybe, works I hope, basically call two targets on the hope that one or the other would work -->
+    </target> 
+
+    <target name="run-m25" depends="dist, runWinM25, runUnixM25" description="Run SUMO without GUI and M25 scenario">
+		<!-- messy maybe, works I hope, basically call two targets on the hope that one or the other would work -->
+    </target>   	
+
+	<target name="run-gui-bath" depends="dist, runWinGUIBath, runUnixGUIBath" description="Run SUMO with GUI and Bath scenario">
+		<!-- messy maybe, works I hope, basically call two targets on the hope that one or the other would work -->
+    </target> 
+
+    <target name="run-bath" depends="dist, runWinBath, runUnixBath" description="Run SUMO without GUI and Bath scenario">
+		<!-- messy maybe, works I hope, basically call two targets on the hope that one or the other would work -->
+    </target>  
+	 
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>

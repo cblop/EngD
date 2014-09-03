@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1404206212507_2" label="pj-gdx" name="pj-gdx"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1404210334139_3" label="libgdx-demo-cuboc" name="libgdx-demo-cuboc">
+<item elementID="=libgdx-demo-cuboc-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=libgdx-demo-cuboc-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=libgdx-demo-cuboc" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1405415693260_4" label="PunchAndJudy" name="PunchAndJudy">
+<item elementID="=pj-gdx-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=pj-gdx-desktop" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PunchAndJudy" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1407317121789_5" label="gdxtest" name="gdxtest">
+<item elementID="=gdxtest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=my-gdx-game-core" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1382627532032_0" label="Window Working Set" name="Aggregate for window 1382627532031"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1382705177246_1" label="Window Working Set" name="Aggregate for window 1382705177246"/>
+</workingSetManager>

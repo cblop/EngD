@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Java
+END
+Get_Class_Name.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Java/Get_Class_Name.bsh
+END
+Preview_JavaDoc_Of_Current_Buffer.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Java/Preview_JavaDoc_Of_Current_Buffer.bsh
+END
+Create_Constructor.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Java/Create_Constructor.bsh
+END
+Get_Package_Name.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Java/Get_Package_Name.bsh
+END
+Make_Get_and_Set_Methods.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Java/Make_Get_and_Set_Methods.bsh
+END
+Java_File_Save.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Java/Java_File_Save.bsh
+END

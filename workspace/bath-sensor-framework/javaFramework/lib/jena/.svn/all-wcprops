@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena
+END
+jena-core-2.11.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/jena-core-2.11.0.jar
+END
+httpclient-4.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/httpclient-4.2.3.jar
+END
+jena-sdb-1.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/jena-sdb-1.4.0.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/log4j-1.2.16.jar
+END
+jcl-over-slf4j-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/jcl-over-slf4j-1.6.4.jar
+END
+slf4j-log4j12-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/slf4j-log4j12-1.6.4.jar
+END
+jena-iri-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/jena-iri-1.0.0.jar
+END
+xercesImpl-2.11.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/xercesImpl-2.11.0.jar
+END
+commons-codec-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/commons-codec-1.6.jar
+END
+httpcore-4.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/httpcore-4.2.2.jar
+END
+xml-apis-1.4.01.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/xml-apis-1.4.01.jar
+END
+jena-arq-2.11.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/jena-arq-2.11.0.jar
+END
+slf4j-api-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/slf4j-api-1.6.4.jar
+END
+jena-tdb-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/210/trunk/javaFramework/lib/jena/jena-tdb-1.0.0.jar
+END

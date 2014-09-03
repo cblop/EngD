@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/communication
+END
+bob.asl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/communication/bob.asl
+END
+Communication.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/communication/Communication.mas2j
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/communication/logging.properties
+END
+maria.asl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/communication/maria.asl
+END
+sniffer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/communication/sniffer.properties
+END

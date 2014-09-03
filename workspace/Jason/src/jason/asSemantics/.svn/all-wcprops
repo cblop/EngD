@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/308/trunk/virtual_agent/Jason/src/jason/asSemantics
+END
+Unifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/Unifier.java
+END
+QueryCacheKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/QueryCacheKey.java
+END
+QueryCacheSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/QueryCacheSimple.java
+END
+IntentionScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/308/trunk/virtual_agent/Jason/src/jason/asSemantics/IntentionScheduler.java
+END
+Intention.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/146/trunk/virtual_agent/Jason/src/jason/asSemantics/Intention.java
+END
+Option.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/Option.java
+END
+InternalAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/InternalAction.java
+END
+ConcurrentInternalAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/ConcurrentInternalAction.java
+END
+ArithFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/ArithFunction.java
+END
+IntendedMeans.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/254/trunk/virtual_agent/Jason/src/jason/asSemantics/IntendedMeans.java
+END
+DefaultInternalAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/DefaultInternalAction.java
+END
+Circumstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/Circumstance.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/Event.java
+END
+DefaultArithFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/DefaultArithFunction.java
+END
+ActionExec.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/ActionExec.java
+END
+QueryCacheAdv.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/QueryCacheAdv.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/Message.java
+END
+CircumstanceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/CircumstanceListener.java
+END
+GoalListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/GoalListener.java
+END
+GoalListenerForMetaEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSemantics/GoalListenerForMetaEvents.java
+END
+Agent.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/146/trunk/virtual_agent/Jason/src/jason/asSemantics/Agent.java
+END
+TransitionSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/164/trunk/virtual_agent/Jason/src/jason/asSemantics/TransitionSystem.java
+END

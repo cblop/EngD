@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing
+END
+Greedy_Left.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Greedy_Left.bsh
+END
+Greedy_Backspace.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Greedy_Backspace.bsh
+END
+Emacs_Previous_Line.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Emacs_Previous_Line.bsh
+END
+Mode_Switcher.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Mode_Switcher.bsh
+END
+Greedy_Right.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Greedy_Right.bsh
+END
+Emacs_Next_Line.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Emacs_Next_Line.bsh
+END
+Keywords_to_Upper_Case.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Keywords_to_Upper_Case.bsh
+END
+Greedy_Delete.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Greedy_Delete.bsh
+END
+Move_Line_Up.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Move_Line_Up.bsh
+END
+Go_to_Column.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Go_to_Column.bsh
+END
+Move_Line_Down.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Editing/Move_Line_Down.bsh
+END

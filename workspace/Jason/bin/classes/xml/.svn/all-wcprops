@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/xml
+END
+ag2tex.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/xml/ag2tex.xsl
+END
+mindExample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/xml/mindExample.xml
+END
+asl2tex.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/xml/asl2tex.xsl
+END
+agInspection.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/xml/agInspection.xsl
+END
+asl2html.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/xml/asl2html.xsl
+END

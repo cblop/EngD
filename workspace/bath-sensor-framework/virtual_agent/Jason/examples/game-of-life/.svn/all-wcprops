@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/game-of-life
+END
+LifeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/game-of-life/LifeView.java
+END
+cell.asl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/game-of-life/cell.asl
+END
+LifeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/game-of-life/LifeModel.java
+END
+game-of-life.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/game-of-life/game-of-life.mas2j
+END
+LifeEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/game-of-life/LifeEnvironment.java
+END
+sniffer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/game-of-life/sniffer.properties
+END

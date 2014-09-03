@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/environment/grid
+END
+Area.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/environment/grid/Area.java
+END
+GridWorldView.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/environment/grid/GridWorldView.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/environment/grid/Location.java
+END
+GridWorldModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/environment/grid/GridWorldModel.java
+END

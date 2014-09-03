@@ -1,0 +1,52 @@
+10
+
+dir
+343
+http://bsf.googlecode.com/svn/trunk/virtual_agent/norms/inst_model
+http://bsf.googlecode.com/svn
+
+
+
+2014-06-30T19:50:41.149272Z
+343
+v.f.baines@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b0307907-c4f4-516f-c347-96fa60e2197e
+
+vsl_model
+dir
+
+queue_model
+dir
+
+roadusers_model
+dir
+
+trafficlights_model
+dir
+
+translator
+dir
+
+multi_model
+dir
+
+clingo
+dir
+
+ipd_model
+dir
+

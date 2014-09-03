@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment
+END
+count.asl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/count.asl
+END
+Env.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/Env.java
+END
+dcount.asl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/dcount.asl
+END
+act-sync.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/act-sync.mas2j
+END
+b.asl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/b.asl
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/logging.properties
+END
+EnvSync.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/EnvSync.java
+END
+bount.asl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/sync-environment/bount.asl
+END

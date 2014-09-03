@@ -1,0 +1,83 @@
+10
+
+dir
+343
+http://bsf.googlecode.com/svn/trunk/virtual_agent/Jason/src
+http://bsf.googlecode.com/svn
+
+
+
+2014-04-11T15:36:23.394397Z
+308
+jeehanglee@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b0307907-c4f4-516f-c347-96fa60e2197e
+
+jeditPlugin
+dir
+
+templates
+dir
+
+test
+dir
+
+asl
+dir
+
+xml
+dir
+
+jasonKeystore
+file
+
+
+
+
+2014-07-01T10:47:34.985119Z
+9400853a771b5d78ffbb187df9fc51f9
+2013-06-05T21:37:35.427316Z
+119
+jeehanglee@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1229
+
+images
+dir
+
+jason
+dir
+

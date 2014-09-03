@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files
+END
+Browse_Directory.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Browse_Directory.bsh
+END
+Open_Selection.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Open_Selection.bsh
+END
+Copy_Path_to_Clipboard.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Copy_Path_to_Clipboard.bsh
+END
+Glob_Close.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Glob_Close.bsh
+END
+Insert_Selection.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Insert_Selection.bsh
+END
+Copy_Name_to_Clipboard.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Copy_Name_to_Clipboard.bsh
+END
+Open_Path.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Open_Path.bsh
+END
+Toggle_ReadOnly.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Toggle_ReadOnly.bsh
+END
+Close_All_Except_Active.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Close_All_Except_Active.bsh
+END
+Buffer_Switcher.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Buffer_Switcher.bsh
+END
+Next_Dirty_Buffer.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Next_Dirty_Buffer.bsh
+END
+Delete_Current.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Files/Delete_Current.bsh
+END

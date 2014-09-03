@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/308/trunk/virtual_agent/Jason/src/jason
+END
+ReceiverNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/ReceiverNotFoundException.java
+END
+RevisionFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/RevisionFailedException.java
+END
+JasonException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/JasonException.java
+END

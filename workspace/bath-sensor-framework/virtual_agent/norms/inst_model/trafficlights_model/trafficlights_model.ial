@@ -1,0 +1,66 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Roadusers institution based on earlier queue_model
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% institution queue 
+institution queue;
+
+%%% component 
+type Agent;
+type TargetAgent;
+type Type; 
+
+%%% creation event
+create event createQueue;
+
+%%% exogenous event
+exogenous event newArrival(Agent,Type);   % new agent arrives 
+exogenous event detectDisable(Agent);     % agent detects some disable agent approaching 
+
+exogenous event queueLast(Agent);   % event for agent to join the end of queue
+exogenous event yield(Agent);      % event for agent to yield 
+exogenous event deadline; 
+exogenous event changeLane(Agent);
+exogenous event flashLights(Agent);
+exogenous event reduceSpeed(Agent);
+exogenous event upcomingRedLight(Agent);
+
+%%% institutional events
+inst event iniOblQueueLast(Agent,Type); 
+inst event iniOblYield(Agent);
+inst event iniOblChangeLane(Agent);
+inst event iniOblSlowDown(Agent);
+
+%%% violation event
+violation event vioQueue(Agent); 
+violation event vioYield(Agent); 
+
+%%% fluents
+
+%%% rule 1: for new arrival agent %%% 
+newArrival(Agent,Type) generates iniOblQueueLast(Agent,Type); 
+iniOblQueueLast(Agent,Type) initiates perm(queueLast(Agent)), obl(queueLast(Agent), deadline, vioQueue(Agent));
+
+flashLights(Agent) generates iniOblChangeLane(Agent);
+iniOblChangeLane(Agent) initiates perm(changeLane(Agent)), obl(changeLane(Agent), deadline, vioQueue(Agent));
+
+upcomingRedLight(Agent) generates iniOblSlowDown(Agent);
+iniOblSlowDown(Agent) initiates perm(reduceSpeed(Agent)), obl(reduceSpeed(Agent), deadline, vioQueue(Agent));
+
+%%% rule 2: for agent who detects disable %%% 
+
+detectDisable(Agent) generates iniOblYield(Agent);
+iniOblYield(Agent) initiates perm(yield(Agent)),obl(yield(Agent), deadline, vioYield(Agent));
+
+%%% initiate permissions and empowerment  
+initially perm(deadline);
+initially perm(flashLights(Agent));
+initially perm(iniOblChangeLane(Agent)), pow(iniOblChangeLane(Agent));
+initially perm(upcomingRedLight(Agent));
+initially perm(iniOblSlowDown(Agent)), pow(iniOblSlowDown(Agent));
+initially perm(iniOblQueueLast(Agent,Type)), pow(iniOblQueueLast(Agent,Type));
+initially perm(iniOblYield(Agent)), pow(iniOblYield(Agent));
+initially perm(newArrival(Agent,Type));
+initially perm(detectDisable(Agent));

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb
+END
+BeliefBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/BeliefBase.java
+END
+IndexedBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/IndexedBB.java
+END
+ChainBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/ChainBB.java
+END
+AgentJDBCPersistentBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/AgentJDBCPersistentBB.java
+END
+DefaultBeliefBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/DefaultBeliefBase.java
+END
+ChainBBAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/ChainBBAdapter.java
+END
+JDBCPersistentBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/JDBCPersistentBB.java
+END
+TextPersistentBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/bb/TextPersistentBB.java
+END

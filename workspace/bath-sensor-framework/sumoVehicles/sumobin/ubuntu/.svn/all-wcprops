@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu
+END
+dfrouter
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/dfrouter
+END
+jtrrouter
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/jtrrouter
+END
+netgenerate
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/netgenerate
+END
+TraCITestClient
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/312/trunk/sumoVehicles/sumobin/ubuntu/TraCITestClient
+END
+trafficmodeler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/298/trunk/sumoVehicles/sumobin/ubuntu/trafficmodeler.jar
+END
+sumo-gui
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/sumo-gui
+END
+od2trips
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/od2trips
+END
+emissionsMap
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/emissionsMap
+END
+duarouter
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/duarouter
+END
+emissionsDrivingCycle
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/emissionsDrivingCycle
+END
+sumo
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/sumo
+END
+polyconvert
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/polyconvert
+END
+TraaS.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/298/trunk/sumoVehicles/sumobin/ubuntu/TraaS.jar
+END
+activitygen
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/activitygen
+END
+netconvert
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/318/trunk/sumoVehicles/sumobin/ubuntu/netconvert
+END

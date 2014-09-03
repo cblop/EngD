@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates
+END
+environment
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/environment
+END
+project
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/project
+END
+build-template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/build-template.xml
+END
+ia
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/ia
+END
+jnlp-template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/jnlp-template.xml
+END
+agent
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/agent
+END
+CArtAgOartifact
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/CArtAgOartifact
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/templates/logging.properties
+END

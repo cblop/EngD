@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/164/trunk/virtual_agent/Jason/src/jason/asSyntax
+END
+BodyLiteral.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/BodyLiteral.java
+END
+StringTermImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/StringTermImpl.java
+END
+ObjectTermImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/ObjectTermImpl.java
+END
+LogExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/LogExpr.java
+END
+ListTermImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/ListTermImpl.java
+END
+InternalActionLiteral.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/InternalActionLiteral.java
+END
+Plan.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/146/trunk/virtual_agent/Jason/src/jason/asSyntax/Plan.java
+END
+PlanBodyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/PlanBodyImpl.java
+END
+Pred.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/145/trunk/virtual_agent/Jason/src/jason/asSyntax/Pred.java
+END
+PredicateIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/PredicateIndicator.java
+END
+ObjectTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/ObjectTerm.java
+END
+StringTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/StringTerm.java
+END
+NumberTermImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/NumberTermImpl.java
+END
+ListTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/ListTerm.java
+END
+BinaryStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/BinaryStructure.java
+END
+ArithFunctionTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/ArithFunctionTerm.java
+END
+Term.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/Term.java
+END
+Rule.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/Rule.java
+END
+PlanBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/PlanBody.java
+END
+ASSyntax.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/ASSyntax.java
+END
+SourceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/SourceInfo.java
+END
+DefaultTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/DefaultTerm.java
+END
+LiteralImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/129/trunk/virtual_agent/Jason/src/jason/asSyntax/LiteralImpl.java
+END
+PlanLibrary.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/164/trunk/virtual_agent/Jason/src/jason/asSyntax/PlanLibrary.java
+END
+NumberTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/NumberTerm.java
+END
+VarTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/VarTerm.java
+END
+RelExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/RelExpr.java
+END
+Literal.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/129/trunk/virtual_agent/Jason/src/jason/asSyntax/Literal.java
+END
+CyclicTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/CyclicTerm.java
+END
+Structure.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/Structure.java
+END
+UnnamedVar.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/UnnamedVar.java
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/Atom.java
+END
+LogicalFormula.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/LogicalFormula.java
+END
+Trigger.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/Trigger.java
+END
+ArithExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/asSyntax/ArithExpr.java
+END

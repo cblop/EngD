@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/320/trunk/javaFramework
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/33/trunk/javaFramework/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/182/trunk/javaFramework/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/33/trunk/javaFramework/.classpath
+END

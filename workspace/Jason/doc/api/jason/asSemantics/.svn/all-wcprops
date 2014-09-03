@@ -1,0 +1,599 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics
+END
+ConcurrentInternalAction.map
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ConcurrentInternalAction.map
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/package-tree.html
+END
+Intention.dot
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Intention.dot
+END
+Event.map
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Event.map
+END
+Option.dot
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Option.dot
+END
+QueryCacheAdv.map
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheAdv.map
+END
+TransitionSystem.State.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.State.png
+END
+ConcurrentInternalAction.dot
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ConcurrentInternalAction.dot
+END
+ActionExec.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ActionExec.png
+END
+QueryCacheSimple.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheSimple.html
+END
+Event.dot
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Event.dot
+END
+Message.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Message.png
+END
+CircumstanceListener.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/CircumstanceListener.png
+END
+QueryCacheAdv.dot
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheAdv.dot
+END
+DefaultInternalAction.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultInternalAction.html
+END
+Circumstance.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Circumstance.html
+END
+Unifier.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Unifier.png
+END
+QueryCacheKey.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheKey.png
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/package-frame.html
+END
+TransitionSystem.State.map
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.State.map
+END
+ActionExec.map
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ActionExec.map
+END
+GoalListenerForMetaEvents.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListenerForMetaEvents.html
+END
+Message.map
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Message.map
+END
+CircumstanceListener.map
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/CircumstanceListener.map
+END
+TransitionSystem.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.html
+END
+Circumstance.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Circumstance.png
+END
+TransitionSystem.State.dot
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.State.dot
+END
+Unifier.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Unifier.html
+END
+DefaultArithFunction.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultArithFunction.png
+END
+jason.asSemantics.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/jason.asSemantics.png
+END
+ActionExec.dot
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ActionExec.dot
+END
+Message.dot
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Message.dot
+END
+Intention.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Intention.html
+END
+CircumstanceListener.dot
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/CircumstanceListener.dot
+END
+Unifier.map
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Unifier.map
+END
+QueryCacheKey.map
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheKey.map
+END
+GoalListener.GoalStates.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.GoalStates.png
+END
+Agent.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Agent.png
+END
+TransitionSystem.State.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.State.html
+END
+ActionExec.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ActionExec.html
+END
+QueryCacheSimple.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheSimple.png
+END
+Unifier.dot
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Unifier.dot
+END
+QueryCacheKey.dot
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheKey.dot
+END
+CircumstanceListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/CircumstanceListener.html
+END
+GoalListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.html
+END
+Circumstance.map
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Circumstance.map
+END
+InternalAction.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/InternalAction.png
+END
+DefaultArithFunction.map
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultArithFunction.map
+END
+jason.asSemantics.map
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/jason.asSemantics.map
+END
+ArithFunction.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ArithFunction.png
+END
+GoalListener.GoalStates.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.GoalStates.html
+END
+IntendedMeans.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/IntendedMeans.png
+END
+DefaultInternalAction.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultInternalAction.png
+END
+Circumstance.dot
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Circumstance.dot
+END
+QueryCacheKey.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheKey.html
+END
+DefaultArithFunction.dot
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultArithFunction.dot
+END
+jason.asSemantics.dot
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/jason.asSemantics.dot
+END
+GoalListener.GoalStates.map
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.GoalStates.map
+END
+Agent.map
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Agent.map
+END
+Option.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Option.html
+END
+GoalListener.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.png
+END
+GoalListenerForMetaEvents.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListenerForMetaEvents.png
+END
+QueryCacheSimple.map
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheSimple.map
+END
+ArithFunction.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ArithFunction.html
+END
+GoalListener.GoalStates.dot
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.GoalStates.dot
+END
+TransitionSystem.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.png
+END
+Agent.dot
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Agent.dot
+END
+DefaultArithFunction.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultArithFunction.html
+END
+InternalAction.map
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/InternalAction.map
+END
+QueryCacheAdv.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheAdv.html
+END
+QueryCacheSimple.dot
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheSimple.dot
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/package-use.html
+END
+ArithFunction.map
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ArithFunction.map
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/package-summary.html
+END
+IntendedMeans.map
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/IntendedMeans.map
+END
+Intention.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Intention.png
+END
+DefaultInternalAction.map
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultInternalAction.map
+END
+Option.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Option.png
+END
+InternalAction.dot
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/InternalAction.dot
+END
+ConcurrentInternalAction.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ConcurrentInternalAction.png
+END
+Agent.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Agent.html
+END
+ArithFunction.dot
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ArithFunction.dot
+END
+IntendedMeans.dot
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/IntendedMeans.dot
+END
+Event.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Event.png
+END
+DefaultInternalAction.dot
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/DefaultInternalAction.dot
+END
+GoalListener.map
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.map
+END
+GoalListenerForMetaEvents.map
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListenerForMetaEvents.map
+END
+QueryCacheAdv.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/QueryCacheAdv.png
+END
+TransitionSystem.map
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.map
+END
+InternalAction.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/InternalAction.html
+END
+GoalListener.dot
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListener.dot
+END
+GoalListenerForMetaEvents.dot
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/GoalListenerForMetaEvents.dot
+END
+ConcurrentInternalAction.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/ConcurrentInternalAction.html
+END
+IntendedMeans.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/IntendedMeans.html
+END
+Intention.map
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Intention.map
+END
+TransitionSystem.dot
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/TransitionSystem.dot
+END
+Event.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Event.html
+END
+Option.map
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Option.map
+END
+Message.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSemantics/Message.html
+END

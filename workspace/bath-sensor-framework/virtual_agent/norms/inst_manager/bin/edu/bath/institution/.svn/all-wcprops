@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/126/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution
+END
+ReturnCode.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/ReturnCode.class
+END
+StateSensor.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/StateSensor.class
+END
+Extractor.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/Extractor.class
+END
+Contract.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/Contract.class
+END
+StateSensor$InstChatManagerListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/StateSensor$InstChatManagerListener.class
+END
+Test.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/Test.class
+END
+TextWriter.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/126/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/TextWriter.class
+END
+InstManager$ChatMsgHandler.class
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/InstManager$ChatMsgHandler.class
+END
+Governor.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/126/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/Governor.class
+END
+InstQuery.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/InstQuery.class
+END
+ScriptProcessor.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/126/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/ScriptProcessor.class
+END
+InstManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_manager/bin/edu/bath/institution/InstManager.class
+END

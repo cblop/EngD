@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/332/trunk/rdfUtils
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/305/trunk/rdfUtils/build.xml
+END
+createVid.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/284/trunk/rdfUtils/createVid.sh
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/320/trunk/rdfUtils/config.txt
+END

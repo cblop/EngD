@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/sniffer
+END
+bob.asl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/sniffer/bob.asl
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/sniffer/logging.properties
+END
+monitor.asl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/sniffer/monitor.asl
+END
+Sniffer.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/sniffer/Sniffer.mas2j
+END
+maria.asl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/sniffer/maria.asl
+END

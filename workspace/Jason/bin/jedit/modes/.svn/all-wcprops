@@ -1,0 +1,821 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes
+END
+splus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/splus.xml
+END
+pl-sql.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/pl-sql.xml
+END
+erlang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/erlang.xml
+END
+rib.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/rib.xml
+END
+rest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/rest.xml
+END
+bibtex.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/bibtex.xml
+END
+antlr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/antlr.xml
+END
+jmk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/jmk.xml
+END
+c.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/c.xml
+END
+tsql.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/tsql.xml
+END
+sdl_pr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/sdl_pr.xml
+END
+hex.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/hex.xml
+END
+assembly-parrot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/assembly-parrot.xml
+END
+icon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/icon.xml
+END
+dsssl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/dsssl.xml
+END
+maple.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/maple.xml
+END
+xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/xml.xml
+END
+tex.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/tex.xml
+END
+pop11.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/pop11.xml
+END
+actionscript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/actionscript.xml
+END
+assembly-x86.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/assembly-x86.xml
+END
+mqsc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/mqsc.xml
+END
+ada95.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/ada95.xml
+END
+assembly-mcs51.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/assembly-mcs51.xml
+END
+idl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/idl.xml
+END
+pvwave.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/pvwave.xml
+END
+occam.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/occam.xml
+END
+freemarker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/freemarker.xml
+END
+objective-c.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/objective-c.xml
+END
+cobol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/cobol.xml
+END
+inno-setup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/inno-setup.xml
+END
+jcl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/jcl.xml
+END
+postscript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/postscript.xml
+END
+catalog
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/catalog
+END
+latex.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/latex.xml
+END
+csharp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/csharp.xml
+END
+java.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/java.xml
+END
+mail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/mail.xml
+END
+agentSpeak.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/agentSpeak.xml
+END
+smalltalk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/smalltalk.xml
+END
+gettext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/gettext.xml
+END
+sas.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/sas.xml
+END
+inform.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/inform.xml
+END
+eiffel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/eiffel.xml
+END
+jsp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/jsp.xml
+END
+vhdl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/vhdl.xml
+END
+netrexx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/netrexx.xml
+END
+nsis2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/nsis2.xml
+END
+lotos.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/lotos.xml
+END
+ssharp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/ssharp.xml
+END
+pascal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/pascal.xml
+END
+io.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/io.xml
+END
+ml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/ml.xml
+END
+rpmspec.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/rpmspec.xml
+END
+jhtml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/jhtml.xml
+END
+assembly-macro32.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/assembly-macro32.xml
+END
+rhtml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/rhtml.xml
+END
+embperl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/embperl.xml
+END
+shtml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/shtml.xml
+END
+chill.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/chill.xml
+END
+shellscript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/shellscript.xml
+END
+smi-mib.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/smi-mib.xml
+END
+ptl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/ptl.xml
+END
+rebol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/rebol.xml
+END
+redcode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/redcode.xml
+END
+verilog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/verilog.xml
+END
+foxpro.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/foxpro.xml
+END
+zpt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/zpt.xml
+END
+b.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/b.xml
+END
+nqc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/nqc.xml
+END
+lua.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/lua.xml
+END
+awk.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/awk.xml
+END
+d.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/d.xml
+END
+haskell.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/haskell.xml
+END
+asp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/asp.xml
+END
+groovy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/groovy.xml
+END
+css.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/css.xml
+END
+interlis.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/interlis.xml
+END
+lilypond.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/lilypond.xml
+END
+bbj.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/bbj.xml
+END
+i4gl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/i4gl.xml
+END
+jasonProject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/jasonProject.xml
+END
+perl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/perl.xml
+END
+sgml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/sgml.xml
+END
+scheme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/scheme.xml
+END
+progress.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/progress.xml
+END
+bcel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/bcel.xml
+END
+swig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/swig.xml
+END
+fortran.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/fortran.xml
+END
+makefile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/makefile.xml
+END
+factor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/factor.xml
+END
+applescript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/applescript.xml
+END
+pike.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/pike.xml
+END
+pl1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/pl1.xml
+END
+velocity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/velocity.xml
+END
+relax-ng-compact.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/relax-ng-compact.xml
+END
+powerdynamo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/powerdynamo.xml
+END
+html.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/html.xml
+END
+javascript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/javascript.xml
+END
+cil.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/cil.xml
+END
+lisp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/lisp.xml
+END
+doxygen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/doxygen.xml
+END
+omnimark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/omnimark.xml
+END
+cvs-commit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/cvs-commit.xml
+END
+tcl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/tcl.xml
+END
+apacheconf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/apacheconf.xml
+END
+uscript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/uscript.xml
+END
+cplusplus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/cplusplus.xml
+END
+squidconf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/squidconf.xml
+END
+psp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/psp.xml
+END
+moin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/moin.xml
+END
+props.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/props.xml
+END
+sqr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/sqr.xml
+END
+xsl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/xsl.xml
+END
+aspect-j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/aspect-j.xml
+END
+pyrex.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/pyrex.xml
+END
+texinfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/texinfo.xml
+END
+objectrexx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/objectrexx.xml
+END
+ini.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/ini.xml
+END
+assembly-r2000.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/assembly-r2000.xml
+END
+povray.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/povray.xml
+END
+apdl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/apdl.xml
+END
+python.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/python.xml
+END
+ruby.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/ruby.xml
+END
+batch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/batch.xml
+END
+text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/text.xml
+END
+php.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/php.xml
+END
+rtf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/rtf.xml
+END
+vbscript.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/vbscript.xml
+END
+rview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/rview.xml
+END
+svn-commit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/svn-commit.xml
+END
+tpl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/tpl.xml
+END
+patch.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/patch.xml
+END
+prolog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/prolog.xml
+END
+modula3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/modula3.xml
+END
+coldfusion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/modes/coldfusion.xml
+END

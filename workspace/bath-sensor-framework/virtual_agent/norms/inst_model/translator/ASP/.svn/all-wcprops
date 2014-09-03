@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP
+END
+LatexWriter.pm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/LatexWriter.pm
+END
+AnswerSet.pm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/AnswerSet.pm
+END
+Parser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/Parser.pm
+END
+Literal.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/Literal.pm
+END
+Atom.pm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/Atom.pm
+END
+RDParser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/RDParser.pm
+END
+Comment.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/Comment.pm
+END
+TreeWalker.pm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/TreeWalker.pm
+END
+AnsProgParser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/AnsProgParser.pm
+END
+Rule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/Rule.pm
+END
+Program.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/Program.pm
+END
+AnsProgram.pm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/ASP/AnsProgram.pm
+END

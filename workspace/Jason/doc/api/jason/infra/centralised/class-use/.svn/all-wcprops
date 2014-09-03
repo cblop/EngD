@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use
+END
+CreateJNLP.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/CreateJNLP.html
+END
+StartNewAgentGUI.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/StartNewAgentGUI.html
+END
+MsgListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/MsgListener.html
+END
+BaseDialogGUI.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/BaseDialogGUI.html
+END
+KillAgentGUI.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/KillAgentGUI.html
+END
+CentralisedExecutionControl.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/CentralisedExecutionControl.html
+END
+CentralisedEnvironment.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/CentralisedEnvironment.html
+END
+CentralisedMASLauncherAnt.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/CentralisedMASLauncherAnt.html
+END
+CentralisedAgArch.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/CentralisedAgArch.html
+END
+RunCentralisedMAS.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/RunCentralisedMAS.html
+END
+CentralisedRuntimeServices.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/CentralisedRuntimeServices.html
+END
+CentralisedFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/infra/centralised/class-use/CentralisedFactory.html
+END

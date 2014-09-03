@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction
+END
+ag2.asl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction/ag2.asl
+END
+ag3.asl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction/ag3.asl
+END
+auctioneer.asl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction/auctioneer.asl
+END
+auction.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction/auction.mas2j
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction/logging.properties
+END
+AuctioneerGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction/AuctioneerGUI.java
+END
+ag1.asl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/auction/ag1.asl
+END

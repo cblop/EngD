@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL
+END
+Parser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Parser.pm
+END
+Literal.pm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Literal.pm
+END
+Fluent.pm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Fluent.pm
+END
+CodeFragment.pm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/CodeFragment.pm
+END
+Atom.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Atom.pm
+END
+CausalRule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/CausalRule.pm
+END
+LatexVarMapping.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/LatexVarMapping.pm
+END
+MultiInstitution.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/MultiInstitution.pm
+END
+VarMapping.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/VarMapping.pm
+END
+GeneratesRule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/GeneratesRule.pm
+END
+Rule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Rule.pm
+END
+ViolEvent.pm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/ViolEvent.pm
+END
+Ref.pm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref.pm
+END
+DynamicRule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/DynamicRule.pm
+END
+Expr.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Expr.pm
+END
+ASPWriter.pm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/ASPWriter.pm
+END
+MultiGeneratesRule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/MultiGeneratesRule.pm
+END
+Event.pm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Event.pm
+END
+Type.pm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Type.pm
+END
+InitialRule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/InitialRule.pm
+END
+LiteralPool.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/LiteralPool.pm
+END
+Var.pm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Var.pm
+END
+Institution.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Institution.pm
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia
+END
+obstacle.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/obstacle.java
+END
+add_fatigue.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/add_fatigue.java
+END
+path_length.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/path_length.java
+END
+random.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/random.java
+END
+direction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/direction.java
+END
+random_direction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/random_direction.java
+END
+set_target.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/set_target.java
+END
+neighbour.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/neighbour.java
+END
+dist.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/dist.java
+END
+near_least_visited.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/near_least_visited.java
+END
+Search.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/Search.java
+END
+ag_pos.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/jia/ag_pos.java
+END

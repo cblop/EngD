@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/pj-gdx-core/src/io/polka/pjgdx/SettingsDialogue.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="io.polka.pjgdx.SettingsDialogue"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="pj-gdx-core"/>
+</launchConfiguration>

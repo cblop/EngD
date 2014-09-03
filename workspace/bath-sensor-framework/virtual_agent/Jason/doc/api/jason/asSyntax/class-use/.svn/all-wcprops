@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use
+END
+ListTermImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ListTermImpl.html
+END
+Trigger.TEOperator.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Trigger.TEOperator.html
+END
+InternalActionLiteral.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/InternalActionLiteral.html
+END
+PlanBodyImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/PlanBodyImpl.html
+END
+Plan.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Plan.html
+END
+Pred.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Pred.html
+END
+PredicateIndicator.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/PredicateIndicator.html
+END
+ObjectTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ObjectTerm.html
+END
+StringTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/StringTerm.html
+END
+NumberTermImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/NumberTermImpl.html
+END
+ListTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ListTerm.html
+END
+BinaryStructure.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/BinaryStructure.html
+END
+ArithFunctionTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ArithFunctionTerm.html
+END
+Rule.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Rule.html
+END
+Term.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Term.html
+END
+BodyLiteral.BodyType.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/BodyLiteral.BodyType.html
+END
+PlanBody.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/PlanBody.html
+END
+RelExpr.RelationalOp.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/RelExpr.RelationalOp.html
+END
+ASSyntax.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ASSyntax.html
+END
+SourceInfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/SourceInfo.html
+END
+Trigger.TEType.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Trigger.TEType.html
+END
+DefaultTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/DefaultTerm.html
+END
+LiteralImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/LiteralImpl.html
+END
+PlanLibrary.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/PlanLibrary.html
+END
+VarTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/VarTerm.html
+END
+NumberTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/NumberTerm.html
+END
+RelExpr.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/RelExpr.html
+END
+LogExpr.LogicalOp.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/LogExpr.LogicalOp.html
+END
+Literal.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Literal.html
+END
+ArithExpr.ArithmeticOp.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ArithExpr.ArithmeticOp.html
+END
+CyclicTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/CyclicTerm.html
+END
+Structure.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Structure.html
+END
+Atom.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Atom.html
+END
+LogicalFormula.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/LogicalFormula.html
+END
+UnnamedVar.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/UnnamedVar.html
+END
+Trigger.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/Trigger.html
+END
+ArithExpr.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ArithExpr.html
+END
+PlanBody.BodyType.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/PlanBody.BodyType.html
+END
+BodyLiteral.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/BodyLiteral.html
+END
+StringTermImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/StringTermImpl.html
+END
+ObjectTermImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/ObjectTermImpl.html
+END
+LogExpr.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/asSyntax/class-use/LogExpr.html
+END

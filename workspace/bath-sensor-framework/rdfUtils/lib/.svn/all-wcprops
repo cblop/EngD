@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/296/trunk/rdfUtils/lib
+END
+vecmath-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/12/trunk/rdfUtils/lib/vecmath-1.3.1.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/36/trunk/rdfUtils/lib/commons-httpclient-3.1.jar
+END
+agraph-4.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/36/trunk/rdfUtils/lib/agraph-4.6.jar
+END
+openrdf-sesame-2.6.2-onejar.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/36/trunk/rdfUtils/lib/openrdf-sesame-2.6.2-onejar.jar
+END
+json.jar
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/36/trunk/rdfUtils/lib/json.jar
+END
+commons-lang3-3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/36/trunk/rdfUtils/lib/commons-lang3-3.0.jar
+END
+commons-codec-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/281/trunk/rdfUtils/lib/commons-codec-1.9.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/36/trunk/rdfUtils/lib/commons-logging-1.1.1.jar
+END
+javaGeom-0.9.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12/trunk/rdfUtils/lib/javaGeom-0.9.0.jar
+END
+jfreechart-1.0.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/296/trunk/rdfUtils/lib/jfreechart-1.0.17.jar
+END
+jcommon-1.0.22.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/296/trunk/rdfUtils/lib/jcommon-1.0.22.jar
+END

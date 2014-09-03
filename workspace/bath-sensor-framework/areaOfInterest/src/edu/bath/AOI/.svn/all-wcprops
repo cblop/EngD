@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/268/trunk/areaOfInterest/src/edu/bath/AOI
+END
+AOI.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/268/trunk/areaOfInterest/src/edu/bath/AOI/AOI.java
+END
+VehicleInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/268/trunk/areaOfInterest/src/edu/bath/AOI/VehicleInfo.java
+END
+WorkerNonThreadSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/258/trunk/areaOfInterest/src/edu/bath/AOI/WorkerNonThreadSender.java
+END
+ExitLaneLightState.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/246/trunk/areaOfInterest/src/edu/bath/AOI/ExitLaneLightState.java
+END
+LaneLightPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/246/trunk/areaOfInterest/src/edu/bath/AOI/LaneLightPair.java
+END

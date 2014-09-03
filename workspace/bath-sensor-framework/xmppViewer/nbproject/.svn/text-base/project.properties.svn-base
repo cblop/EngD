@@ -1,0 +1,153 @@
+annotation.processing.enabled=true
+annotation.processing.enabled.in.editor=false
+annotation.processing.processors.list=
+annotation.processing.run.all.processors=true
+ant.customtasks.libs=android-base
+application.title=MyGame
+application.vendor=MyCompany
+assets.jar.name=assets.jar
+assets.excludes=**/*.j3odata,**/*.mesh.xml,**/*.skeleton.xml,**/*.scene,**/*.material,**/*.obj,**/*.mtl,**/*.blend
+assets.folder.name=assets
+assets.compress=true
+build.classes.dir=${build.dir}/classes
+build.classes.excludes=**/*.java,**/*.form
+# This directory is removed when the project is cleaned:
+build.dir=build
+build.generated.dir=${build.dir}/generated
+build.generated.sources.dir=${build.dir}/generated-sources
+# Only compile against the classpath explicitly listed here:
+build.sysclasspath=ignore
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+# Uncomment to specify the preferred debugger connection transport:
+#debug.transport=dt_socket
+debug.classpath=\
+    ${run.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+# This directory is removed when the project is cleaned:
+dist.dir=dist
+dist.jar=${dist.dir}/${application.title}.jar
+dist.javadoc.dir=${dist.dir}/javadoc
+endorsed.classpath=
+excludes=
+file.reference.audio-send-natives.jar=jmeCapture-0.1/audio-send-natives.jar
+file.reference.audio-send.jar=jmeCapture-0.1/audio-send.jar
+file.reference.BSF.jar=../javaFramework/dist/BSF.jar
+file.reference.commons-codec-1.6.jar=../javaFramework/lib/jena/commons-codec-1.6.jar
+file.reference.httpclient-4.2.3.jar=../javaFramework/lib/jena/httpclient-4.2.3.jar
+file.reference.httpcore-4.2.2.jar=../javaFramework/lib/jena/httpcore-4.2.2.jar
+file.reference.javaGeom-0.9.0.jar-1=libs/javaGeom-0.9.0.jar
+file.reference.jcommon-1.0.17.jar=libs/jcommon-1.0.17.jar
+file.reference.jena-core-2.11.0.jar=../javaFramework/lib/jena/jena-core-2.11.0.jar
+file.reference.jfreechart-1.0.14.jar=libs/jfreechart-1.0.14.jar
+file.reference.jmeCapture.jar=jmeCapture-0.1/jmeCapture.jar
+file.reference.log4j-1.2.16.jar=../javaFramework/dist/log4j-1.2.16.jar
+file.reference.log4j-1.2.16.jar-1=../javaFramework/lib/jena/log4j-1.2.16.jar
+file.reference.slf4j-api-1.6.4.jar=../javaFramework/dist/slf4j-api-1.6.4.jar
+file.reference.slf4j-api-1.6.4.jar-1=../javaFramework/lib/jena/slf4j-api-1.6.4.jar
+file.reference.slf4j-log4j12-1.6.4.jar=../javaFramework/dist/slf4j-log4j12-1.6.4.jar
+file.reference.slf4j-log4j12-1.6.4.jar-1=../javaFramework/lib/jena/slf4j-log4j12-1.6.4.jar
+file.reference.smack-3.4.1-slim.jar=libs/smack-3.4.1-slim.jar
+file.reference.smackx-3.4.1-0cec571.jar=../javaFramework/lib/smack/smackx-3.4.1-0cec571.jar
+file.reference.smackx-jingle-3.4.1-0cec571.jar=../javaFramework/lib/smack/smackx-jingle-3.4.1-0cec571.jar
+file.reference.tritonus_aos-0.3.6.jar=jmeCapture-0.1/tritonus_aos-0.3.6.jar
+file.reference.tritonus_share-0.3.6.jar=jmeCapture-0.1/tritonus_share-0.3.6.jar
+file.reference.vecmath-1.3.1.jar=libs/vecmath-1.3.1.jar
+file.reference.vecmath.jar=libs/vecmath.jar
+file.reference.xuggle-xuggler-5.4.jar=libs/xuggle-xuggler-5.4.jar
+includes=**
+jar.archive.disabled=${jnlp.enabled}
+jar.compress=false
+jar.index=${jnlp.enabled}
+javac.classpath=\
+    ${libs.jme3.classpath}:\
+    ${libs.jme3-libraries.classpath}:\
+    ${file.reference.BSF.jar}:\
+    ${file.reference.log4j-1.2.16.jar}:\
+    ${file.reference.slf4j-api-1.6.4.jar}:\
+    ${file.reference.slf4j-log4j12-1.6.4.jar}:\
+    ${file.reference.javaGeom-0.9.0.jar-1}:\
+    ${file.reference.jcommon-1.0.17.jar}:\
+    ${file.reference.jfreechart-1.0.14.jar}:\
+    ${file.reference.vecmath-1.3.1.jar}:\
+    ${file.reference.vecmath.jar}:\
+    ${file.reference.audio-send-natives.jar}:\
+    ${file.reference.audio-send.jar}:\
+    ${file.reference.jmeCapture.jar}:\
+    ${file.reference.tritonus_aos-0.3.6.jar}:\
+    ${file.reference.tritonus_share-0.3.6.jar}:\
+    ${file.reference.smack-3.4.1-slim.jar}:\
+    ${file.reference.smackx-3.4.1-0cec571.jar}:\
+    ${file.reference.smackx-jingle-3.4.1-0cec571.jar}:\
+    ${file.reference.commons-codec-1.6.jar}:\
+    ${file.reference.httpclient-4.2.3.jar}:\
+    ${file.reference.httpcore-4.2.2.jar}:\
+    ${file.reference.jena-core-2.11.0.jar}:\
+    ${file.reference.log4j-1.2.16.jar-1}:\
+    ${file.reference.slf4j-api-1.6.4.jar-1}:\
+    ${file.reference.slf4j-log4j12-1.6.4.jar-1}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.deprecation=false
+javac.processorpath=\
+    ${javac.classpath}
+javac.source=1.5
+javac.target=1.5
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+jaxbwiz.endorsed.dirs="${netbeans.home}/../ide12/modules/ext/jaxb/api"
+jnlp.codebase.type=local
+jnlp.descriptor=application
+jnlp.enabled=false
+jnlp.mixed.code=default
+jnlp.offline-allowed=false
+jnlp.signed=false
+jnlp.signing=
+jnlp.signing.alias=
+jnlp.signing.keystore=
+main.class=mygame.Main
+meta.inf.dir=${src.dir}/META-INF
+manifest.file=MANIFEST.MF
+mkdist.disabled=false
+mobile.android.enabled=true
+mobile.android.package=com.mycompany.mygame
+mobile.android.target=android-18
+obfuscate.options=-keep public class * extends com.jme3.app.Application{public *;}\n-keep public class * extends com.jme3.system.JmeSystemDelegate{public *;}\n-keep public class * implements com.jme3.renderer.Renderer{public *;}\n-keep public class * implements com.jme3.asset.AssetLoader{public *;}\n-keep public class * implements com.jme3.asset.AssetLocator{public *;}\n-keep public class * implements de.lessvoid.nifty.screen.ScreenController{public *;}\n-dontwarn\n-dontnote\n
+platform.active=default_platform
+run.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}:\
+    ${assets.folder.name}:\
+    ${file.reference.audio-send-natives.jar}:\
+    ${file.reference.audio-send.jar}:\
+    ${file.reference.jmeCapture.jar}:\
+    ${file.reference.tritonus_aos-0.3.6.jar}:\
+    ${file.reference.tritonus_share-0.3.6.jar}:\
+    ${file.reference.javaGeom-0.9.0.jar-1}:\
+    ${file.reference.vecmath-1.3.1.jar}:\
+    ${file.reference.vecmath.jar}:\
+    ${file.reference.xuggle-xuggler-5.4.jar}:\
+    ${file.reference.jcommon-1.0.17.jar}:\
+    ${file.reference.jfreechart-1.0.14.jar}
+# Space-separated list of JVM arguments used when running the project
+# (you may also define separate properties like run-sys-prop.name=value instead of -Dname=value
+# or test-sys-prop.name=value to set system properties for unit tests):
+run.jvmargs=
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+source.encoding=UTF-8
+src.dir=src

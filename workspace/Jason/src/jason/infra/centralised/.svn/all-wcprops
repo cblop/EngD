@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised
+END
+BaseDialogGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/BaseDialogGUI.java
+END
+KillAgentGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/KillAgentGUI.java
+END
+CentralisedExecutionControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/CentralisedExecutionControl.java
+END
+CentralisedEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/CentralisedEnvironment.java
+END
+CentralisedAgArch.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/CentralisedAgArch.java
+END
+CentralisedMASLauncherAnt.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/CentralisedMASLauncherAnt.java
+END
+RunCentralisedMAS.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/RunCentralisedMAS.java
+END
+CentralisedRuntimeServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/CentralisedRuntimeServices.java
+END
+CentralisedFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/CentralisedFactory.java
+END
+CreateJNLP.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/CreateJNLP.java
+END
+StartNewAgentGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/StartNewAgentGUI.java
+END
+MsgListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/centralised/MsgListener.java
+END

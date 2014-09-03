@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma
+END
+playerAllC.asl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma/playerAllC.asl
+END
+playerAllD.asl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma/playerAllD.asl
+END
+ipd.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma/ipd.mas2j
+END
+pd_payoffs.asl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma/pd_payoffs.asl
+END
+playerTFT.asl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma/playerTFT.asl
+END
+arbitrer.asl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma/arbitrer.asl
+END
+player.asl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/iterated-prisoners-dilemma/player.asl
+END

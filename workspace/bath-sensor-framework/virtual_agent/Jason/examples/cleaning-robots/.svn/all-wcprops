@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/cleaning-robots
+END
+r1.asl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/cleaning-robots/r1.asl
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/cleaning-robots/logging.properties
+END
+r2.asl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/cleaning-robots/r2.asl
+END
+MarsEnv.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/cleaning-robots/MarsEnv.java
+END
+mars.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/cleaning-robots/mars.mas2j
+END

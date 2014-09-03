@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_model/queue_model
+END
+domain_v4.idc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/queue_model/domain_v4.idc
+END
+results.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_model/queue_model/results.txt
+END
+query.lp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/166/trunk/virtual_agent/norms/inst_model/queue_model/query.lp
+END
+timeline.lp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/121/trunk/virtual_agent/norms/inst_model/queue_model/timeline.lp
+END
+instal_script.bat
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/queue_model/instal_script.bat
+END
+queueasp_v4.lp.baseliterals
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/queue_model/queueasp_v4.lp.baseliterals
+END
+domain.idc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/166/trunk/virtual_agent/norms/inst_model/queue_model/domain.idc
+END
+instal_script.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/166/trunk/virtual_agent/norms/inst_model/queue_model/instal_script.sh
+END
+solver_script.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/166/trunk/virtual_agent/norms/inst_model/queue_model/solver_script.sh
+END
+dynamic.ial
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/166/trunk/virtual_agent/norms/inst_model/queue_model/dynamic.ial
+END
+queue_model.ial
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/166/trunk/virtual_agent/norms/inst_model/queue_model/queue_model.ial
+END
+queueasp_v4.lp.usedliterals
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/queue_model/queueasp_v4.lp.usedliterals
+END
+queueasp_v4.lp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/queue_model/queueasp_v4.lp
+END

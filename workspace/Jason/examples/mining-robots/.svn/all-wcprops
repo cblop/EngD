@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/mining-robots
+END
+builder.asl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/mining-robots/builder.asl
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/mining-robots/readme.txt
+END
+col.asl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/mining-robots/col.asl
+END
+resourceCollection.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/mining-robots/resourceCollection.mas2j
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/mining-robots/logging.properties
+END

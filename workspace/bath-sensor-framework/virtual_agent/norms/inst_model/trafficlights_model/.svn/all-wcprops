@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model
+END
+query.lp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/query.lp
+END
+results.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/results.txt
+END
+timeline.lp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/timeline.lp
+END
+trafficlights_model.lp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/trafficlights_model.lp
+END
+domain.idc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/domain.idc
+END
+solver_script.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/solver_script.sh
+END
+instal_script.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/instal_script.sh
+END
+parsetab.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/parsetab.py
+END
+trafficlights_model.ial
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/300/trunk/virtual_agent/norms/inst_model/trafficlights_model/trafficlights_model.ial
+END

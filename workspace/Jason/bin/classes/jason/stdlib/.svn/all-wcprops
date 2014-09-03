@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib
+END
+resume.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/resume.java
+END
+suffix.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/suffix.java
+END
+concat.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/concat.java
+END
+remove_plan.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/remove_plan.java
+END
+fail.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/fail.java
+END
+relevant_plans.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/relevant_plans.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/package.html
+END
+random.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/random.java
+END
+suspend.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/suspend.java
+END
+min.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/min.java
+END
+my_name.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/my_name.java
+END
+stopMAS.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/stopMAS.java
+END
+count.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/count.java
+END
+plan_label.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/plan_label.java
+END
+difference.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/difference.java
+END
+literal.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/literal.java
+END
+range.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/range.java
+END
+empty.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/empty.java
+END
+drop_desire.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/drop_desire.java
+END
+broadcast.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/broadcast.java
+END
+delete.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/delete.java
+END
+wait.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/wait.java
+END
+at.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/at.java
+END
+drop_all_intentions.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/drop_all_intentions.java
+END
+string.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/string.java
+END
+foreach.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/foreach.java
+END
+member.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/member.java
+END
+list.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/list.java
+END
+desire.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/desire.java
+END
+fail_goal.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/fail_goal.java
+END
+drop_all_events.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/drop_all_events.java
+END
+term2string.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/term2string.java
+END
+substring.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/substring.java
+END
+setof.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/setof.java
+END
+abolish.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/abolish.java
+END
+sublist.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/sublist.java
+END
+sort.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/sort.java
+END
+print.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/print.java
+END
+time.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/time.java
+END
+drop_event.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/drop_event.java
+END
+kill_agent.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/kill_agent.java
+END
+drop_all_desires.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/drop_all_desires.java
+END
+reverse.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/reverse.java
+END
+succeed_goal.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/succeed_goal.java
+END
+length.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/length.java
+END
+if_then_else.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/if_then_else.java
+END
+max.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/max.java
+END
+println.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/println.java
+END
+add_annot.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/add_annot.java
+END
+union.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/union.java
+END
+send.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/send.java
+END
+suspended.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/suspended.java
+END
+puts.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/puts.java
+END
+prefix.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/prefix.java
+END
+clone.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/clone.java
+END
+structure.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/structure.java
+END
+atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/atom.java
+END
+add_plan.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/add_plan.java
+END
+perceive.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/perceive.java
+END
+intersection.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/intersection.java
+END
+list_plans.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/list_plans.java
+END
+current_intention.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/current_intention.java
+END
+findall.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/findall.java
+END
+loop.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/loop.java
+END
+add_nested_source.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/add_nested_source.java
+END
+date.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/date.java
+END
+create_agent.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/create_agent.java
+END
+intend.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/intend.java
+END
+eval.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/eval.java
+END
+number.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/number.java
+END
+nth.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/nth.java
+END
+all_names.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/all_names.java
+END
+drop_intention.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/drop_intention.java
+END
+shuffle.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/shuffle.java
+END
+ground.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/stdlib/ground.java
+END

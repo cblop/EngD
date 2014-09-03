@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use
+END
+IndexedBB.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/IndexedBB.html
+END
+DefaultBeliefBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/DefaultBeliefBase.html
+END
+ChainBB.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/ChainBB.html
+END
+AgentJDBCPersistentBB.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/AgentJDBCPersistentBB.html
+END
+JDBCPersistentBB.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/JDBCPersistentBB.html
+END
+ChainBBAdapter.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/ChainBBAdapter.html
+END
+TextPersistentBB.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/TextPersistentBB.html
+END
+BeliefBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/bb/class-use/BeliefBase.html
+END

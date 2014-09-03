@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+jasonide.xtext.asl.Asl.syntaxColorer.tokenStyles.Atom.color=255,192,203
+jasonide.xtext.asl.Asl.syntaxColorer.tokenStyles.Belief.color=144,238,144
+jasonide.xtext.asl.Asl.syntaxColorer.tokenStyles.Keyword.color=255,255,255
+jasonide.xtext.asl.Asl.syntaxColorer.tokenStyles.Math\ operator.color=0,255,0
+jasonide.xtext.asl.Asl.syntaxColorer.tokenStyles.Plan.color=173,216,230
+jasonide.xtext.asl.Asl.syntaxColorer.tokenStyles.Symbol.color=255,255,0
+jasonide.xtext.asl.Asl.syntaxColorer.tokenStyles.Variable.color=218,107,255

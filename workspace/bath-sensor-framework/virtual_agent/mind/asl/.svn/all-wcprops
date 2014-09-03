@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/308/trunk/virtual_agent/mind/asl
+END
+member_npc.asl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/308/trunk/virtual_agent/mind/asl/member_npc.asl
+END
+member_pc.asl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/308/trunk/virtual_agent/mind/asl/member_pc.asl
+END
+InstitutionalBot.asl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/44/trunk/virtual_agent/mind/asl/InstitutionalBot.asl
+END
+guide.asl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/308/trunk/virtual_agent/mind/asl/guide.asl
+END
+vebot.asl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/265/trunk/virtual_agent/mind/asl/vebot.asl
+END

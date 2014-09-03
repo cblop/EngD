@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/232/trunk/virtual_agent/norms/inst_model/clingo
+END
+timeline.lp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/timeline.lp
+END
+alltrace.lp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/alltrace.lp
+END
+queryFromDetectedDisable_v4.lp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/queryFromDetectedDisable_v4.lp
+END
+result_v4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/result_v4.txt
+END
+resultForNewArrival_v4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/resultForNewArrival_v4.txt
+END
+queryFromNewArrival_v4.lp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/queryFromNewArrival_v4.lp
+END
+clingo_win.exe
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/clingo_win.exe
+END
+resultForDetectDisable_v4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/resultForDetectDisable_v4.txt
+END
+basic.lp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/basic.lp
+END
+queueasp_v4.lp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/39/trunk/virtual_agent/norms/inst_model/clingo/queueasp_v4.lp
+END
+clingo
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/232/trunk/virtual_agent/norms/inst_model/clingo/clingo
+END
+query.lp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/120/trunk/virtual_agent/norms/inst_model/clingo/query.lp
+END

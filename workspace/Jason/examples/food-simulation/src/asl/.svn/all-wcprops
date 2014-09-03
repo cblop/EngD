@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/food-simulation/src/asl
+END
+normative.asl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/food-simulation/src/asl/normative.asl
+END
+strategic.asl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/food-simulation/src/asl/strategic.asl
+END
+blind.asl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/food-simulation/src/asl/blind.asl
+END
+reputation.asl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/food-simulation/src/asl/reputation.asl
+END

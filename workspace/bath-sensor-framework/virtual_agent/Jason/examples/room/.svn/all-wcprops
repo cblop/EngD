@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/room
+END
+RoomEnv.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/room/RoomEnv.java
+END
+Room.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/room/Room.mas2j
+END
+claustrophobe.asl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/room/claustrophobe.asl
+END
+porter.asl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/room/porter.asl
+END
+paranoid.asl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/room/paranoid.asl
+END

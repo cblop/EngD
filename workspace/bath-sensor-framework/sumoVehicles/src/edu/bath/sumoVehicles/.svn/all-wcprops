@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/320/trunk/sumoVehicles/src/edu/bath/sumoVehicles
+END
+WorkerNonThreadSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/250/trunk/sumoVehicles/src/edu/bath/sumoVehicles/WorkerNonThreadSender.java
+END
+VehicleLane.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/295/trunk/sumoVehicles/src/edu/bath/sumoVehicles/VehicleLane.java
+END
+sumoXMPPSim.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/320/trunk/sumoVehicles/src/edu/bath/sumoVehicles/sumoXMPPSim.java
+END
+VehicleDistancesPerLane.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/290/trunk/sumoVehicles/src/edu/bath/sumoVehicles/VehicleDistancesPerLane.java
+END
+JasonVehicleLocalState.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/266/trunk/sumoVehicles/src/edu/bath/sumoVehicles/JasonVehicleLocalState.java
+END
+StopPositionPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/214/trunk/sumoVehicles/src/edu/bath/sumoVehicles/StopPositionPair.java
+END
+WorkerInstSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/290/trunk/sumoVehicles/src/edu/bath/sumoVehicles/WorkerInstSender.java
+END
+VehicleAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/295/trunk/sumoVehicles/src/edu/bath/sumoVehicles/VehicleAdd.java
+END
+LaneDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/283/trunk/sumoVehicles/src/edu/bath/sumoVehicles/LaneDistance.java
+END
+VehicleDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/290/trunk/sumoVehicles/src/edu/bath/sumoVehicles/VehicleDistance.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base
+END
+runDataManager.bat
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/runDataManager.bat
+END
+a.asl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/a.asl
+END
+b.asl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/b.asl
+END
+c.asl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/c.asl
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/logging.properties
+END
+bookstore.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/bookstore.properties
+END
+runDataManager.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/runDataManager.sh
+END
+VoidBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/VoidBB.java
+END
+custBelBase.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/custBelBase.mas2j
+END
+sniffer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/sniffer.properties
+END
+bookstore.script
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/persistent-belief-base/bookstore.script
+END

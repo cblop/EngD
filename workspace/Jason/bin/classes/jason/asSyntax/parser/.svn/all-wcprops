@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/129/trunk/virtual_agent/Jason/src/jason/asSyntax/parser
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/126/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/ParseException.java
+END
+as2jTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/126/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/as2jTokenManager.java
+END
+as2jConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/126/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/as2jConstants.java
+END
+as2j.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/126/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/as2j.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/126/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/Token.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/126/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/TokenMgrError.java
+END
+AS2JavaParser.jcc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/129/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/AS2JavaParser.jcc
+END
+SimpleCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/126/trunk/virtual_agent/Jason/src/jason/asSyntax/parser/SimpleCharStream.java
+END

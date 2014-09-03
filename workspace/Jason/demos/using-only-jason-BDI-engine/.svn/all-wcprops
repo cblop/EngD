@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/using-only-jason-BDI-engine
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/using-only-jason-BDI-engine/readme.txt
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/using-only-jason-BDI-engine/logging.properties
+END
+demo.asl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/using-only-jason-BDI-engine/demo.asl
+END
+SimpleJasonAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/using-only-jason-BDI-engine/SimpleJasonAgent.java
+END

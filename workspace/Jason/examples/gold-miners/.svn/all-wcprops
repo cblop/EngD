@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners/logging.properties
+END
+miner.asl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners/miner.asl
+END
+leader.asl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners/leader.asl
+END
+jasonTeam.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners/jasonTeam.mas2j
+END
+mas.log
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners/mas.log
+END

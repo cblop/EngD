@@ -1,0 +1,91 @@
+10
+
+dir
+343
+http://bsf.googlecode.com/svn/trunk/virtual_agent/Jason/demos
+http://bsf.googlecode.com/svn
+
+
+
+2013-06-05T21:37:35.427316Z
+119
+jeehanglee@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b0307907-c4f4-516f-c347-96fa60e2197e
+
+controller
+dir
+
+distributed-jade
+dir
+
+gui
+dir
+
+function
+dir
+
+open-world
+dir
+
+failure
+dir
+
+meta-events
+dir
+
+persistent-belief-base
+dir
+
+create-agent
+dir
+
+clone
+dir
+
+big
+dir
+
+directives
+dir
+
+chain-bb
+dir
+
+tell-rule
+dir
+
+communication
+dir
+
+cArtAgOandJasonEnv
+dir
+
+using-only-jason-BDI-engine
+dir
+
+idle
+dir
+
+java-object-terms
+dir
+
+sync-environment
+dir
+
+suspend-resume
+dir
+

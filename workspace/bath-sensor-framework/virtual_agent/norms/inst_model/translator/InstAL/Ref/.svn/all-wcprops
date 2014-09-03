@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref
+END
+VarRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/VarRef.pm
+END
+EventVarRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/EventVarRef.pm
+END
+ViolEventRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/ViolEventRef.pm
+END
+LiteralRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/LiteralRef.pm
+END
+OblRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/OblRef.pm
+END
+FluentRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/FluentRef.pm
+END
+EventRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/EventRef.pm
+END
+PermRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/PermRef.pm
+END
+VarLiteralRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/VarLiteralRef.pm
+END
+PowRef.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/InstAL/Ref/PowRef.pm
+END

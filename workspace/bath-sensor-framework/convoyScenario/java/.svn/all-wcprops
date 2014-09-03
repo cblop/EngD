@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/331/trunk/convoyScenario/java
+END
+importMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/56/trunk/convoyScenario/java/importMap.java
+END
+fileWrite.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/56/trunk/convoyScenario/java/fileWrite.java
+END
+map.osm
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/56/trunk/convoyScenario/java/map.osm
+END
+testAngleHarness.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/56/trunk/convoyScenario/java/testAngleHarness.java
+END
+calculateBathRoute.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/56/trunk/convoyScenario/java/calculateBathRoute.java
+END
+calculateRoute.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/56/trunk/convoyScenario/java/calculateRoute.java
+END
+loadBathRoute.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/199/trunk/convoyScenario/java/loadBathRoute.java
+END
+convert.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/256/trunk/convoyScenario/java/convert.java
+END
+test1.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/56/trunk/convoyScenario/java/test1.java
+END
+loadM25Route.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/199/trunk/convoyScenario/java/loadM25Route.java
+END
+milliTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/56/trunk/convoyScenario/java/milliTime.java
+END

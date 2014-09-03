@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/331/trunk/convoyScenario/java/CustomXMPP
+END
+WorkerJStateSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/256/trunk/convoyScenario/java/CustomXMPP/WorkerJStateSender.java
+END
+InstSensClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/215/trunk/convoyScenario/java/CustomXMPP/InstSensClient.java
+END
+KnownCollisionNameLoc.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/256/trunk/convoyScenario/java/CustomXMPP/KnownCollisionNameLoc.java
+END
+WorkerInstSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/331/trunk/convoyScenario/java/CustomXMPP/WorkerInstSender.java
+END
+WorkerSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/256/trunk/convoyScenario/java/CustomXMPP/WorkerSender.java
+END
+XMPPWorld.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/331/trunk/convoyScenario/java/CustomXMPP/XMPPWorld.java
+END
+VehicleArch.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/331/trunk/convoyScenario/java/CustomXMPP/VehicleArch.java
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/56/trunk/convoyScenario/java/CustomXMPP/Action.java
+END

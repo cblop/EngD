@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl
+END
+allocation_protocol.asl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/allocation_protocol.asl
+END
+miner.asl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/miner.asl
+END
+dummy.asl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/dummy.asl
+END
+leader.asl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/leader.asl
+END
+fetch_gold.asl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/fetch_gold.asl
+END
+search_unvisited.asl
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/search_unvisited.asl
+END
+goals.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/goals.pdf
+END
+moving.asl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/moving.asl
+END
+goto_depot.asl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/goto_depot.asl
+END
+search_quadrant.asl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/gold-miners-II/asl/search_quadrant.asl
+END

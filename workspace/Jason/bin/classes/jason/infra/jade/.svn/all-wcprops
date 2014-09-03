@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade
+END
+JasonBridgeArch.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JasonBridgeArch.java
+END
+ContainerAllocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/ContainerAllocation.java
+END
+JadeExecutionControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JadeExecutionControl.java
+END
+JadeEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JadeEnvironment.java
+END
+JadeMASLauncherAnt.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JadeMASLauncherAnt.java
+END
+RunJadeMAS.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/RunJadeMAS.java
+END
+JadeAgArch.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JadeAgArch.java
+END
+JadeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JadeFactory.java
+END
+JadeRuntimeServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JadeRuntimeServices.java
+END
+JadeAg.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/infra/jade/JadeAg.java
+END

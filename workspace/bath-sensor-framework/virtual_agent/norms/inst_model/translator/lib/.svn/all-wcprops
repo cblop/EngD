@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib
+END
+basic.lp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/basic.lp
+END
+creation.lp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/creation.lp
+END
+allmtrace.lp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/allmtrace.lp
+END
+alltrace.lp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/alltrace.lp
+END
+std.lp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/std.lp
+END
+reverse.lp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/reverse.lp
+END
+eclike.lp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/eclike.lp
+END
+effectonly.lp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/effectonly.lp
+END
+effect2.lp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/152/trunk/virtual_agent/norms/inst_model/translator/lib/effect2.lp
+END

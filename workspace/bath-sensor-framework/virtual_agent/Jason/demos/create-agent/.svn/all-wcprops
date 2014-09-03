@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/create-agent
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/create-agent/readme.txt
+END
+createAgDemo.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/create-agent/createAgDemo.mas2j
+END
+bob.asl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/create-agent/bob.asl
+END
+ag1.asl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/demos/create-agent/ag1.asl
+END

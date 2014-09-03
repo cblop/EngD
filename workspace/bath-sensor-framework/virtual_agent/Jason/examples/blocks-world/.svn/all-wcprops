@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/blocks-world
+END
+agent_p.asl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/blocks-world/agent_p.asl
+END
+agent.asl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/blocks-world/agent.asl
+END
+agent_c.asl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/blocks-world/agent_c.asl
+END
+BlocksWorld.mas2j
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/blocks-world/BlocksWorld.mas2j
+END
+agent_g.asl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/blocks-world/agent_g.asl
+END
+agent_o.asl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/examples/blocks-world/agent_o.asl
+END

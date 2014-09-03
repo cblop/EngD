@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test
+END
+TSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/TSTest.java
+END
+ExprTermTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/ExprTermTest.java
+END
+TermTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/TermTest.java
+END
+RuleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/RuleTest.java
+END
+MAS2JParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/MAS2JParserTest.java
+END
+PlanTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/PlanTest.java
+END
+JadeAgTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/JadeAgTest.java
+END
+StringTermTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/StringTermTest.java
+END
+VarTermTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/VarTermTest.java
+END
+ASParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/ASParserTest.java
+END
+BeliefBaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/BeliefBaseTest.java
+END
+StdLibTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/StdLibTest.java
+END
+ListTermTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/test/ListTermTest.java
+END

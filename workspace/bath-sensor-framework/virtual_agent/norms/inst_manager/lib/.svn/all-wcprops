@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib
+END
+jersey-client-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib/jersey-client-1.4.jar
+END
+jersey-multipart-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib/jersey-multipart-1.4.jar
+END
+libInstClient.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib/libInstClient.jar
+END
+jersey-server-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib/jersey-server-1.4.jar
+END
+jersey-core-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib/jersey-core-1.4.jar
+END
+jersey-json-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib/jersey-json-1.4.jar
+END
+jdom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/177/trunk/virtual_agent/norms/inst_manager/lib/jdom.jar
+END

@@ -1,0 +1,809 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide
+END
+plugin-load.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-load.html
+END
+updating-modes.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/updating-modes.html
+END
+plugin-implement-building.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-building.html
+END
+selection.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/selection.html
+END
+using-jedit-part.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/using-jedit-part.html
+END
+plugin-implement-reloading.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-reloading.html
+END
+buffers.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/buffers.html
+END
+dialog-macro.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/dialog-macro.html
+END
+words.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/words.html
+END
+helpful-methods.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/helpful-methods.html
+END
+basics.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/basics.html
+END
+macros-editing.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-editing.html
+END
+plugin-implement-quicknotepad.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-quicknotepad.html
+END
+macros-properties.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-properties.html
+END
+threaded-io.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/threaded-io.html
+END
+saving.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/saving.html
+END
+dialog-macro-intro.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/dialog-macro-intro.html
+END
+scripts-command-line.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/scripts-command-line.html
+END
+printing.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/printing.html
+END
+mode-rule-mark-prev.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-mark-prev.html
+END
+undo-redo.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/undo-redo.html
+END
+xml-primer.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/xml-primer.html
+END
+mode-rule-eol-span-regexp.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-eol-span-regexp.html
+END
+running-macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/running-macros.html
+END
+plugin-manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-manager.html
+END
+modes.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/modes.html
+END
+plugin-implement-dockables.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-dockables.html
+END
+macro-tips-input.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macro-tips-input.html
+END
+predefined-variables.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/predefined-variables.html
+END
+macro-tips.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macro-tips.html
+END
+macros-clipboard.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-clipboard.html
+END
+word-wrap.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/word-wrap.html
+END
+source-edit.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/source-edit.html
+END
+editing.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/editing.html
+END
+installing-plugins.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/installing-plugins.html
+END
+plugin-implement-actions.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-actions.html
+END
+plugin-tips-libraries.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-tips-libraries.html
+END
+mode-rule-span.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-span.html
+END
+bsh-commands-serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands-serial.html
+END
+dynamic-typing.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/dynamic-typing.html
+END
+files.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/files.html
+END
+text-transfer.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/text-transfer.html
+END
+using-macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/using-macros.html
+END
+mode-rule-seq-regexp.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-seq-regexp.html
+END
+bsh-commands.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands.html
+END
+bsh-commands-script.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands-script.html
+END
+regexps.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/regexps.html
+END
+abbrevs.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/abbrevs.html
+END
+add-prefix-and-suffix.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/add-prefix-and-suffix.html
+END
+bsh-commands-file.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands-file.html
+END
+commenting.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/commenting.html
+END
+macros-java.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-java.html
+END
+bracket-matching.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bracket-matching.html
+END
+using-plugins.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/using-plugins.html
+END
+reloading.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/reloading.html
+END
+mode-rule-eol-span.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-eol-span.html
+END
+macros-text.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-text.html
+END
+macro-tips-debugging.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macro-tips-debugging.html
+END
+line-separators.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/line-separators.html
+END
+installing-modes.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/installing-modes.html
+END
+mode-preamble.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-preamble.html
+END
+macro-tips-BeanShell.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macro-tips-BeanShell.html
+END
+encodings.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/encodings.html
+END
+plugin-tips.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-tips.html
+END
+activity-log.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/activity-log.html
+END
+macros-misc.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-misc.html
+END
+mode-rule-terminate.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-terminate.html
+END
+vfs-browser.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/vfs-browser.html
+END
+first-example.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/first-example.html
+END
+toc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/toc.xml
+END
+plugin-implement-editbus.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-editbus.html
+END
+plugin-implement.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement.html
+END
+paragraphs.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/paragraphs.html
+END
+plugin-implement-quicknotepadplugin.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-quicknotepadplugin.html
+END
+bsh-commands-other.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands-other.html
+END
+shortcuts.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/shortcuts.html
+END
+mode-tag-props.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-tag-props.html
+END
+opening.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/opening.html
+END
+history.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/history.html
+END
+single-macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/single-macros.html
+END
+writing-plugins-part.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/writing-plugins-part.html
+END
+writing-macros-part.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/writing-macros-part.html
+END
+bsh-commands-output.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands-output.html
+END
+search-replace.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/search-replace.html
+END
+action-bar.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/action-bar.html
+END
+mode-rule-span-regexp.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-span-regexp.html
+END
+plugin-implement-properties.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-properties.html
+END
+macros-files.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-files.html
+END
+status-bar.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/status-bar.html
+END
+writing-modes.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/writing-modes.html
+END
+organizing-macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/organizing-macros.html
+END
+buffer-opts.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/buffer-opts.html
+END
+mode-rule-keywords.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-keywords.html
+END
+mode-rule-import.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-import.html
+END
+closing-exiting.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/closing-exiting.html
+END
+markers.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/markers.html
+END
+macro-index.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macro-index.html
+END
+mode-syntax-tokens.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-syntax-tokens.html
+END
+cli-usage.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/cli-usage.html
+END
+plugin-implement-docs.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-docs.html
+END
+folding.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/folding.html
+END
+macros-interface.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macros-interface.html
+END
+beanshell-intro.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/beanshell-intro.html
+END
+plugin-intro.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-intro.html
+END
+writing-modes-part.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/writing-modes-part.html
+END
+scrolling.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/scrolling.html
+END
+entering-text.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/entering-text.html
+END
+views.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/views.html
+END
+caret.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/caret.html
+END
+plugin-implement-quicknotepadtoolbar.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-quicknotepadtoolbar.html
+END
+recording-macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/recording-macros.html
+END
+something-useful.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/something-useful.html
+END
+bsh-commands-resource.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands-resource.html
+END
+settings-directory.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/settings-directory.html
+END
+macro-basics.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macro-basics.html
+END
+conventions.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/conventions.html
+END
+globs.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/globs.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/index.html
+END
+lines.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/lines.html
+END
+customizing.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/customizing.html
+END
+docking.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/docking.html
+END
+mode-rule-mark-following.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-mark-following.html
+END
+plugin-implement-options.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/plugin-implement-options.html
+END
+mode-rule-seq.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-rule-seq.html
+END
+bsh-commands-object.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/bsh-commands-object.html
+END
+indent.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/indent.html
+END
+macro-analysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/macro-analysis.html
+END
+global-opts.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/global-opts.html
+END
+mode-tag-rules.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/mode-tag-rules.html
+END
+startup-scripts.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/startup-scripts.html
+END
+starting.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/starting.html
+END
+creating.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/creating.html
+END
+buffer-local.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/buffer-local.html
+END
+overview.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/doc/users-guide/overview.html
+END

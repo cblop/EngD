@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text
+END
+Color_Picker.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Color_Picker.bsh
+END
+Next_Char.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Next_Char.bsh
+END
+Add_Prefix_and_Suffix.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Add_Prefix_and_Suffix.bsh
+END
+Insert_Tag.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Insert_Tag.bsh
+END
+Insert_Date.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Insert_Date.bsh
+END
+Duplicate_Line.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Duplicate_Line.bsh
+END
+Reverse_Lines.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Reverse_Lines.bsh
+END
+Single_Space_Buffer.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Text/Single_Space_Buffer.bsh
+END

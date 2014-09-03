@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions
+END
+Length.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Length.java
+END
+floor.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/floor.java
+END
+log.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/log.java
+END
+Min.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Min.java
+END
+e.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/e.java
+END
+Max.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Max.java
+END
+Round.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Round.java
+END
+Count.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Count.java
+END
+Sqrt.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Sqrt.java
+END
+StdDev.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/StdDev.java
+END
+time.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/time.java
+END
+Sum.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Sum.java
+END
+Abs.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Abs.java
+END
+pi.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/pi.java
+END
+Average.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Average.java
+END
+ceil.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/ceil.java
+END
+Random.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/Random.java
+END
+RuleToFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/src/jason/functions/RuleToFunction.java
+END

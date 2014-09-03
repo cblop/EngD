@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/90/trunk/javaFramework/src/edu/bath/sensorframework/client
+END
+ReadingHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/10/trunk/javaFramework/src/edu/bath/sensorframework/client/ReadingHandler.java
+END
+SensorClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/90/trunk/javaFramework/src/edu/bath/sensorframework/client/SensorClient.java
+END
+ItemProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/10/trunk/javaFramework/src/edu/bath/sensorframework/client/ItemProvider.java
+END
+ReadingReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/10/trunk/javaFramework/src/edu/bath/sensorframework/client/ReadingReceiver.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc
+END
+Run_Script.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Run_Script.bsh
+END
+HyperSearch_Results_to_Buffer.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/HyperSearch_Results_to_Buffer.bsh
+END
+Show_Threads.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Show_Threads.bsh
+END
+Display_Character_Code.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Display_Character_Code.bsh
+END
+Display_Abbreviations.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Display_Abbreviations.bsh
+END
+Evaluate_Buffer_in_BeanShell.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Evaluate_Buffer_in_BeanShell.bsh
+END
+Display_Shortcuts.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Display_Shortcuts.bsh
+END
+Hex_Convert.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Hex_Convert.bsh
+END
+Display_Actions.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Display_Actions.bsh
+END
+Include_Guard.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Include_Guard.bsh
+END
+Make_Bug_Report.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/bin/jedit/macros/Misc/Make_Bug_Report.bsh
+END

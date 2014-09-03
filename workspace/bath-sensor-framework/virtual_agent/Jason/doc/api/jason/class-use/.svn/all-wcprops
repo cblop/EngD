@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/class-use
+END
+JasonException.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/class-use/JasonException.html
+END
+ReceiverNotFoundException.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/class-use/ReceiverNotFoundException.html
+END
+RevisionFailedException.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/class-use/RevisionFailedException.html
+END

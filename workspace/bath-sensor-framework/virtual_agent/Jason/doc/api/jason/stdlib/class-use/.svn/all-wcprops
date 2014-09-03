@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use
+END
+range.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/range.html
+END
+ground.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/ground.html
+END
+empty.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/empty.html
+END
+time.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/time.html
+END
+resume.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/resume.html
+END
+broadcast.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/broadcast.html
+END
+suffix.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/suffix.html
+END
+concat.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/concat.html
+END
+findall.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/findall.html
+END
+drop_all_desires.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/drop_all_desires.html
+END
+relevant_plans.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/relevant_plans.html
+END
+fail_goal.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/fail_goal.html
+END
+succeed_goal.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/succeed_goal.html
+END
+random.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/random.html
+END
+setof.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/setof.html
+END
+substring.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/substring.html
+END
+if_then_else.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/if_then_else.html
+END
+nth.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/nth.html
+END
+send.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/send.html
+END
+plan_label.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/plan_label.html
+END
+difference.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/difference.html
+END
+puts.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/puts.html
+END
+print.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/print.html
+END
+shuffle.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/shuffle.html
+END
+atom.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/atom.html
+END
+perceive.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/perceive.html
+END
+delete.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/delete.html
+END
+add_plan.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/add_plan.html
+END
+at.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/at.html
+END
+string.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/string.html
+END
+intersection.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/intersection.html
+END
+remove_plan.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/remove_plan.html
+END
+dropGoal.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/dropGoal.html
+END
+member.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/member.html
+END
+loop.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/loop.html
+END
+desire.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/desire.html
+END
+date.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/date.html
+END
+create_agent.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/create_agent.html
+END
+suspend.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/suspend.html
+END
+min.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/min.html
+END
+my_name.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/my_name.html
+END
+stopMAS.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/stopMAS.html
+END
+eval.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/eval.html
+END
+add_annot.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/add_annot.html
+END
+union.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/union.html
+END
+suspended.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/suspended.html
+END
+literal.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/literal.html
+END
+drop_desire.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/drop_desire.html
+END
+clone.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/clone.html
+END
+structure.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/structure.html
+END
+drop_event.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/drop_event.html
+END
+drop_all_intentions.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/drop_all_intentions.html
+END
+foreach.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/foreach.html
+END
+kill_agent.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/kill_agent.html
+END
+current_intention.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/current_intention.html
+END
+add_nested_source.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/add_nested_source.html
+END
+fail.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/fail.html
+END
+term2string.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/term2string.html
+END
+drop_all_events.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/drop_all_events.html
+END
+abolish.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/abolish.html
+END
+length.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/length.html
+END
+sublist.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/sublist.html
+END
+all_names.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/all_names.html
+END
+prefix.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/prefix.html
+END
+wait.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/wait.html
+END
+list_plans.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/list_plans.html
+END
+list.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/list.html
+END
+reverse.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/reverse.html
+END
+intend.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/intend.html
+END
+max.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/max.html
+END
+println.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/println.html
+END
+sort.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/sort.html
+END
+number.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/number.html
+END
+count.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/count.html
+END
+drop_intention.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/119/trunk/virtual_agent/Jason/doc/api/jason/stdlib/class-use/drop_intention.html
+END

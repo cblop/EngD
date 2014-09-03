@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/320/trunk/javaFramework/src/edu/bath/sensorframework
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/trunk/javaFramework/src/edu/bath/sensorframework/Config.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/10/trunk/javaFramework/src/edu/bath/sensorframework/Constant.java
+END
+Visualisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/10/trunk/javaFramework/src/edu/bath/sensorframework/Visualisation.java
+END
+JsonReading.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/33/trunk/javaFramework/src/edu/bath/sensorframework/JsonReading.java
+END
+DataReading.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/320/trunk/javaFramework/src/edu/bath/sensorframework/DataReading.java
+END
